@@ -1,0 +1,1025 @@
+{
+  "meta": {
+    "verified_on": "2026-10-04",
+    "description": "Health insurance external review programs by state for consumers whose plan upheld a denial on internal appeal (fully insured, state-regulated plans).",
+    "federal_process": {
+      "name": "HHS-Administered Federal External Review Process",
+      "contractor": "MAXIMUS Federal Services",
+      "portal": "https://externalappeal.cms.gov/ferpportal",
+      "alt_portal": "https://maximusferp.my.site.com/FERP/s/",
+      "phone": "1-888-866-6205",
+      "fax": "1-888-866-6190",
+      "email": "ferp@maximus.com",
+      "mail": "MAXIMUS Federal Services, 3750 Monroe Avenue, Suite 705, Pittsford, NY 14534",
+      "deadline": "4 months after receipt of the final adverse benefit determination",
+      "fee": null,
+      "expedited_hours": 72,
+      "standard_days": 45,
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "TX",
+        "WI"
+      ],
+      "also_used_by": "self-funded non-federal governmental plans in any state; territories AS, GU, MP, VI",
+      "sources": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.cms.gov/cciio/programs-and-initiatives/consumer-support-and-information/csg-ext-appeals-facts",
+        "https://www.healthcare.gov/appeal-insurance-company-decision/external-review/",
+        "https://www.cms.gov/files/document/hhs-administered-ferp-deadline-extension-07-31-26.pdf"
+      ]
+    },
+    "cms_state_list_date": "2024-07-09 (CMS table), AZ parallel effective 2025-01-01"
+  },
+  "states": [
+    {
+      "state": "AL",
+      "state_name": "Alabama",
+      "program": "federal_hhs",
+      "administering_body": "HHS-Administered Federal External Review Process (MAXIMUS Federal Services); Alabama Department of Insurance Consumer Services for help",
+      "request_url": "https://externalappeal.cms.gov/ferpportal",
+      "phone": "1-888-866-6205 (federal); 334-241-4141 (ALDOI Consumer Services)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "CMS lists AL as using the HHS-administered/IRO process (no NAIC-compliant state program). Insurer's final denial letter should name the federal process or a private accredited IRO. Federal expedited decision within 72 hours; no fee.",
+      "source_urls": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.cms.gov/cciio/programs-and-initiatives/consumer-support-and-information/csg-ext-appeals-facts",
+        "https://www.healthcare.gov/appeal-insurance-company-decision/external-review/",
+        "https://aldoi.gov/currentnewsitem.aspx?ID=1317"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "AK",
+      "state_name": "Alaska",
+      "program": "state",
+      "administering_body": "Alaska Division of Insurance (assigns nationally accredited IRO)",
+      "request_url": "https://externalreview.alaska.gov",
+      "phone": "907-269-7900 / 800-467-8725 (800-INSURAK)",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request goes to the Division (online portal, mail, or fax/email for expedited). Fee: none to applicant. Internal appeal can be bypassed if insurer missed deadlines or in emergencies; expedited decision in 72 hours.",
+      "source_urls": [
+        "https://www.commerce.alaska.gov/web/Portals/11/Pub/EHR-InstructionGuide-Consumer.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "AZ",
+      "state_name": "Arizona",
+      "program": "state",
+      "administering_body": "Arizona Department of Insurance and Financial Institutions (DIFI)",
+      "request_url": "https://difi.az.gov/health-care-appeals",
+      "phone": "602-364-2399 (DIFI Healthcare Appeals); 602-364-3100 (DIFI main)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "A.R.S. 20-2537: within 4 months after written notice of the adverse determination, send a written request to the utilization review agent (the INSURER), which forwards it to DIFI within 1 business day; DIFI sends medical-necessity cases to an IRO (21 days) and decides coverage cases itself. Expedited external independent review: IRO decides within 72 hours. No fee to member: the statute is silent on cost, but the DIFI appeals packet as reproduced by carriers (Cigna, Humana) states 'There is no fee to you or your provider for any level of appeal.' 2026-10-04: deadline/recipient/expedited now confirmed from the statute; phone changed from 602-364-3100 to the DIFI agency directory's Healthcare Appeals line 602-364-2399 (main line kept); request_url moved to the DIFI health-care-appeals page because difi.az.gov PDFs return 403. NAIC-parallel effective 1/1/2025.",
+      "source_urls": [
+        "https://www.azleg.gov/ars/20/02537.htm",
+        "https://difi.az.gov/agency-directory",
+        "https://difi.az.gov/health-care-appeals",
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.cigna.com/static/www-cigna-com/docs/az-appeals-information-packet.pdf (carrier-hosted copy of DIFI packet; fee statement only)"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "AR",
+      "state_name": "Arkansas",
+      "program": "state",
+      "administering_body": "Arkansas Insurance Department, External Review Division",
+      "request_url": "https://insurance.arkansas.gov/consumer-assistance/consumer-services/external-review/",
+      "phone": "1-800-282-9134 (on request form); 1-800-852-5494 / 501-371-2640 (Consumer Services)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form is mailed to the Department's External Review Division (1200 W 3rd St, Little Rock). Expedited in 72 hours with provider certification. Fee not stated on form (null).",
+      "source_urls": [
+        "https://codeofarrules.arkansas.gov/Rules/AppendixDocument?appendixID=420&partID=854",
+        "https://insurance.arkansas.gov/consumer-assistance/consumer-services/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "CA",
+      "state_name": "California",
+      "program": "state",
+      "administering_body": "California Department of Managed Health Care (DMHC) Help Center \u2014 Independent Medical Review (IMR); California Department of Insurance (CDI) for CDI-regulated policies",
+      "request_url": "https://wpso.dmhc.ca.gov/imrcomplaint/?c=1&lang=en",
+      "phone": "1-888-466-2219 (DMHC); TDD 1-877-688-9891",
+      "deadline": "6 months",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Called Independent Medical Review (IMR), free. Apply within six months after the plan's written response to your appeal. Urgent cases decided within 7 days (standard 45). Plans not licensed by DMHC (some PPOs/indemnity) go to CDI's IMR program \u2014 CDI page not opened in this pass.",
+      "source_urls": [
+        "https://www.dmhc.ca.gov/FileaComplaint/IndependentMedicalReviewComplaintForms.aspx",
+        "https://www.dmhc.ca.gov/Portals/0/Docs/HC/AccessibleIMRFormEnglish.pdf",
+        "https://www.dmhc.ca.gov/FileaComplaint/IndependentMedicalReviewIMRProcess.aspx"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "CO",
+      "state_name": "Colorado",
+      "program": "state",
+      "administering_body": "Colorado Division of Insurance (certifies independent external review entities; request is filed with the carrier)",
+      "request_url": "https://doi.colorado.gov/sites/doi/files/documents/When%20Your%20Health%20Insurance%20Company%20Says%20x22Nox22.pdf",
+      "phone": "303-894-7490 / 800-930-3745",
+      "deadline": "4 months (60 days after a voluntary 2nd-level appeal)",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request form goes to the insurance carrier; the Division then assigns a certified review entity. Fee not stated in DOI documents (null). Expedited with physician certification.",
+      "source_urls": [
+        "https://doi.colorado.gov/sites/doi/files/documents/When%20Your%20Health%20Insurance%20Company%20Says%20x22Nox22.pdf",
+        "https://doi.colorado.gov/sites/doi/files/documents/Bulletin-B-4.19-Independent-External-Reviews-for-Denials-of-Health-Claims.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "CT",
+      "state_name": "Connecticut",
+      "program": "state",
+      "administering_body": "Connecticut Insurance Department, External Review Program",
+      "request_url": "https://portal.ct.gov/cid/consumer-information-center/consumer-resource-library/external-review",
+      "phone": "860-297-3900 / 860-297-3910 (Consumer Affairs)",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Application (PDF) is submitted to the Insurance Department. Expedited: behavioral-health urgent requests decided in 24 hours, others 48-72 hours. Fee not stated on CID pages (null).",
+      "source_urls": [
+        "https://portal.ct.gov/cid/consumer-information-center/consumer-resource-library/external-review",
+        "https://portal.ct.gov/cid/-/media/cid/1_consumerresources/external-review-program-faqs.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "DE",
+      "state_name": "Delaware",
+      "program": "state",
+      "administering_body": "Delaware Department of Insurance \u2014 Independent Health Care Appeals Program (IHCAP)",
+      "request_url": "https://insurance.delaware.gov/wp-content/uploads/sites/15/2017/02/IHCAP_FAQs_2017.pdf",
+      "phone": "302-674-7310 / 800-282-8611",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "18 Del. C. 6416 and 18 DE Admin. Code 1301-5.1: file with the CARRIER within 4 months of the final coverage decision; carrier sends it to DOI, which assigns an Independent Utilization Review Organization (IURO). Expedited (1301-6.0): available when the condition poses an imminent, emergent or serious threat or is an emergency; IURO decides within 72 hours. No consumer fee: 1301-8.1 says all IURO costs are borne by the carrier. 2026-10-04: expedited (72 h) and no-fee confirmed from regulation; 4-month deadline confirmed by statute and regulation.",
+      "source_urls": [
+        "https://law.justia.com/codes/delaware/title-18/chapter-64/section-6416/",
+        "https://archive.regulations.delaware.gov/AdminCode/title18/1300/1301.pdf",
+        "https://regulations.justia.com/states/delaware/title-18/1300/1301/section-1301-6-0",
+        "https://insurance.delaware.gov/wp-content/uploads/sites/15/2017/02/IHCAP_FAQs_2017.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "DC",
+      "state_name": "District of Columbia",
+      "program": "state",
+      "administering_body": "DC Office of Health Care Ombudsman and Bill of Rights (assigns IRO); DISB for rescission disputes",
+      "request_url": "https://healthcareombudsman.dc.gov",
+      "phone": "202-724-7491 / 1-877-685-6391",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "External review is run by the Health Care Ombudsman, not the insurance department (DISB). Emergency cases can skip the plan's appeal decision. Fee not stated (null).",
+      "source_urls": [
+        "https://healthcareombudsman.dc.gov/sites/default/files/dc/sites/Office%20of%20Health%20Care%20Ombudsman%20and%20Bill%20of%20Rights/publication/attachments/Brochure%20-%20Appealing%20Health%20Insurance%20Decisions%20-%20English%20(12-2018).pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "FL",
+      "state_name": "Florida",
+      "program": "federal_hhs",
+      "administering_body": "HHS-Administered Federal External Review Process (MAXIMUS); Florida DFS Insurance Consumer Helpline for help",
+      "request_url": "https://externalappeal.cms.gov/ferpportal",
+      "phone": "1-888-866-6205 (federal); 1-877-693-5236 (FL DFS helpline)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "CMS lists FL as HHS-administered/IRO process. Insurer's final denial letter will name the federal process or a private accredited IRO. No fee; expedited in 72 hours.",
+      "source_urls": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.healthcare.gov/appeal-insurance-company-decision/external-review/",
+        "https://www.myfloridacfo.com/division/consumers/understanding-insurance/faq/health",
+        "https://www.myfloridacfo.com/division/ica/contactus"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "GA",
+      "state_name": "Georgia",
+      "program": "federal_hhs",
+      "administering_body": "HHS-Administered Federal External Review Process (MAXIMUS); Georgia Office of Insurance and Safety Fire Commissioner for help",
+      "request_url": "https://externalappeal.cms.gov/ferpportal",
+      "phone": "1-888-866-6205 (federal); 1-800-656-2298 (GA OCI Consumer Services)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "CMS lists GA as HHS-administered/IRO process. No fee; expedited in 72 hours.",
+      "source_urls": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.healthcare.gov/appeal-insurance-company-decision/external-review/",
+        "https://www.cms.gov/cciio/resources/consumer-assistance-grants/ga"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "HI",
+      "state_name": "Hawaii",
+      "program": "state",
+      "administering_body": "Hawaii Insurance Division (DCCA) \u2014 external review via private IROs",
+      "request_url": "https://cca.hawaii.gov/ins/external-review-of-health-plan-disputes/",
+      "phone": "1-844-808-3222 (DCCA)",
+      "deadline": "130 days",
+      "deadline_days": 130,
+      "fee": "$15 (refunded if IRO rules for member)",
+      "expedited_available": true,
+      "notes": "130 days from the coverage denial; request is submitted with the health plan's forms plus a cover letter. Three tracks: standard, expedited (emergency), experimental/investigational.",
+      "source_urls": [
+        "https://cca.hawaii.gov/ins/external-review-of-health-plan-disputes/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "ID",
+      "state_name": "Idaho",
+      "program": "state",
+      "administering_body": "Idaho Department of Insurance (assigns registered IRO)",
+      "request_url": "https://doi.idaho.gov/consumers/health-insurance/external-review/",
+      "phone": "208-334-4250 / 800-721-3272",
+      "deadline": "120 days (four months)",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form mailed to DOI, ATTN External Review. Insurer pays all costs. Expedited decision in 72 hours with provider certification.",
+      "source_urls": [
+        "https://doi.idaho.gov/consumers/health-insurance/external-review/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "IL",
+      "state_name": "Illinois",
+      "program": "state",
+      "administering_body": "Illinois Department of Insurance",
+      "request_url": "https://idoi.illinois.gov/consumers/file-an-external-review.html",
+      "phone": "877-850-4740",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "File via IDOI Help Center portal, email DOI.externalreview@illinois.gov, fax or mail. No cost. Expedited/experimental reviews run as a combined internal-external process; expedited waives remaining appeal steps.",
+      "source_urls": [
+        "https://idoi.illinois.gov/consumers/file-an-external-review.html",
+        "https://idoi.illinois.gov/content/dam/soi/en/web/insurance/consumers/documents/external-review-2026.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "IN",
+      "state_name": "Indiana",
+      "program": "state",
+      "administering_body": "Indiana Department of Insurance (certifies IROs; request is filed with the insurer)",
+      "request_url": "https://www.in.gov/idoi/consumer-services/internal-and-external-grievance-procedures",
+      "phone": "800-622-4461",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Per IC 27-8-29-13 the written request goes to the INSURER within 120 days of the grievance resolution; insurer assigns an IDOI-certified IRO. Fee not stated (null). IDOI page mainly links each carrier's grievance procedures.",
+      "source_urls": [
+        "https://www.in.gov/idoi/consumer-services/internal-and-external-grievance-procedures",
+        "https://codes.findlaw.com/in/title-27-insurance/in-code-sect-27-8-29-13/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "IA",
+      "state_name": "Iowa",
+      "program": "state",
+      "administering_body": "Iowa Insurance Division",
+      "request_url": "https://iid.iowa.gov/consumers/insurance/health-insurance/external-review",
+      "phone": "515-654-6600 / 877-955-1212",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form goes to the Insurance Division (mail/fax/email). Insurer pays the cost. Expedited: call first; provider may request verbally; decision in 72 hours.",
+      "source_urls": [
+        "https://iid.iowa.gov/consumers/insurance/health-insurance/external-review",
+        "https://iid.iowa.gov/media/2959/download?inline="
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "KS",
+      "state_name": "Kansas",
+      "program": "state",
+      "administering_body": "Kansas Insurance Department \u2014 Independent Medical Review (IMR)",
+      "request_url": "https://insurance.ks.gov/documents/department/publications/independent-medical-review.pdf",
+      "phone": "785-296-3071 / 800-432-2484",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Called Independent Medical Review; written request to KID. No cost. Expedited skips the plan's internal appeal; call 800-432-2484.",
+      "source_urls": [
+        "https://insurance.ks.gov/documents/department/publications/independent-medical-review.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "KY",
+      "state_name": "Kentucky",
+      "program": "state",
+      "administering_body": "Kentucky Department of Insurance (request to insurer; insurer assigns certified Independent Review Entity)",
+      "request_url": "https://insurance.ky.gov/ppc/Documents/abdappeal071217.pdf",
+      "phone": "800-595-6053 (KY only) / 502-564-6034",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": "$25 may be billed by the IRE unless decision is in your favor (hardship waiver)",
+      "expedited_available": true,
+      "notes": "Request goes to the INSURER, which forwards to an IRE. Medical-necessity denials -> IRE; coverage-exclusion denials -> DOI Health Policy branch; other -> Division of Consumer Protection. Expedited within 72 hours.",
+      "source_urls": [
+        "https://insurance.ky.gov/ppc/Documents/abdappeal071217.pdf",
+        "https://www.law.cornell.edu/regulations/kentucky/806-KAR-17-290"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "LA",
+      "state_name": "Louisiana",
+      "program": "state",
+      "administering_body": "Louisiana Department of Insurance (request to insurer; LDI randomly assigns IRO)",
+      "request_url": "https://www.ldi.la.gov/docs/default-source/documents/publicaffairs/consumerpublications/understanding-your-healthcare-rights.pdf?sfvrsn=45277652_22",
+      "phone": "800-259-5300 (Office of Consumer Advocacy)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Written request goes to the INSURER; insurer submits it through LDI's IRO request module and LDI assigns the IRO. Fee not stated (null). Expedited available after an initial or final adverse determination.",
+      "source_urls": [
+        "https://www.ldi.la.gov/docs/default-source/documents/publicaffairs/consumerpublications/understanding-your-healthcare-rights.pdf?sfvrsn=45277652_22",
+        "https://www.law.cornell.edu/regulations/louisiana/La-Admin-Code-tit-37-SS-XIII-6209"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "ME",
+      "state_name": "Maine",
+      "program": "state",
+      "administering_body": "Maine Bureau of Insurance (contracts External Review Organizations)",
+      "request_url": "https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/files/inline-files/external-review-application-form.pdf",
+      "phone": "207-624-8475 / 800-300-5000 (ME only)",
+      "deadline": "12 months after final adverse decision (2nd-level appeal denial)",
+      "deadline_days": 365,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "24-A M.R.S. 4312(1): written request to the Bureau within 12 months of the final adverse health care treatment decision; enrollee may not be charged a filing fee, carrier pays the review cost (4312(7)). Expedited review (4312(2), 5(D)): decision within 72 hours (Bureau application form: 72 hours, without a hearing). Standard review is a telephone hearing; decision within 30 days. 2026-10-04: expedited confirmed from statute and Bureau application form; 12-month deadline confirmed by statute and Bureau guide. Nurse consultant line on the application form: 207-624-8459.",
+      "source_urls": [
+        "https://legislature.maine.gov/statutes/24-A/title24-Asec4312.html",
+        "https://www1.maine.gov/pfr/insurance/themes/insurance/pdf/consumer-guides/pdf/requesting_external_review.pdf",
+        "https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/files/inline-files/external-review-application-form.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MD",
+      "state_name": "Maryland",
+      "program": "state",
+      "administering_body": "Maryland Insurance Administration (complaint triggers external review); AG Health Education and Advocacy Unit assists free",
+      "request_url": "https://insurance.maryland.gov/Consumer/Pages/AppealsAndGrievances.aspx",
+      "phone": "800-492-6116 / 410-468-2000; HEAU 877-261-8807",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "External review is started by filing a complaint with the MIA (portal, email agcomplaints.mia@maryland.gov, or form). Emergency decisions within 24 hours. Fee not stated (null).",
+      "source_urls": [
+        "https://insurance.maryland.gov/Consumer/Pages/AppealsAndGrievances.aspx",
+        "https://insurance.maryland.gov/Consumer/Documents/publicnew/HealthCareBills_HowToAppeal.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "program": "state",
+      "administering_body": "Health Policy Commission \u2014 Office of Patient Protection (OPP)",
+      "request_url": "https://masshpc.gov/opp/external-review-health-insurance",
+      "phone": "800-436-7757",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": "$25 per review ($75/yr max); waived for hardship; refunded if you win",
+      "expedited_available": true,
+      "notes": "Run by the Health Policy Commission's OPP, not the Division of Insurance. Online secure form, mail, fax or in person. Expedited within 72 hours.",
+      "source_urls": [
+        "https://masshpc.gov/opp/external-review-health-insurance"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MI",
+      "state_name": "Michigan",
+      "program": "state",
+      "administering_body": "Michigan Department of Insurance and Financial Services (DIFS) \u2014 Patient's Right to Independent Review Act",
+      "request_url": "https://difs.state.mi.us/Complaints/ExternalReview.aspx",
+      "phone": "877-999-6442",
+      "deadline": "127 days",
+      "deadline_days": 127,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Unusual 127-day deadline. Expedited (pre-service only) must be requested within 10 days of the plan's final decision with a physician letter; decision in 72 hours. Fee not stated (null).",
+      "source_urls": [
+        "https://www.michigan.gov/difs/consumers/insurance/health-insurance/individual/appealing"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MN",
+      "state_name": "Minnesota",
+      "program": "state",
+      "administering_body": "Minnesota Department of Commerce",
+      "request_url": "https://mn.gov/commerce/insurance/health/consumer-protections/external-review.jsp",
+      "phone": "651-539-1600 / 800-657-3602",
+      "deadline": "6 months",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Minn. Stat. 62Q.73 subd. 3(d): request within 6 months of the adverse determination, to the Commissioner of Commerce (or the Commissioner of Health for plans that commissioner regulates, e.g., HMOs). Cost borne by the health plan company (subd. 3(c)); Commerce: 'It is free to apply.' Expedited review available for serious conditions: decision within 72 hours (subd. 6(e)(2)); standard within 45 days. Email form to consumer.protection@state.mn.us. Commerce cannot help with Medicare, Medical Assistance or MinnesotaCare. 2026-10-04: expedited (72 h) confirmed from statute; 6 months confirmed by statute and Commerce page.",
+      "source_urls": [
+        "https://www.revisor.mn.gov/statutes/cite/62Q.73",
+        "https://mn.gov/commerce/insurance/health/consumer-protections/external-review.jsp"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MS",
+      "state_name": "Mississippi",
+      "program": "state",
+      "administering_body": "Mississippi Insurance Department, Life and Health Actuarial Division",
+      "request_url": "https://www.mid.ms.gov/mississippi-insurance-department/healthcare/health-care-external-review/",
+      "phone": "601-359-3569",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form mailed to MID (P.O. Box 79, Jackson). Call before submitting an expedited request; expedited decided within 72 hours. Fee not stated (null).",
+      "source_urls": [
+        "https://www.mid.ms.gov/mississippi-insurance-department/healthcare/health-care-external-review/",
+        "https://www.mid.ms.gov/wp-content/uploads/2023/04/ExtRevApp.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MO",
+      "state_name": "Missouri",
+      "program": "state",
+      "administering_body": "Missouri Department of Commerce and Insurance, Division of Consumer Affairs (retains IROs)",
+      "request_url": "https://insurance.mo.gov/consumer-complaints/insurance-complaints",
+      "phone": "800-726-7390",
+      "deadline": "No state deadline (RSMo 376.1385-376.1389 and 20 CSR 100-5.020 set none); file within 4 months to be safe",
+      "deadline_days": null,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Consumer contacts DCI Consumer Affairs (800-726-7390), which handles it as a complaint and refers eligible cases to an IRO (RSMo 376.1387). No time limit to request external review appears in RSMo 376.1385, 376.1387, 376.1389 or 20 CSR 100-5.020; DCI's own consumer notice (form 1073, reproduced by a TPA) says 'Currently, there is no time limitation under Missouri law' and 'there is no charge to consumers.' Federal floor (45 CFR 147.136(c)(2)(vi)) requires a state process to allow at least 4 months, so the app should tell users to file within 4 months and check the denial letter. Expedited: IRO/director decision within 72 hours (20 CSR 100-5.020). 2026-10-04: deadline resolved as 'no state limit' with citations (deadline_days intentionally null).",
+      "source_urls": [
+        "https://revisor.mo.gov/main/OneSection.aspx?section=376.1387",
+        "https://revisor.mo.gov/main/OneSection.aspx?section=376.1385",
+        "https://revisor.mo.gov/main/OneSection.aspx?section=376.1389",
+        "https://regulations.justia.com/states/missouri/title-20/division-100/chapter-5/section-20-csr-100-5-020/",
+        "https://dci.mo.gov/node/1291",
+        "https://www.ibsadmin.com/uploads/4/9/2/1/49212671/1073.pdf (TPA-hosted copy of DCI form 1073)",
+        "https://www.law.cornell.edu/cfr/text/45/147.136"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "MT",
+      "state_name": "Montana",
+      "program": "state",
+      "administering_body": "Montana Commissioner of Securities and Insurance (CSI) \u2014 approves IROs; request is filed with the insurer",
+      "request_url": "https://csimt.gov/insurance-complaints-fraud/",
+      "phone": "800-332-6148 / 406-444-2040",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Per MCA 33-32-410 the request is filed with the health insurance issuer within 120 days; expedited review under MCA 33-32-411. CSI has no dedicated consumer external-review page found; fee not stated (null).",
+      "source_urls": [
+        "https://mca.legmt.gov/bills/mca/title_0330/chapter_0320/part_0040/section_0100/0330-0320-0040-0100.html",
+        "https://csimt.gov/insurance-complaints-fraud/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NE",
+      "state_name": "Nebraska",
+      "program": "state",
+      "administering_body": "Nebraska Department of Insurance",
+      "request_url": "https://ecmp.nebraska.gov/doi-er",
+      "phone": "402-471-2201 / 877-564-7323 (NE only)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Online secure portal or paper forms mailed to NDOI; separate forms for expedited and experimental/investigational. Expedited within 72 hours. Fee not stated (null).",
+      "source_urls": [
+        "https://doi.nebraska.gov/consumer/appealing-denied-health-claim"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NV",
+      "state_name": "Nevada",
+      "program": "state",
+      "administering_body": "Nevada Office for Consumer Health Assistance (OCHA), Aging & Disability Services Division \u2014 NOT the Division of Insurance",
+      "request_url": "https://adsd.nv.gov/Programs/CHA/ExtRev/External_Review",
+      "phone": "702-486-3587 / 888-333-1597",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Route to OCHA (Governor's Consumer Health Advocate), 3320 W. Sahara Ave Ste 100, Las Vegas; email CHA@govcha.nv.gov. Expedited with provider certification. Fee not stated (null).",
+      "source_urls": [
+        "https://adsd.nv.gov/Programs/CHA/ExtRev/External_Review",
+        "https://www.pebp.nv.gov/siteassets/content/resources/forms/External-Review-Request-20230524.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NH",
+      "state_name": "New Hampshire",
+      "program": "state",
+      "administering_body": "New Hampshire Insurance Department, External Review Unit",
+      "request_url": "https://www.insurance.nh.gov/consumers/health-insurance/independent-external-review",
+      "phone": "800-852-3416",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "RSA 420-J:5-a: request to the Commissioner (NHID External Review Unit) within 180 days of the carrier's denial (or of the date a decision was due). Expedited (RSA 420-J:5-c): with treating provider certification, decision within 72 hours. Carrier pays the cost (RSA 420-J:5-e); no cost to consumer. Standard up to 60 days. Phone 800-852-3416 confirmed on CMS's NH consumer-assistance page. Expedited fax 603-271-1406 is from the mirrored NHID guide only (insurance.nh.gov returns 403). 2026-10-04: deadline, expedited, phone confirmed from statute and CMS.",
+      "source_urls": [
+        "https://gc.nh.gov/rsa/html/XXXVII/420-J/420-J-5-a.htm",
+        "https://gc.nh.gov/rsa/html/XXXVII/420-J/420-J-5-c.htm",
+        "https://gc.nh.gov/rsa/html/XXXVII/420-J/420-J-5-e.htm",
+        "https://www.cms.gov/cciio/resources/consumer-assistance-grants/nh",
+        "https://www.ibsadmin.com/uploads/4/9/2/1/49212671/1087.pdf (mirrored NHID guide; fax only)"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "program": "state",
+      "administering_body": "NJ Department of Banking and Insurance \u2014 Independent Health Care Appeals Program (IHCAP), administered by Maximus Federal Services",
+      "request_url": "https://njihcap.maximus.com",
+      "phone": "888-393-1062 / 609-777-9470 (DOBI); 888-866-6205 (Maximus)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "File with Maximus (portal, email Stateappealseast@maximus.com, fax, or mail to Pittsford NY). Carriers bear the cost. Expedited within 48 hours.",
+      "source_urls": [
+        "https://www.nj.gov/dobi/division_insurance/managedcare/ihcap.htm",
+        "https://www.nj.gov/dobi/division_consumers/insurance/appealcomplaintguide.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NM",
+      "state_name": "New Mexico",
+      "program": "state",
+      "administering_body": "New Mexico Office of Superintendent of Insurance, Managed Health Care Bureau",
+      "request_url": "https://www.osi.state.nm.us/en/consumer-assistance/insurance-types/managed-health-care-review/iro/",
+      "phone": "505-827-3811 (MHCB staff line on OSI page)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request to OSI MHCB: mail P.O. Box 1689 Santa Fe 87504, email mhcb.grievance@osi.nm.gov, fax 505-827-4253, or online. Insurer pays IRO fees. Expedited within 72 hours of IRO appointment (13.10.17 NMAC). Statewide OSI consumer line not verified.",
+      "source_urls": [
+        "https://www.osi.state.nm.us/en/consumer-assistance/insurance-types/managed-health-care-review/iro/",
+        "https://www.srca.nm.gov/parts/title13/13.010.0017.html"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NY",
+      "state_name": "New York",
+      "program": "state",
+      "administering_body": "New York State Department of Financial Services (certified external appeal agents: IMEDECS, IPRO, MCMC)",
+      "request_url": "https://myportal.dfs.ny.gov/web/externalappeals",
+      "phone": "800-400-8882",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": "Up to $25 per appeal ($75 max per plan year); waived for Medicaid/CHP/hardship",
+      "expedited_available": true,
+      "notes": "DFS portal or paper application (fax 800-332-2729; expedited fax 888-990-3991). Expedited decided in 72 hours (24 hours for non-formulary drug denials).",
+      "source_urls": [
+        "https://www.dfs.ny.gov/complaints/file_external_appeal"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "NC",
+      "state_name": "North Carolina",
+      "program": "state",
+      "administering_body": "North Carolina Department of Insurance \u2014 Smart NC",
+      "request_url": "https://www.ncdoi.gov/consumers/health-insurance/health-claim-denied/request-external-review",
+      "phone": "855-408-1212",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Online portal for standard requests only; expedited must use print/mail/fax form with Physician Certification. Free. Expedited decision in ~4 business days.",
+      "source_urls": [
+        "https://www.ncdoi.gov/consumers/health-insurance/health-claim-denied/request-external-review"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "ND",
+      "state_name": "North Dakota",
+      "program": "state",
+      "administering_body": "North Dakota Insurance Department (contracts IROs)",
+      "request_url": "https://www.insurance.nd.gov/consumers/insurance/health",
+      "phone": "701-328-2440",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": "Insurer may require up to $25 (may be refunded if denial reversed)",
+      "expedited_available": true,
+      "notes": "May file with the insurer or with the Commissioner. Grandfathered (pre-3/23/2010) plans use an older process with no statutory deadline. Expedited within 72 hours.",
+      "source_urls": [
+        "https://www.insurance.nd.gov/consumers/insurance/health"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "OH",
+      "state_name": "Ohio",
+      "program": "state",
+      "administering_body": "Ohio Department of Insurance (request to insurer; IRO or ODI conducts review)",
+      "request_url": "https://insurance.ohio.gov/about-us/complaint-center/health-coverage-external-review-process",
+      "phone": "800-686-1526 / 614-644-2673",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request is made to the health plan issuer; ODI can override the insurer's eligibility decision. Medical-necessity denials -> IRO; contractual denials -> ODI. Expedited ~72 hours. Fee not stated (null).",
+      "source_urls": [
+        "https://insurance.ohio.gov/about-us/complaint-center/health-coverage-external-review-process",
+        "https://dam.assets.ohio.gov/image/upload/insurance.ohio.gov/Company/Documents/LHD%20HB%20218%20Model%20Notices/External%20Review%20Procedures%20Summary.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "OK",
+      "state_name": "Oklahoma",
+      "program": "state",
+      "administering_body": "Oklahoma Insurance Department (certifies IROs)",
+      "request_url": "https://www.oid.ok.gov/consumers/external-review-process/",
+      "phone": "800-522-0071 / 405-521-2828",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form submitted to OID. Health plan pays IRO fees. Expedited available; internal appeal can be bypassed if delay would jeopardize health. Covers medical-necessity/appropriateness/level-of-care denials, not benefit exclusions.",
+      "source_urls": [
+        "https://www.oid.ok.gov/consumers/external-review-process/"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "OR",
+      "state_name": "Oregon",
+      "program": "state",
+      "administering_body": "Oregon Division of Financial Regulation (request to insurer, forwarded to DFR; DFR assigns IRO)",
+      "request_url": "https://dfr.oregon.gov/insure/health/understand/coverage/Pages/if-your-claim-was-denied.aspx",
+      "phone": "888-877-4894",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Written request goes to the INSURER, which must forward it to DFR. Expedited within 3 calendar days with provider letter. Decision binding unless procedural objection filed with DFR within 7 business days. Fee not stated (null).",
+      "source_urls": [
+        "https://dfr.oregon.gov/insure/health/understand/coverage/Pages/if-your-claim-was-denied.aspx"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "PA",
+      "state_name": "Pennsylvania",
+      "program": "state",
+      "administering_body": "Pennsylvania Insurance Department \u2014 Independent External Review (program launched Jan 2024)",
+      "request_url": "https://www.pa.gov/form/insurance/request-a-review-of-denied-health-insurance-claims.html",
+      "phone": "877-881-6388",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Online form, print/mail, email or fax to PID. Free ('The insurance company pays for completed reviews'). Request within 4 months of the final adverse benefit determination letter. Expedited in 72 hours with physician certification; standard 45 days. 2026-10-04: phone added \u2014 PID Consumer Services line 877-881-6388, named in PID's external-review news release as the number for external review questions and on PID's Contact Us page.",
+      "source_urls": [
+        "https://www.pa.gov/services/insurance/request-a-review-if-your-health-insurance-denied-a-treatment-medication-or-service",
+        "https://www.pa.gov/agencies/insurance/contact-us",
+        "https://www.pa.gov/agencies/insurance/newsroom/pennsylvanias-independent-external-review-process-proves-to-be-a-valuable-resource-helping-over-100-pennsylvanians-successfully-appeal-denied-health-plan-services-in-first-six-months"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "RI",
+      "state_name": "Rhode Island",
+      "program": "state",
+      "administering_body": "Rhode Island Office of the Health Insurance Commissioner (OHIC) \u2014 IROs designated by the Commissioner; request goes through the health plan/review agent",
+      "request_url": "https://ohic.ri.gov/consumer-protection",
+      "phone": "855-747-3224 (RIREACH consumer helpline) / 401-462-9517 (OHIC)",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": "Up to $25 ($75/yr max; refunded if reversed; hardship waiver); up to $100 for excepted benefits",
+      "expedited_available": true,
+      "notes": "Per 230-RICR-20-30-14 the external appeal request is filed with the review agent/health plan, which forwards it to the OHIC-approved IRO within 5 business days; expedited within 72 hours. Older Dept. of Health reg (216-RICR-40-10-20) still says 60 days and half the IRO fee \u2014 OHIC rule governs commercial plans.",
+      "source_urls": [
+        "https://ohic.ri.gov/sites/g/files/xkgbur736/files/documents/Regulation-and-Development/230-RICR-20-30-14_Clean_Final_Signed.pdf",
+        "https://ohic.ri.gov/consumer-protection",
+        "https://rules.sos.ri.gov/Regulations/part/216-40-10-20?reg_id=8561"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "SC",
+      "state_name": "South Carolina",
+      "program": "state",
+      "administering_body": "South Carolina Department of Insurance (request filed with the health carrier per S.C. Code 38-71-1970)",
+      "request_url": "https://www.doi.sc.gov/DocumentCenter/View/2554/Patients-Guide-to-External-Review",
+      "phone": "803-737-6160",
+      "deadline": "60 days per S.C. Code 38-71-1970 (show 60 days; federal rules require states to allow 4 months, so a later request may still be accepted \u2014 confirm with SCDOI)",
+      "deadline_days": 60,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request goes in writing to the HEALTH CARRIER (S.C. Code 38-71-1950/-1970). Statute text (2025 code) still says 60 days for standard review; expedited must be requested within 15 days and the IRO decides within 3 business days (38-71-1980). Carrier pays for the review (38-71-2040); no consumer cost. Phone 803-737-6160 is the SCDOI contact on its Health Carrier External Review Act page. CONFLICT: CMS lists SC as NAIC-parallel, and 45 CFR 147.136(c)(2)(vi) requires a parallel state process to allow at least 4 months. SCDOI Bulletin 2011-04 ('Compliance with External Review Requirements of the PPACA') likely reconciles this but doi.sc.gov blocks our fetcher (robots/timeout), so it could not be read. Show 60 days as the safe deadline. 2026-10-04: phone, expedited and no-fee confirmed; deadline conflict unresolved.",
+      "source_urls": [
+        "https://law.justia.com/codes/south-carolina/title-38/chapter-71/section-38-71-1970/",
+        "https://law.justia.com/codes/south-carolina/title-38/chapter-71/section-38-71-1980/",
+        "https://online.doi.sc.gov/Eng/Public/Company/HCER_Act.aspx",
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.law.cornell.edu/cfr/text/45/147.136",
+        "https://doi.sc.gov/DocumentCenter/View/2766/Bulletin-2011-04--Compliance-with-External-Review-Requirements-of-the-Patient-Protection-and-Afforda (not readable)"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": false
+    },
+    {
+      "state": "SD",
+      "state_name": "South Dakota",
+      "program": "state",
+      "administering_body": "South Dakota Division of Insurance",
+      "request_url": "https://dlr.sd.gov/insurance/external_review_health_major_medical.aspx",
+      "phone": "605-773-3563",
+      "deadline": "4 months",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Checklist/request form to the Division; separate forms for expedited and experimental/investigational. Fee not stated (null).",
+      "source_urls": [
+        "https://dlr.sd.gov/insurance/external_review_health_major_medical.aspx"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "TN",
+      "state_name": "Tennessee",
+      "program": "state",
+      "administering_body": "Tennessee Department of Commerce and Insurance (request filed with the health carrier, which contracts approved external review organizations)",
+      "request_url": "https://www.tn.gov/commerce/insurance/consumer-resources.html",
+      "phone": "800-342-4029 / 615-741-2218 (Consumer Insurance Services)",
+      "deadline": "6 months",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Per Tenn. Code 56-61-116 the request goes to the HEALTH CARRIER within six months; carrier may let you choose among its contracted review organizations. Expedited under 56-61-117. No TDCI consumer external-review page found; fee not stated (null).",
+      "source_urls": [
+        "https://codes.findlaw.com/tn/title-56-insurance/tn-code-sect-56-61-116/",
+        "https://www.tn.gov/commerce/insurance/contact.html"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "TX",
+      "state_name": "Texas",
+      "program": "federal_hhs",
+      "administering_body": "HHS-Administered Federal External Review Process (per CMS list); Texas Department of Insurance IRO process (form LHL009) for TDI-regulated HMO/PPO plans",
+      "request_url": "https://www.tdi.texas.gov/forms/finmcqa/lhl009urairoreq.pdf",
+      "phone": "1-866-554-4926 opt 2 (TDI IRO line); 1-888-866-6205 (federal)",
+      "deadline": "4 months (federal rule); TDI rules set no state deadline for health-plan IRO requests",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "CMS lists TX under the HHS-administered/IRO process; for these plans 45 CFR 147.136(d)(2)(i) gives 4 months from the final adverse determination notice. TDI route for TDI-regulated plans: sign form LHL009 (rev. 05/22) and return it to the insurer/URA, NOT to TDI; the URA notifies TDI within 1 working day and pays for the IRO (28 TAC 19.1717). No cost to you. Life-threatening cases: immediate IRO appeal without internal appeal (28 TAC 19.1711), decided in 3 days. 28 TAC 19.1711/19.1717 and LHL009 state no enrollee deadline for health plans (LHL009's 45-day limit is workers' comp only). 2026-10-04: confirmed no TDI deadline; 4 months comes from the federal rule. Federal FERP phone/portal re-checked.",
+      "source_urls": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://www.healthcare.gov/appeal-insurance-company-decision/external-review/",
+        "https://www.tdi.texas.gov/forms/finmcqa/lhl009urairoreq.pdf",
+        "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-19-1717",
+        "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-19-1711",
+        "https://www.law.cornell.edu/cfr/text/45/147.136"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "UT",
+      "state_name": "Utah",
+      "program": "state",
+      "administering_body": "Utah Insurance Department, Health Division (IRO)",
+      "request_url": "https://insurance.utah.gov/consumers/health-insurance/independent-review",
+      "phone": "801-957-9280 / 800-439-3905",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request form to UID (mail, fax 385-465-6047, or healthappeals@utah.gov). Expedited within 72 hours with physician certification; standard 55 days. Fee not stated (null).",
+      "source_urls": [
+        "https://insurance.utah.gov/consumers/health-insurance/independent-review",
+        "https://insurance.utah.gov/wp-content/uploads/261IndependentReviewRequest.pdf"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "VT",
+      "state_name": "Vermont",
+      "program": "state",
+      "administering_body": "Vermont Department of Financial Regulation, Insurance Division",
+      "request_url": "https://dfr.vermont.gov/consumers/file-complaint/insurance/healthcare-external-appeal",
+      "phone": "802-828-3302",
+      "deadline": "120 days or 4 months, whichever is longer",
+      "deadline_days": 120,
+      "fee": "$25 filing fee (waived for financial hardship)",
+      "expedited_available": true,
+      "notes": "Application mailed/emailed/faxed to DFR (89 Main St, Montpelier). Emergency & urgent external appeals available. Decision within 30 days of complete file.",
+      "source_urls": [
+        "https://dfr.vermont.gov/consumers/file-complaint/insurance/healthcare-external-appeal",
+        "https://dfr.vermont.gov/content/request-appeal"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "VA",
+      "state_name": "Virginia",
+      "program": "state",
+      "administering_body": "Virginia State Corporation Commission, Bureau of Insurance",
+      "request_url": "https://scc.virginia.gov/pages/External-Review-(1)",
+      "phone": "877-310-6560",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Form 216-A to the Bureau of Insurance (externalreview@scc.virginia.gov). Free. Expedited within 72 hours; cancer-treatment denials may skip the internal appeal. Out-of-network NSA denials may go to the federal process.",
+      "source_urls": [
+        "https://scc.virginia.gov/pages/External-Review-(1)"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "WA",
+      "state_name": "Washington",
+      "program": "state",
+      "administering_body": "Washington Office of the Insurance Commissioner (certifies IROs; request is made through the health plan, which assigns the IRO)",
+      "request_url": "https://www.insurance.wa.gov/insurance-resources/health-insurance/appealing-health-insurance-denial/how-appeal-health-insurance-denial",
+      "phone": "800-562-6900",
+      "deadline": "No state deadline (RCW 48.43.535, WAC 284-43A-140/-150 set none); check denial letter and file within 4 months to be safe",
+      "deadline_days": null,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Request IRO review through your INSURER; the plan assigns a certified IRO from OIC's rotational registry and pays the cost (RCW 48.43.535; WAC 284-43A-140(4)(b): no cost to the appellant). Expedited: IRO decides within 72 hours (RCW 48.43.535). No time limit to request IRO review appears in RCW 48.43.535, WAC 284-43A-140, WAC 284-43A-150, WAC 284-43-3110 or the OIC appeals guide; 45 CFR 147.136(c)(2)(vi) requires at least 4 months, so tell users to file within 4 months and follow any deadline in the denial letter. 2026-10-04: deadline resolved as 'none in state law' with citations (deadline_days intentionally null).",
+      "source_urls": [
+        "https://app.leg.wa.gov/RCW/default.aspx?cite=48.43.535",
+        "https://app.leg.wa.gov/WAC/default.aspx?cite=284-43A-140",
+        "https://app.leg.wa.gov/WAC/default.aspx?cite=284-43A-150",
+        "https://app.leg.wa.gov/WAC/default.aspx?cite=284-43-3110",
+        "https://www.insurance.wa.gov/insurance-resources/health-insurance/appealing-health-insurance-denial/how-appeal-health-insurance-denial",
+        "https://www.insurance.wa.gov/sites/default/files/2024-10/appeals-guide.pdf",
+        "https://www.law.cornell.edu/cfr/text/45/147.136"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "WV",
+      "state_name": "West Virginia",
+      "program": "state",
+      "administering_body": "West Virginia Offices of the Insurance Commissioner",
+      "request_url": "https://www.wvinsurance.gov/ExternalReview",
+      "phone": "888-879-9842 / 304-558-3386",
+      "deadline": "180 days",
+      "deadline_days": 180,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "Application to OIC (OICHealthPolicy@wv.gov or PO Box 50540, Charleston). No cost. Call before filing an expedited request; expedited within 72 hours. Covers medical-necessity and experimental/investigational denials.",
+      "source_urls": [
+        "https://www.wvinsurance.gov/ExternalReview",
+        "https://www.wvinsurance.gov/Portals/0/pdf/External%20Review%20Request%20Form%202-2016a.pdf?ver=2025-03-27-090803-873"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "WI",
+      "state_name": "Wisconsin",
+      "program": "federal_hhs",
+      "administering_body": "HHS-Administered Federal External Review Process (per CMS list); Wisconsin OCI Independent Review process for state-regulated plans",
+      "request_url": "https://oci.wi.gov/Pages/Consumers/PI-203.aspx",
+      "phone": "800-236-8517 / 608-266-0103 (OCI); 1-888-866-6205 (federal)",
+      "deadline": "4 months (120 days)",
+      "deadline_days": 120,
+      "fee": null,
+      "expedited_available": true,
+      "notes": "CMS lists WI under the HHS-administered/IRO process, but OCI runs an Independent Review process: send a written request to the INSURER (address in the grievance decision) within 4 months; insurer pays the OCI-certified IRO; expedited within 72 hours. Check the denial letter for which route the insurer uses.",
+      "source_urls": [
+        "https://www.cms.gov/cciio/resources/files/external_appeals",
+        "https://oci.wi.gov/Pages/Consumers/PI-203.aspx"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    },
+    {
+      "state": "WY",
+      "state_name": "Wyoming",
+      "program": "state",
+      "administering_body": "Wyoming Department of Insurance (IRO program; request filed with the carrier)",
+      "request_url": "https://doi.wyo.gov/consumers/iro",
+      "phone": "307-777-7402",
+      "deadline": "120 days",
+      "deadline_days": 120,
+      "fee": "$15 filing fee (waivable for hardship)",
+      "expedited_available": true,
+      "notes": "Written request to your INSURANCE CARRIER within 120 days; carriers assign IROs on rotation. Expedited within 72 hours.",
+      "source_urls": [
+        "https://doi.wyo.gov/consumers/iro"
+      ],
+      "verified_on": "2026-10-04",
+      "fully_verified": true
+    }
+  ]
+}

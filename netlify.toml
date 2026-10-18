@@ -1,0 +1,4 @@
+# Site is pre-built and committed. Netlify publishes the site/ folder as-is.
+[build]
+  publish = "site"
+  command = ""

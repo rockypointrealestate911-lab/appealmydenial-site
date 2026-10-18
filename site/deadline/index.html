@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Health Insurance Appeal Deadline Calculator (Free)</title>
+<meta name="description" content="Free appeal deadline calculator for Medicare Advantage, Original Medicare, Marketplace, job-based and Medicaid plans. Nothing leaves your browser.">
+<link rel="canonical" href="https://appealmydenial.app/deadline/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Appeal My Denial">
+<meta property="og:url" content="https://appealmydenial.app/deadline/">
+<meta property="og:title" content="Health Insurance Appeal Deadline Calculator (Free)">
+<meta property="og:description" content="Free appeal deadline calculator for Medicare Advantage, Original Medicare, Marketplace, job-based and Medicaid plans. Nothing leaves your browser.">
+<meta property="og:image" content="https://appealmydenial.app/img/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/img/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://appealmydenial.app/"}, {"@type": "ListItem", "position": 2, "name": "Deadline calculator", "item": "https://appealmydenial.app/deadline/"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many days do I have to appeal a health insurance denial?", "acceptedAnswer": {"@type": "Answer", "text": "65 days for Medicare Advantage, 120 days from receipt for Original Medicare, 180 days from receipt for Marketplace and job-based plans, and 60 days for Medicaid managed care plans."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Appeal deadline calculator", "url": "https://appealmydenial.app/deadline/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free appeal deadline calculator for Medicare Advantage, Original Medicare, Marketplace, job-based and Medicaid plans. Nothing leaves your browser."}</script>
+<!-- Cloudflare Web Analytics --><script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b8435886b6b7453c97a74d408ab80267"}'></script><!-- End Cloudflare Web Analytics -->
+<script>
+window.amdTrack=window.amdTrack||function(n,p){try{if(window.plausible)plausible(n,{props:p||{}});if(window.gtag)gtag('event',n,p||{});}catch(e){}};
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-track]');if(a)amdTrack(a.getAttribute('data-track'),{page:location.pathname});});
+</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="/"><img src="/img/apple-touch-icon.png" alt="">Appeal My Denial</a>
+<nav class="main" aria-label="Main"><a href="/guides/">Guides</a><a href="/deadline/">Deadline calculator</a><a href="/states/">By state</a></nav>
+</div></header>
+<main class="wrap">
+<p class="crumbs"><a href="/">Home</a> › Deadline calculator</p>
+<h1>Health insurance appeal deadline calculator</h1>
+<p class="lead">Pick your type of plan and enter the date printed on your denial letter. We'll show your deadline and the rule behind it.</p>
+<p class="meta">Free. Runs in your browser; nothing you enter is sent anywhere. Rules reviewed October 4, 2026.</p>
+<div class="box calc">
+<label for="plan">Type of plan</label>
+<select id="plan">
+<option value="">Choose one…</option>
+<option value="medicare_advantage">Medicare Advantage (Part C)</option>
+<option value="original_medicare">Original Medicare (Medicare Summary Notice)</option>
+<option value="aca_marketplace">Marketplace / ACA plan (HealthCare.gov or state)</option>
+<option value="employer">Plan through my job</option>
+<option value="medicaid_managed_care">Medicaid health plan</option>
+</select>
+<label for="notice">Date on the denial letter <span class="hint">(the notice date, or the date on your Medicare Summary Notice)</span></label>
+<input id="notice" type="date">
+<div id="arrivalWrap" style="display:none">
+<label for="arrival">When did the letter arrive? <span class="hint">Optional. Leave blank if you're not sure, and we'll use the safer date.</span></label>
+<input id="arrival" type="date">
+</div>
+<label for="stated">Does your letter give its own deadline? <span class="hint">Optional. If it does, enter it and we'll use whichever date is earlier.</span></label>
+<input id="stated" type="date">
+<button id="go" type="button" data-track="calc_run">Show my deadline</button>
+<div class="result" id="result" aria-live="polite"></div>
+</div>
+<h2>How the deadlines work</h2>
+<ul>
+<li><strong>Medicare Advantage:</strong> 65 days from the date of the notice. <a href="/guides/medicare-advantage-appeal/">Guide</a></li>
+<li><strong>Original Medicare:</strong> 120 days from receiving the Medicare Summary Notice, presumed to be 5 days after its date. <a href="/guides/original-medicare-appeal/">Guide</a></li>
+<li><strong>Marketplace and job-based plans:</strong> 180 days from receiving the denial. <a href="/guides/aca-marketplace-appeal/">Marketplace guide</a> · <a href="/guides/employer-plan-appeal/">Job-based guide</a></li>
+<li><strong>Medicaid health plans:</strong> 60 days from the date on the notice. To keep a service you already get during the appeal, file within 10 days of when the notice was sent or by the date the change takes effect, whichever is later. <a href="/guides/medicaid-appeal/">Guide</a></li>
+</ul>
+<p>If waiting could seriously harm your health, don't wait for the deadline: call your plan today and ask for an expedited (72-hour) appeal. On Medicare and being discharged from the hospital, or your skilled nursing, home health or rehab care is ending? Call the Quality Improvement Organization (QIO) on your notice right away, before you leave the hospital.</p>
+<section class="cta"><h2>Let the app write it for you</h2>
+<p>Snap a photo of your denial letter. Appeal My Denial tells you why you were denied, your exact deadline, and drafts the appeal letter, plus the note for your doctor.</p>
+<span class="soon">Coming soon to the App Store</span></section>
+<script>
+(function(){
+var R={"aca_marketplace": {"label": "Marketplace / ACA plan", "days": 180, "guide": "aca-marketplace-appeal", "src": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/part-2560/section-2560.503-1"}, "employer": {"label": "Plan through my job", "days": 180, "guide": "employer-plan-appeal", "src": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/part-2560/section-2560.503-1"}, "medicare_advantage": {"label": "Medicare Advantage", "days": 65, "guide": "medicare-advantage-appeal", "src": "https://cms.gov/medicare/appeals-grievances/managed-care/reconsideration-advantage-health-plan-part-c"}, "original_medicare": {"label": "Original Medicare", "days": 120, "guide": "original-medicare-appeal", "src": "https://www.law.cornell.edu/cfr/text/42/405.942"}, "medicaid_managed_care": {"label": "Medicaid", "days": 60, "guide": "medicaid-appeal", "src": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-438/subpart-F/section-438.402"}};
+var plan=document.getElementById('plan'),notice=document.getElementById('notice'),arrival=document.getElementById('arrival'),stated=document.getElementById('stated'),out=document.getElementById('result'),aw=document.getElementById('arrivalWrap');
+function P(v){if(!v)return null;var a=v.split('-');return new Date(Date.UTC(+a[0],+a[1]-1,+a[2]));}
+function add(d,n){return new Date(d.getTime()+n*864e5);}
+function F(d){return d.toLocaleDateString('en-US',{timeZone:'UTC',weekday:'long',year:'numeric',month:'long',day:'numeric'});}
+function today(){var t=new Date();return new Date(Date.UTC(t.getFullYear(),t.getMonth(),t.getDate()));}
+plan.addEventListener('change',function(){var on=(plan.value==='aca_marketplace'||plan.value==='employer'||plan.value==='original_medicare');aw.style.display=on?'block':'none';if(!on)arrival.value='';});
+document.getElementById('go').addEventListener('click',function(){
+ var p=plan.value,n=P(notice.value);
+ if(!p||!n){out.style.display='block';out.innerHTML='<p class="warn">Choose your type of plan and enter the date on your letter.</p>';return;}
+ var r=R[p],a=P(arrival.value),s=P(stated.value),start,rule,note='';
+ if(p==='aca_marketplace'||p==='employer'){
+   if(a&&a>=n){var cap=add(n,10);if(a>cap){a=cap;note='We counted from no more than 10 days after the notice date, to stay on the safe side. ';}
+     start=a;rule='180 days from when you received the denial ('+F(a)+').';}
+   else{start=n;rule='180 days, counted from the notice date. Your letter counts from the day you received it, so you may have a few extra days; we\'re using the safer date.';}
+ }else if(p==='original_medicare'){
+   if(a&&a>=n&&a<add(n,5)){start=a;rule='120 days from when you received your Medicare Summary Notice ('+F(a)+').';}
+   else{start=add(n,5);rule='120 days from receipt of your Medicare Summary Notice, which Medicare presumes is 5 days after its date.';}
+ }else{start=n;rule=r.days+' days from the date of the notice.';}
+ var due=(p==='original_medicare')?add(start,120):add(start,r.days),used='calculated';
+ if(s&&s<due){due=s;used='stated';}
+ var left=Math.round((due-today())/864e5),lt;
+ if(left<0)lt='<p class="warn"><strong>This date has passed.</strong> Contact your plan right away: some plans accept late appeals for good cause, and you may still have other options.</p>';
+ else if(left<=14)lt='<p class="warn"><strong>'+left+' day'+(left===1?'':'s')+' left.</strong> Send your appeal as soon as you can, and keep proof of the date you sent it.</p>';
+ else lt='<p class="left">'+left+' days from today.</p>';
+ out.style.display='block';
+ out.innerHTML='<p>Send your appeal by</p><p class="big">'+F(due)+'</p>'+lt+
+  '<p><strong>Rule used:</strong> '+(used==='stated'?'the deadline printed on your letter, which is earlier than the standard rule. ':'')+rule+' '+note+'</p>'+
+  (p==='medicaid_managed_care'?'<p class="warn"><strong>Is the plan cutting or stopping a service you get now?</strong> To keep it during the appeal, file by '+F(add(n,10))+' or by the date the change takes effect on your notice, whichever is later.</p>':'')+
+  (p==='medicare_advantage'?'<p>Prescription (Part D) drug denials follow different steps. <a href="/guides/medicare-advantage-appeal/">See the guide</a>.</p>':'')+
+  '<p>Always check the deadline printed on your letter. If the two differ, go by the earlier date.</p>'+
+  '<p><a href="/guides/'+r.guide+'/">How to appeal a '+r.label.replace(' / ACA plan','')+' denial →</a></p>';
+ if(window.amdTrack)amdTrack('calc_result',{plan:p});
+});
+})();
+</script>
+<noscript><p class="warn">The calculator needs JavaScript. Use the rules above: count the days from the date on your letter.</p></noscript>
+
+</main>
+<footer class="site"><div class="wrap">
+<p><strong>Appeal My Denial</strong> reads your health insurance denial letter, explains it in plain words, and drafts your appeal for you to review and send.</p>
+<p>This site gives general information, not legal or medical advice. Rules change and every plan is different; check your own letter and plan documents. Free help: your state insurance department's consumer line, or for Medicare, your <a href="https://www.shiphelp.org/">State Health Insurance Assistance Program</a>.</p>
+<p><a href="/guides/">Guides</a> · <a href="/deadline/">Deadline calculator</a> · <a href="/states/">External review by state</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
+<p>© 2026 Virtual Marketing Consultants, Inc.</p>
+</div></footer>
+</body></html>

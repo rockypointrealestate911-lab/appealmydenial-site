@@ -1,0 +1,105 @@
+{
+  "version": "2026-10-04",
+  "note": "Maps X12 Claim Adjustment Reason Codes (CARC) and common consumer-letter phrases to one of six appeal types. Consumer denial letters usually paraphrase rather than print the code; match phrases first, codes second. If more than one type matches, prefer in this order: medical_necessity, prior_auth, out_of_network, not_covered, administrative, timely_filing. If nothing matches, appeal_type = unknown and the app asks the user one question: 'What reason does the letter give?' with the six plain-English choices. Code meanings are from the X12 CARC list; verify wording against x12.org/codes/claim-adjustment-reason-codes before launch.",
+  "appeal_types": [
+    {
+      "id": "administrative",
+      "plain": "Denied for missing or wrong information",
+      "carc": ["16", "4", "11", "18", "31", "22", "27", "58"],
+      "carc_meanings": {
+        "16": "Claim lacks information or has billing errors",
+        "4": "Procedure code inconsistent with modifier or modifier missing",
+        "11": "Diagnosis inconsistent with the procedure",
+        "18": "Exact duplicate claim",
+        "31": "Patient cannot be identified as our insured",
+        "22": "May be covered by another payer (coordination of benefits)",
+        "27": "Expenses incurred after coverage terminated",
+        "58": "Treatment rendered in an inappropriate place of service"
+      },
+      "phrases": ["additional information", "information requested", "incomplete", "coding error", "invalid code", "duplicate", "not eligible on date of service", "other insurance", "coordination of benefits", "member not found"],
+      "who_fixes_it": "Usually the provider's billing office (resubmit a corrected claim). The patient's letter asks the plan to reprocess and copies the provider.",
+      "what_wins": "Supply the missing item or the corrected code; ask for reprocessing rather than a formal appeal where the plan allows it.",
+      "doctor_needed": false,
+      "template": "letter_administrative"
+    },
+    {
+      "id": "timely_filing",
+      "plain": "Denied because the claim was filed late",
+      "carc": ["29"],
+      "carc_meanings": {"29": "The time limit for filing has expired"},
+      "phrases": ["timely filing", "filing limit", "submitted after", "past the filing deadline"],
+      "who_fixes_it": "The provider. In-network providers generally cannot bill the patient for their own late filing; the letter says so and asks the provider to write off or prove timely submission.",
+      "what_wins": "Proof of timely original submission (clearinghouse report), or the provider's contract barring balance billing.",
+      "doctor_needed": false,
+      "template": "letter_timely_filing"
+    },
+    {
+      "id": "prior_auth",
+      "plain": "Denied because approval wasn't obtained first",
+      "carc": ["197", "15", "198", "62"],
+      "carc_meanings": {
+        "197": "Precertification/authorization/notification absent",
+        "15": "Authorization number missing, invalid, or does not apply",
+        "198": "Precertification/notification/authorization exceeded",
+        "62": "Payment denied for absence of, or exceeded, pre-certification/authorization"
+      },
+      "phrases": ["prior authorization", "pre-authorization", "precertification", "authorization not obtained", "referral required", "no referral", "notification not received"],
+      "who_fixes_it": "Patient and provider together. Emergencies never require prior authorization; the letter leads with that when the service was emergency care.",
+      "what_wins": "Emergency exception; retroactive authorization request; showing the provider was responsible for obtaining it; the plan's own failure to respond to a timely request.",
+      "doctor_needed": "sometimes",
+      "template": "letter_prior_auth"
+    },
+    {
+      "id": "not_covered",
+      "plain": "Denied as not a covered benefit",
+      "carc": ["96", "204", "119", "109", "151", "55"],
+      "carc_meanings": {
+        "96": "Non-covered charge",
+        "204": "Service not covered under the patient's current benefit plan",
+        "119": "Benefit maximum for this period has been reached",
+        "109": "Claim not covered by this payer; send to correct payer",
+        "151": "Payment adjusted because the frequency exceeds plan limits",
+        "55": "Procedure deemed experimental or investigational by the payer"
+      },
+      "phrases": ["not a covered benefit", "excluded", "exclusion", "not covered under your plan", "benefit limit", "maximum reached", "experimental", "investigational", "frequency limit"],
+      "who_fixes_it": "Patient. The fight is over the plan document's words.",
+      "what_wins": "Quoting the plan's own coverage language; showing the service fits a different covered category; for 'experimental', showing FDA approval or standard-of-care guidelines (needs the doctor).",
+      "doctor_needed": "only_if_experimental",
+      "template": "letter_not_covered"
+    },
+    {
+      "id": "medical_necessity",
+      "plain": "Denied as not medically necessary",
+      "carc": ["50", "56", "167"],
+      "carc_meanings": {
+        "50": "Non-covered service because it is not deemed a medical necessity by the payer",
+        "56": "Procedure has not been deemed proven to be effective by the payer",
+        "167": "Diagnosis is not covered"
+      },
+      "phrases": ["not medically necessary", "medical necessity", "does not meet criteria", "clinical criteria", "not supported by documentation", "conservative treatment", "step therapy", "lower level of care"],
+      "who_fixes_it": "Patient with the treating doctor. The patient files; the doctor supplies the letter of medical necessity and records.",
+      "what_wins": "A letter of medical necessity that answers the plan's stated criteria point by point, the relevant records, and the plan's own clinical policy quoted back. Ask for a peer-to-peer review between the doctor and the plan's reviewer.",
+      "doctor_needed": true,
+      "template": "letter_medical_necessity"
+    },
+    {
+      "id": "out_of_network",
+      "plain": "Denied or paid less because the provider was out of network",
+      "carc": ["242", "243", "38"],
+      "carc_meanings": {
+        "242": "Services not provided by network/primary care providers",
+        "243": "Services not authorized by network/primary care providers",
+        "38": "Services not provided or authorized by designated (network/primary care) providers"
+      },
+      "phrases": ["out of network", "out-of-network", "non-participating", "non-network", "not in network", "balance bill"],
+      "who_fixes_it": "Patient. Federal No Surprises Act protections apply to emergency care and to out-of-network clinicians at an in-network facility.",
+      "what_wins": "No Surprises Act (emergency; ancillary providers at an in-network facility; air ambulance); network adequacy (no in-network provider available in time or distance); continuity of care.",
+      "doctor_needed": false,
+      "template": "letter_out_of_network"
+    }
+  ],
+  "urgent_flags": {
+    "note": "If any of these appear, the verdict leads with the expedited (72-hour) appeal and a 'call your plan today' line, before anything else.",
+    "phrases": ["ongoing treatment", "hospital discharge", "skilled nursing", "home health", "chemotherapy", "dialysis", "transplant", "continued stay", "concurrent review", "inpatient"]
+  }
+}

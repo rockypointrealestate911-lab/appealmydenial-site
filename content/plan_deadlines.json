@@ -1,0 +1,56 @@
+{
+  "verified_on": "2026-10-04",
+  "note": "Deadline the user has to appeal, counted from the date on the denial notice unless stated. The app always shows the date it computed AND the rule it used, and asks for the notice date if it cannot read one. If the denial letter states its own deadline, show the letter's deadline and this rule side by side.",
+  "plan_types": [
+    {
+      "id": "aca_marketplace",
+      "label": "Marketplace / ACA plan",
+      "appeal_deadline_days": 180,
+      "deadline_runs_from": "receipt of the denial notice",
+      "plan_decides_within": {"urgent": "72 hours", "pre_service": "30 days", "post_service": "60 days"},
+      "next_level": "External review by an independent reviewer (state process or federal HHS process). See external_review_states.json.",
+      "source": "29 CFR 2560.503-1(h)(3)(i) as applied to non-grandfathered individual coverage via 45 CFR 147.136",
+      "source_url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/part-2560/section-2560.503-1"
+    },
+    {
+      "id": "employer",
+      "label": "Plan through my job",
+      "appeal_deadline_days": 180,
+      "deadline_runs_from": "receipt of the denial notice",
+      "plan_decides_within": {"urgent": "72 hours", "pre_service": "30 days (15 per level if two levels)", "post_service": "60 days (30 per level if two levels)"},
+      "next_level": "External review. Fully insured: state process. Self-funded (most large employers): federal process. The denial letter or plan document says which.",
+      "source": "29 CFR 2560.503-1(h)(3)(i) and (i)(2)",
+      "source_url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/part-2560/section-2560.503-1"
+    },
+    {
+      "id": "medicare_advantage",
+      "label": "Medicare Advantage",
+      "appeal_deadline_days": 65,
+      "deadline_runs_from": "the date of the notice",
+      "plan_decides_within": {"expedited": "72 hours", "pre_service": "30 days", "part_b_drug": "7 days", "payment": "60 days"},
+      "next_level": "If the plan upholds a denial, it must automatically forward the case to the Independent Review Entity. The user does not file this step.",
+      "source": "CMS, Reconsideration by the Medicare Advantage (Part C) Health Plan",
+      "source_url": "https://cms.gov/medicare/appeals-grievances/managed-care/reconsideration-advantage-health-plan-part-c"
+    },
+    {
+      "id": "original_medicare",
+      "label": "Original Medicare",
+      "appeal_deadline_days": 120,
+      "deadline_runs_from": "receipt of the Medicare Summary Notice; receipt is presumed 5 days after the notice date, so the app uses notice date + 125 days and shows the date printed on the MSN if one is there",
+      "plan_decides_within": {"redetermination": "60 days"},
+      "next_level": "Reconsideration by a Qualified Independent Contractor (QIC), request within 180 days of the redetermination.",
+      "source": "42 CFR 405.942",
+      "source_url": "https://www.law.cornell.edu/cfr/text/42/405.942"
+    },
+    {
+      "id": "medicaid_managed_care",
+      "label": "Medicaid",
+      "appeal_deadline_days": 60,
+      "deadline_runs_from": "the date on the adverse benefit determination notice",
+      "plan_decides_within": {"standard": "30 days", "expedited": "72 hours"},
+      "next_level": "State fair hearing, after the plan upholds the denial. Deadline set by the state; show 'check your notice'.",
+      "source": "42 CFR 438.402(c)(2)(ii) and 438.408",
+      "source_url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-438/subpart-F/section-438.402"
+    }
+  ]
+}
