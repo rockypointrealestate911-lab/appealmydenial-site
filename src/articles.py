@@ -39,6 +39,20 @@ SRC = {
             "https://x12.org/codes/claim-adjustment-reason-codes"),
     "ship": ("SHIP: State Health Insurance Assistance Programs (free Medicare counseling)",
              "https://www.shiphelp.org/"),
+    "cfr_147136": ('45 CFR 147.136 (internal claims, appeals and external review for job-based and individual plans)',
+                'https://www.law.cornell.edu/cfr/text/45/147.136'),
+    "erisa_lii": ('29 CFR 2560.503-1 (claims procedure, including urgent care claims)',
+                'https://www.law.cornell.edu/cfr/text/29/2560.503-1'),
+    "cfr_438408_lii": ('42 CFR 438.408 (Medicaid managed care appeal timeframes)',
+                'https://www.law.cornell.edu/cfr/text/42/438.408'),
+    "medicare_fast": ('Medicare.gov: Fast appeals',
+                'https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/fast-appeals'),
+    "cms_partd_flow": ('CMS: Medicare Part D (Prescription Drug) appeals process flowchart',
+                'https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/CMS/medicare-part-dmedicareprescriptiondrug-flowchart-042026v508.pdf'),
+    "cms_partd_exceptions": ('CMS: Medicare Part D exceptions',
+                'https://www.cms.gov/medicare/appeals-grievances/prescription-drug/exceptions'),
+    "cfr_156122": ('45 CFR 156.122 (prescription drug benefits and the exceptions process)',
+                'https://www.law.cornell.edu/cfr/text/45/156.122'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -80,7 +94,7 @@ ARTICLES = [
 <p>Not sure what your letter says? Read <a href="/guides/how-to-read-a-denial-letter/">how to read a denial letter</a>.</p>
 
 <h2>Step 3: Decide if it's urgent</h2>
-<p>If waiting could seriously harm your health, for example during ongoing treatment, call your plan today and ask for an <strong>expedited (fast) appeal</strong>. Plans generally have to decide those within 72 hours.</p>
+<p>If waiting could seriously harm your health, for example during ongoing treatment, call your plan today and ask for an <a href="/guides/urgent-expedited-appeal/"><strong>expedited (fast) appeal</strong></a>. Plans generally have to decide those within 72 hours.</p>
 <p class="answer"><strong>On Medicare and being discharged?</strong> If you're being discharged from the hospital, or your skilled nursing, home health or rehab care is ending, don't call your plan. Call the Quality Improvement Organization (QIO) listed on your notice right away. For a hospital discharge, call before you leave the hospital.</p>
 
 <h2>Step 4: Gather what answers the reason</h2>
@@ -95,7 +109,7 @@ ARTICLES = [
 <p>Keep it short and specific. Name the claim, quote the reason, answer it, list what you enclosed, and ask the plan to overturn the denial. Send it to the appeals address on the denial letter, and keep a copy and proof of the date you sent it.</p>
 
 <h2>Step 6: If the plan says no again</h2>
-<p>Most plans have a next level. For Marketplace and many job-based plans, that's an <a href="/guides/external-review/">independent external review</a>, where reviewers outside your insurance company decide. In Medicare Advantage, a denial of a medical service that the plan upholds is sent on to an independent reviewer automatically. For prescription drugs, you have to request it yourself. <a href="/states/">Find your state's program</a>.</p>
+<p>Most plans have a next level. For Marketplace and many job-based plans, that's an <a href="/guides/external-review/">independent external review</a>, where reviewers outside your insurance company decide. In Medicare Advantage, a denial of a medical service that the plan upholds is sent on to an independent reviewer automatically. For <a href="/guides/prescription-drug-denial/">prescription drugs</a>, you have to request it yourself. <a href="/states/">Find your state's program</a>.</p>
 """,
 "faq": [
 ("How long do I have to appeal a health insurance denial?",
@@ -572,7 +586,7 @@ ARTICLES = [
 <ul>
 <li><strong>To file:</strong> generally 4 months from the final internal denial. Some states allow more, such as 6 months or 12 months, and a few allow less. Check your state's page.</li>
 <li><strong>Standard decision:</strong> usually within 45 days.</li>
-<li><strong>Expedited decision:</strong> within 72 hours when waiting could seriously jeopardize your health. You can request it at the same time as an urgent internal appeal.</li>
+<li><strong>Expedited decision:</strong> within 72 hours when waiting could seriously jeopardize your health. You can request it at the same time as an <a href="/guides/urgent-expedited-appeal/">urgent internal appeal</a>.</li>
 </ul>
 
 <h2>The federal process</h2>
@@ -595,5 +609,130 @@ ARTICLES = [
 ],
 "related": ["aca-marketplace-appeal", "employer-plan-appeal", "not-medically-necessary-denial"],
 "sources": ["hcgov_external", "cms_ext", "erisa"],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'urgent-expedited-appeal',
+"tags": ['start'],
+"reviewed": ('2026-10-19', 'October 19, 2026'),
+"title": 'Urgent Insurance Appeal: How to Get a Decision in 72 Hours',
+"h1": 'How to get an urgent (expedited) appeal',
+"desc": "If waiting for a normal appeal could harm your health, you can ask for an expedited appeal. Most plans must decide within 72 hours. Here's how to ask.",
+"minutes": 6,
+"short": "<p><strong>Short answer:</strong> If waiting weeks for a decision could seriously harm your life, health, or recovery, call your plan and say: <strong>“I'm requesting an expedited appeal.”</strong> Job-based, Marketplace, Medicare Advantage, Medicare drug and Medicaid managed care plans generally have to decide urgent appeals within <strong>72 hours</strong>. Ask your doctor to back the request. In job-based and Marketplace plans, if a doctor who knows your condition says it's urgent, the plan must treat it as urgent.</p>",
+"body": """
+<p class="answer"><strong>Is your health in danger right now?</strong> An appeal is not emergency care. Call 911 or go to the nearest emergency room. Sort out the insurance afterward.</p>
+
+<h2>What counts as urgent</h2>
+<p>A standard appeal can take weeks: often up to 30 days, or up to 60 for a bill you already received. You can ask for a fast one when the normal timeline could seriously jeopardize your life, your health, or your ability to regain maximum function. In job-based and Marketplace plans, a request also counts as urgent when a doctor who knows your condition says waiting would leave you in severe pain that can't be managed without the care.</p>
+<p>Common examples are a cancer treatment or surgery that can't wait, a medication you'd otherwise have to stop, or care that's being cut off partway through.</p>
+<p>You don't have to prove it alone. The rules give your doctor's opinion real weight:</p>
+<ul>
+<li><strong>Job-based and Marketplace plans:</strong> if a physician with knowledge of your medical condition says your claim involves urgent care, the plan must treat it as urgent.</li>
+<li><strong>Medicare Advantage:</strong> if a physician requests the expedited appeal, the plan is required to expedite it.</li>
+</ul>
+
+<h2>How fast your plan has to decide</h2>
+<ul>
+<li><strong>Job-based and Marketplace plans:</strong> urgent appeals are decided within 72 hours. If you go on to an independent external review, an expedited external review is also decided within 72 hours.</li>
+<li><strong>Medicare Advantage (medical services and Part B drugs):</strong> expedited appeals are decided within 72 hours. If the plan says no, it must send your case to an independent reviewer automatically.</li>
+<li><strong>Medicare prescription drug (Part D) plans:</strong> an urgent request for a drug is decided within 24 hours, and an expedited appeal of a denial is decided within 72 hours.</li>
+<li><strong>Medicaid managed care:</strong> expedited appeals are decided within 72 hours. The plan can extend that by up to 14 days if you ask, or if it shows the state that it needs more information and that the delay is in your interest.</li>
+<li><strong>Original Medicare:</strong> the main fast-appeal process is for when covered care is ending. See the next section.</li>
+</ul>
+
+<h2>Medicare: care ending too soon</h2>
+<p>If you have Original Medicare and you're being discharged from the hospital, or your skilled nursing, home health, comprehensive outpatient rehabilitation facility (CORF) or hospice care is ending, use the <strong>fast appeal</strong> to the Beneficiary and Family Centered Care Quality Improvement Organization (BFCC-QIO), not a regular appeal. Follow the instructions on the notice you were given.</p>
+<ul>
+<li><strong>Hospital:</strong> ask no later than the day you're scheduled to be discharged. If you ask on time, you can stay in the hospital while the QIO reviews it, and you won't pay for that time except your usual coinsurance or deductibles.</li>
+<li><strong>Other care:</strong> ask no later than noon the day before the end date on your notice.</li>
+</ul>
+<p>If you're in a Medicare Advantage plan, different rules apply. Ask your plan for an appeal, and follow the instructions on any notice it gives you.</p>
+
+<h2>How to ask, step by step</h2>
+<ol>
+<li><strong>Call the plan.</strong> Use the appeals or member services number on your denial letter or ID card. Say the words “expedited appeal” or “urgent appeal.” In job-based, Marketplace and Medicare Advantage plans, you can make an expedited request by phone instead of in writing.</li>
+<li><strong>Get your doctor involved the same day.</strong> Ask the office to call or fax the plan saying that waiting could seriously jeopardize your health, and why. In job-based and Marketplace plans, a health care professional who knows your condition can act for you on an urgent claim.</li>
+<li><strong>Write down everything.</strong> Get the date and time, the name of the person you spoke to, and a reference number. Note when the 72 hours run out.</li>
+<li><strong>Send the papers fast.</strong> Fax or upload the denial letter and your doctor's statement, and keep proof of when you sent them. In job-based and Marketplace plans, if the plan needs more information on an urgent request, it has to tell you within 24 hours and give you at least 48 hours to provide it.</li>
+<li><strong>If the plan says no, go to the next level right away.</strong> For most job-based and Marketplace plans and most medical-necessity denials, you can ask for an <a href="/guides/external-review/">expedited external review</a> as soon as you've filed an expedited internal appeal; you don't have to wait for the plan's answer. <a href="/states/">Find your state's program</a>.</li>
+</ol>
+
+<h2>If treatment you're already getting is being cut off</h2>
+<p>In job-based and Marketplace plans, benefits for an ongoing course of treatment can't be reduced or ended without advance notice and a chance to appeal first. If you get notice that ongoing treatment will stop, appeal right away and ask for it to continue while the appeal is decided.</p>
+
+<h2>If it isn't urgent</h2>
+<p>If the plan decides your request doesn't qualify, it's handled as a standard appeal. Your appeal deadline still applies, so <a href="/deadline/">check your deadline</a> and keep going.</p>
+""",
+"faq": [('How long does an expedited insurance appeal take?', 'Generally no more than 72 hours for job-based, Marketplace, Medicare Advantage, Medicare Part D and Medicaid managed care plans. Some plans can extend that in limited cases.'), ('Can I ask for an urgent appeal by phone?', 'Yes for job-based, Marketplace and Medicare Advantage plans: expedited requests can be made by phone or in writing. Write down the date, the person you spoke to, and a reference number.'), ('Who decides whether my appeal is urgent?', "Your doctor's opinion carries a lot of weight. In job-based and Marketplace plans, if a physician who knows your condition says the claim is urgent, the plan must treat it that way. In Medicare Advantage, if a physician asks for the expedited appeal, the plan must expedite it.")],
+"related": ['how-to-appeal-a-health-insurance-denial', 'external-review', 'medicare-advantage-appeal'],
+"sources": ['erisa_lii', 'cfr_147136', 'cms_partc', 'cms_partd_flow', 'cfr_438408_lii', 'medicare_fast'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'prescription-drug-denial',
+"tags": ['reason:drug'],
+"reviewed": ('2026-10-19', 'October 19, 2026'),
+"title": 'Prescription Drug Denied? How to Get a Formulary Exception',
+"h1": 'Prescription drug denied: how to ask for an exception',
+"desc": "Your plan won't cover a drug, or wants you to try a cheaper one first? Ask for an exception. Many plans must decide within 72 hours, or 24 if it's urgent.",
+"minutes": 6,
+"short": "<p><strong>Short answer:</strong> Ask your plan for an <strong>exception</strong>, and have your prescriber send a statement saying why you need this drug. Marketplace plans must decide within <strong>72 hours</strong>, or <strong>24 hours</strong> when your health is at serious risk, and if they say no you can ask for an independent review on the same timeline. Medicare drug plans decide exception requests within 72 hours, or 24 hours when expedited, counted from when they get your prescriber's statement.</p>",
+"body": """
+<h2>Why drug claims get denied</h2>
+<p>Most drug denials aren't a final “no.” They usually mean one of these:</p>
+<ul>
+<li><strong>Not on the formulary:</strong> the drug isn't on the plan's list of covered drugs.</li>
+<li><strong>Prior authorization:</strong> the plan wants approval before it pays.</li>
+<li><strong>Step therapy:</strong> the plan wants you to try a different drug first.</li>
+<li><strong>Quantity limit:</strong> the plan covers less than your prescription calls for.</li>
+<li><strong>Higher cost tier:</strong> the drug is covered, but at a cost you can't afford.</li>
+</ul>
+<p>In Medicare drug plans, every one of these can be challenged with an exception request backed by your prescriber. In Marketplace plans, the exception process covers drugs that aren't on the list; for the others, file a regular appeal.</p>
+
+<h2>Marketplace plans and other plans that cover essential health benefits</h2>
+<p>Plans that must cover essential health benefits (most individual and small-group plans, including Marketplace plans) have to offer an exceptions process for drugs they don't otherwise cover. You, someone acting for you, or your prescriber can make the request.</p>
+<ul>
+<li><strong>Standard request:</strong> the plan must decide and tell you within 72 hours. If it approves, it must cover the drug for the length of the prescription, including refills.</li>
+<li><strong>Urgent request:</strong> say it's urgent when you ask. When your health condition may seriously jeopardize your life, health, or ability to regain maximum function, or you're in the middle of a course of treatment with the drug, the plan must decide within 24 hours. An approval lasts as long as the urgent situation does.</li>
+<li><strong>If the plan says no:</strong> you can have the denial reviewed by an independent review organization, which must decide within 72 hours, or 24 hours for an urgent request.</li>
+<li><strong>Your costs count:</strong> if an exception is granted, what you pay for the drug counts toward the plan's annual out-of-pocket maximum.</li>
+</ul>
+<p>Small-employer plans generally follow the same rules. Large or self-funded employer plans may not, so ask the plan what exception process it uses. You can always file a regular appeal. You generally have at least 180 days to appeal, and urgent appeals are decided within 72 hours. <a href="/guides/employer-plan-appeal/">How to appeal a job-based plan</a>.</p>
+
+<h2>Medicare drug plans (Part D)</h2>
+<p>In Medicare, you ask the plan for a <strong>coverage determination</strong>. That includes two kinds of exceptions:</p>
+<ul>
+<li><strong>Formulary exception:</strong> to get a drug that isn't on the plan's list, or to waive a rule on a covered drug, such as step therapy, prior authorization, or a quantity limit.</li>
+<li><strong>Tiering exception:</strong> to get a non-preferred drug at the lower cost of a preferred tier.</li>
+</ul>
+<p>Your prescriber has to send the plan a supporting statement, either by phone or in writing. The plan's clock starts when it receives that statement, so ask the office to send it the same day you make the request.</p>
+<ul>
+<li><strong>Decision:</strong> within 72 hours for a standard request, or 24 hours for an expedited one. Requests to be paid back for a drug you already bought are decided within 14 days.</li>
+<li><strong>If the plan says no:</strong> ask the plan for a <strong>redetermination</strong> within 65 days of the notice. It's decided within 7 days (14 days if you already paid), or 72 hours if expedited.</li>
+<li><strong>Next level:</strong> if the plan still says no, you can ask for review by an independent review entity, which decides within 7 days, or 72 hours if expedited. Unlike medical services in Medicare Advantage, drug denials generally are not sent there automatically; you usually have to ask.</li>
+</ul>
+
+<h2>What your prescriber's statement should say</h2>
+<p>A strong statement answers the plan's reason directly. Ask your doctor to cover whichever of these apply:</p>
+<ul>
+<li>The covered or preferred drugs would not be as effective for you, would cause side effects, or both.</li>
+<li>Which drugs you've already tried, the dates, and what happened.</li>
+<li>Why the dose or quantity prescribed is medically necessary.</li>
+<li>Whether waiting could seriously harm your health. If so, ask for an expedited decision.</li>
+</ul>
+
+<h2>Step by step</h2>
+<ol>
+<li>Find the exact reason on the denial or pharmacy notice: not covered, prior authorization, step therapy, quantity, or tier.</li>
+<li>Call the plan, or use its online form, and ask for an exception. Say “expedited” if waiting could hurt you. If it's truly urgent, read <a href="/guides/urgent-expedited-appeal/">how to get an urgent appeal</a>.</li>
+<li>Ask your prescriber to send the supporting statement the same day.</li>
+<li>Write down the date, the person you spoke to, and a reference number, and note when the decision is due.</li>
+<li>If the answer is no, appeal right away, and <a href="/deadline/">check your deadline</a>.</li>
+</ol>
+""",
+"faq": [('How long does a formulary exception take?', "Marketplace plans must decide within 72 hours, or 24 hours for urgent requests. Medicare drug plans decide within 72 hours, or 24 hours if expedited, counted from when they receive your prescriber's supporting statement."), ('Can I get an exception to step therapy?', "Yes. In Medicare drug plans, a formulary exception can waive step therapy, prior authorization or a quantity limit. Your prescriber's statement should explain why the drugs you're asked to try first wouldn't work as well for you or would cause side effects."), ('What if my exception request is denied?', 'Appeal. In Marketplace plans you can ask for an independent review, decided within 72 hours, or 24 for urgent requests. In Medicare drug plans, ask for a redetermination within 65 days of the notice.')],
+"related": ['prior-authorization-denial', 'urgent-expedited-appeal', 'medicare-advantage-appeal'],
+"sources": ['cfr_156122', 'cms_partd_exceptions', 'cms_partd_flow', 'erisa_lii'],
 },
 ]

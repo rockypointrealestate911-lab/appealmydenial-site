@@ -184,9 +184,9 @@ def faq_ld(faq):
             "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
 
 
-def article_ld(title, desc, path):
+def article_ld(title, desc, path, iso=REVIEWED_ISO):
     return {"@context": "https://schema.org", "@type": "Article", "headline": title[:110], "description": desc,
-            "datePublished": REVIEWED_ISO, "dateModified": REVIEWED_ISO, "mainEntityOfPage": BASE + path,
+            "datePublished": iso, "dateModified": iso, "mainEntityOfPage": BASE + path,
             "image": OG_IMAGE, "author": ORG, "publisher": ORG, "inLanguage": "en-US"}
 
 
@@ -210,13 +210,13 @@ for a in ARTICLES:
     path = f"/guides/{a['slug']}/"
     trail = [("Home", "/"), ("Guides", "/guides/"), (a["h1"], path)]
     body = (crumbs_html(trail) + f"<article><h1>{esc(a['h1'])}</h1>"
-            f'<p class="meta">Reviewed {REVIEWED} · {a["minutes"]} min read</p>'
+            f'<p class="meta">Reviewed {a.get("reviewed", (REVIEWED_ISO, REVIEWED))[1]} · {a["minutes"]} min read</p>'
             f'<div class="answer">{a["short"]}</div>{a["body"]}'
             + next_box(a["related"]) + faq_html(a["faq"]) + cta(a["slug"]) + sources_html(a["sources"]) + "</article>")
     write(f"guides/{a['slug']}/index.html",
           page(path, a["title"], a["desc"], body,
-               [article_ld(a["title"], a["desc"], path), crumbs_ld(trail), faq_ld(a["faq"])]))
-    urls.append((path, "0.8"))
+               [article_ld(a["title"], a["desc"], path, a.get("reviewed", (REVIEWED_ISO, REVIEWED))[0]), crumbs_ld(trail), faq_ld(a["faq"])]))
+    urls.append((path, "0.8", a.get("reviewed", (REVIEWED_ISO, REVIEWED))[0]))
 
 
 # ---------------- guides hub ----------------
@@ -468,7 +468,7 @@ urls += [("/privacy", "0.2"), ("/terms", "0.2")]
 # ---------------- css, sitemap, robots ----------------
 write("assets/site.css", CSS.strip() + "\n")
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-sm += [f"<url><loc>{BASE}{p}</loc><lastmod>{REVIEWED_ISO}</lastmod><priority>{pr}</priority></url>" for p, pr in urls]
+sm += [f"<url><loc>{BASE}{u[0]}</loc><lastmod>{u[2] if len(u) > 2 else REVIEWED_ISO}</lastmod><priority>{u[1]}</priority></url>" for u in urls]
 sm.append("</urlset>")
 write("sitemap.xml", "\n".join(sm) + "\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /data/\nDisallow: /samples/\n\nSitemap: {BASE}/sitemap.xml\n")
