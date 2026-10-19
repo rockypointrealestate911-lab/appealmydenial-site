@@ -17,12 +17,12 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] not-covered-denial (2026-10-04)
 - [x] out-of-network-denial (2026-10-04)
 - [x] external-review (2026-10-04)
+- [x] urgent-expedited-appeal (2026-10-19)
+- [x] prescription-drug-denial (2026-10-19) — covers formulary exceptions, step therapy, Part D drug denials
 
 ## Priority 1 — high search intent, clear pain point
-- [ ] Expedited (urgent) appeals: when you qualify and how to ask for a 72-hour decision
 - [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act
 - [ ] Mental health or substance use treatment denied: parity rules and how to use them
-- [ ] Prescription drug denied: formulary exceptions, step therapy and prior auth for drugs
 - [ ] GLP-1 drug denied (Ozempic, Wegovy, Mounjaro, Zepbound): what the plan must tell you and how to appeal
 - [ ] Step therapy ("fail first") denials: exceptions and state protections
 - [ ] Medicare Part D drug denial: coverage determination, redetermination and the IRE
