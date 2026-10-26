@@ -19,14 +19,14 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] external-review (2026-10-04)
 - [x] urgent-expedited-appeal (2026-10-19)
 - [x] prescription-drug-denial (2026-10-19) — covers formulary exceptions, step therapy, Part D drug denials
+- [x] mental-health-parity-denial (2026-10-26)
+- [x] glp1-drug-denial (2026-10-26)
+- [x] experimental-investigational-denial (2026-10-26)
 
 ## Priority 1 — high search intent, clear pain point
-- [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act
-- [ ] Mental health or substance use treatment denied: parity rules and how to use them
-- [ ] GLP-1 drug denied (Ozempic, Wegovy, Mounjaro, Zepbound): what the plan must tell you and how to appeal
-- [ ] Step therapy ("fail first") denials: exceptions and state protections
-- [ ] Medicare Part D drug denial: coverage determination, redetermination and the IRE
-- [ ] "Experimental or investigational" denials
+- [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act — SKIPPED 2026-10-26: overlaps prior-authorization-denial (no PA for emergencies, prudent layperson) and out-of-network-denial (No Surprises Act); extend those instead (changes to existing guides need Joe's review)
+- [ ] Step therapy ("fail first") denials: exceptions and state protections — SKIPPED 2026-10-26: mostly overlaps prescription-drug-denial; only the state-law part is new
+- [ ] Medicare Part D drug denial: coverage determination, redetermination and the IRE — SKIPPED 2026-10-26: overlaps prescription-drug-denial
 - [ ] Denied because of a coding or billing error: how to get the provider to fix and resubmit
 - [ ] Timely filing denials: what you can and cannot do
 - [ ] Peer-to-peer review: what it is and how to ask your doctor to request one
