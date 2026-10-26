@@ -53,6 +53,88 @@ SRC = {
                 'https://www.cms.gov/medicare/appeals-grievances/prescription-drug/exceptions'),
     "cfr_156122": ('45 CFR 156.122 (prescription drug benefits and the exceptions process)',
                 'https://www.law.cornell.edu/cfr/text/45/156.122'),
+    "dol_mh": ('DOL: Mental Health Benefits (Mental Health Parity and Addiction Equity Act)',
+               'https://www.dol.gov/general/topic/health-plans/mental'),
+    "cfr_2590712": ('29 CFR 2590.712 (parity in mental health and substance use disorder benefits)',
+                    'https://www.law.cornell.edu/cfr/text/29/2590.712'),
+    "usc_1185a": ('29 U.S.C. 1185a (parity in mental health and substance use disorder benefits)',
+                  'https://www.law.cornell.edu/uscode/text/29/1185a'),
+    "hcgov_mh": ('HealthCare.gov: Mental health and substance abuse coverage',
+                 'https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage/'),
+    "kff_parity": ('KFF: Mental Health Parity at a Crossroads',
+                   'https://www.kff.org/mental-health/issue-brief/mental-health-parity-at-a-crossroads/'),
+    "medicaid_parity": ('Medicaid.gov: Parity for Mental Health and Substance Use Disorder Benefits',
+                        'https://medicaid.gov/medicaid/managed-care/guidance/parity-for-mental-health-and-substance-use-disorder-benefits'),
+    "cms_nonfed": ('CMS: MHPAEA and Non-Federal Governmental Plans (2019 presentation)',
+                   'https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/CMS/Non-Federal-Governmental-Plans-MHPAEA-Presentation-6-4-19.pdf'),
+    "dol_parity_kyr": ('DOL/SAMHSA: Know Your Rights — Parity for Mental Health and Substance Use Disorder Benefits',
+                       'https://dol.gov/sites/dolgov/files/ebsa/pdf_files/know-your-rights-parity-for-mental-health-and-substance-use-disorder-benefits.pdf'),
+    "dol_faq45": ('DOL/HHS/Treasury: FAQs About Mental Health and Substance Use Disorder Parity Implementation, Part 45',
+                  'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/aca-part-45'),
+    "dol_parity_2024": ('DOL Fact Sheet: Final Rules under the Mental Health Parity and Addiction Equity Act (2024)',
+                        'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/final-rules-under-the-mental-health-parity-and-addiction-equity-act-mhpaea'),
+    "dol_parity_enf": ('DOL/HHS/Treasury: Statement Regarding Enforcement of the 2024 MHPAEA Final Rule (May 15, 2025)',
+                       'https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/mental-health-parity/statement-regarding-enforcement-of-the-final-rule-on-requirements-related-to-mhpaea'),
+    "ebsa_pao": ('EBSA: Participant Assistance and Outreach Program fact sheet',
+                 'https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/fact-sheets/participant-assistance-and-outreach-program.pdf'),
+    "dol_warning": ('DOL/CMS: Warning Signs — Plan or Policy NQTLs That Require Additional Analysis',
+                    'https://www.hhs.gov/guidance/sites/default/files/hhs-guidance-documents/CMS/MHAPEAChecklistWarningSigns.pdf'),
+    "ebsa_filing": ('EBSA: Filing a Claim for Your Health Benefits',
+                    'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/filing-a-claim-for-your-health-benefits'),
+    "fda_ozempic": ('FDA: Ozempic (semaglutide) prescribing information (rev. 10/2025)',
+                    'https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s035,209637s037lbl.pdf'),
+    "fda_wegovy": ('FDA: Wegovy (semaglutide) prescribing information (rev. 08/2025)',
+                   'https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf'),
+    "fda_mounjaro": ('FDA: Mounjaro (tirzepatide) prescribing information (rev. 01/2026)',
+                     'https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215866s041lbl.pdf'),
+    "fda_zepbound": ('FDA: Zepbound (tirzepatide) prescribing information (rev. 04/2026)',
+                     'https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806Orig1s050lbl.pdf'),
+    "cms_partd_ch6": ('CMS: Medicare Prescription Drug Benefit Manual, Chapter 6 (Part D drugs and formulary requirements)',
+                      'https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/part-d-benefits-manual-chapter-6.pdf'),
+    "cms_bridge_faq": ('CMS: Medicare GLP-1 Bridge — Expectations and FAQs for Part D Sponsors (June 2026)',
+                       'https://www.cms.gov/files/document/medicare-glp-1-bridge-expectations-faqs.pdf'),
+    "cms_bridge": ('CMS: Medicare GLP-1 Bridge',
+                   'https://www.cms.gov/medicare/coverage/prescription-drug-coverage/medicare-glp-1-bridge'),
+    "medicare_wl": ('Medicare.gov: Weight-loss drugs',
+                    'https://www.medicare.gov/coverage/weight-loss-drugs'),
+    "kff_bridge": ('KFF: CMS Extends Medicare’s Short-Term Bridge Program for GLP-1 Obesity Drug Coverage (Apr 2026)',
+                   'https://www.kff.org/quick-insights/cms-extends-medicares-short-term-bridge-program-for-glp-1-obesity-drug-coverage/'),
+    "kff_medicaid_glp1": ('KFF: Medicaid Coverage of and Spending on GLP-1s (Jan 2026)',
+                          'https://www.kff.org/medicaid/medicaid-coverage-of-and-spending-on-glp-1s/'),
+    "kff_ehbs2026": ('KFF: 2026 Employer Health Benefits Survey',
+                     'https://www.kff.org/health-costs/2026-employer-health-benefits-survey/'),
+    "kff_mkt_glp1": ('KFF: Costly GLP-1 Drugs Are Rarely Covered for Weight Loss by Marketplace Plans (June 2024)',
+                     'https://www.kff.org/affordable-care-act/costly-glp-1-drugs-are-rarely-covered-for-weight-loss-by-marketplace-plans/'),
+    "fda_glp1_compound": ('FDA: FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize',
+                          'https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize'),
+    "erisa_ecfr": ('29 CFR 2560.503-1 (ERISA claims procedure, eCFR)',
+                   'https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XXV/subchapter-G/part-2560/section-2560.503-1'),
+    "usc_300gg8": ('42 U.S.C. 300gg-8 (coverage for individuals in approved clinical trials)',
+                   'https://www.law.cornell.edu/uscode/text/42/300gg-8'),
+    "dol_faq15": ('DOL: FAQs about Affordable Care Act Implementation (Part XV) — clinical trials',
+                  'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/aca-part-15'),
+    "ncd_3101": ('CMS: National Coverage Determination 310.1, Routine Costs in Clinical Trials',
+                 'https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=1'),
+    "medicare_trials": ('Medicare.gov: Clinical research study coverage',
+                        'https://www.medicare.gov/coverage/clinical-research-studies'),
+    "lcd_33394": ('CMS Medicare Coverage Database: LCD L33394, Drugs and Biologicals, Coverage of, for Label and Off-Label Uses',
+                  'https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33394'),
+    "fda_offlabel": ('FDA: Understanding Unapproved Use of Approved Drugs “Off Label”',
+                     'https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label'),
+    "cfr_147136_ecfr": ('45 CFR 147.136 (internal claims and appeals and external review, eCFR)',
+                        'https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.136'),
+    "kff_trumprx": ('KFF: TrumpRx — What’s the Value for Customers? (Feb 2026)',
+                    'https://www.kff.org/patient-consumer-protections/trumprx-whats-the-value-for-customers/'),
+    "medicare_partb": ('Medicare.gov: What Part B covers',
+                       'https://www.medicare.gov/providers-services/original-medicare/part-b'),
+    "samhsa_988": ('SAMHSA: 988 Suicide & Crisis Lifeline',
+                   'https://www.samhsa.gov/mental-health/988'),
+    "cms_optout": ('CMS: Sunset of the MHPAEA opt-out for self-funded non-federal governmental plans (bulletin)',
+                   'https://www.cms.gov/files/document/hipaa-opt-out-bulletin.pdf'),
+    "ny_dfs_ext": ('New York Department of Financial Services: External Appeal',
+                   'https://www.dfs.ny.gov/complaints/file_external_appeal'),
+    "ca_cdi_imr": ('California Department of Insurance: Independent Medical Review Program',
+                   'https://www.insurance.ca.gov/01-consumers/101-help/Independent-Medical-Review-Program.cfm'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -464,6 +546,7 @@ ARTICLES = [
 
 <h2>If the plan says no again</h2>
 <p>Medical necessity denials are exactly what <a href="/guides/external-review/">independent external review</a> is for. In Medicare Advantage, the plan sends upheld denials of medical services to an independent reviewer automatically.</p>
+<p>Denied mental health or substance use treatment? See <a href="/guides/mental-health-parity-denial/">how to use parity rules</a>.</p>
 """,
 "faq": [
 ("What is a letter of medical necessity?",
@@ -502,7 +585,7 @@ ARTICLES = [
 <li><strong>Wrong category.</strong> The service may be covered under a different benefit. For example, a device may be excluded under one heading but covered as part of treatment under another.</li>
 <li><strong>Exception language.</strong> Many exclusions carry exceptions, such as "except when medically necessary for…" Quote them.</li>
 <li><strong>Limit miscounted.</strong> For "maximum reached," ask for the count of visits or units the plan applied and check it against your records.</li>
-<li><strong>"Experimental" that isn't.</strong> If the treatment is FDA-approved for your condition or is standard care under medical guidelines, your doctor's letter should say so and cite the evidence.</li>
+<li><strong>"Experimental" that isn't.</strong> If the treatment is FDA-approved for your condition or is standard care under medical guidelines, your doctor's letter should say so and cite the evidence. <a href="/guides/experimental-investigational-denial/">How to appeal an “experimental” denial</a>.</li>
 </ul>
 
 <h2>Be realistic</h2>
@@ -688,7 +771,7 @@ ARTICLES = [
 <li><strong>Quantity limit:</strong> the plan covers less than your prescription calls for.</li>
 <li><strong>Higher cost tier:</strong> the drug is covered, but at a cost you can't afford.</li>
 </ul>
-<p>In Medicare drug plans, every one of these can be challenged with an exception request backed by your prescriber. In Marketplace plans, the exception process covers drugs that aren't on the list; for the others, file a regular appeal.</p>
+<p>In Medicare drug plans, every one of these can be challenged with an exception request backed by your prescriber. In Marketplace plans, the exception process covers drugs that aren't on the list; for the others, file a regular appeal. Denied a GLP-1 such as Ozempic, Wegovy, Mounjaro or Zepbound? See <a href="/guides/glp1-drug-denial/">GLP-1 drug denials</a>.</p>
 
 <h2>Marketplace plans and other plans that cover essential health benefits</h2>
 <p>Plans that must cover essential health benefits (most individual and small-group plans, including Marketplace plans) have to offer an exceptions process for drugs they don't otherwise cover. You, someone acting for you, or your prescriber can make the request.</p>
@@ -734,5 +817,256 @@ ARTICLES = [
 "faq": [('How long does a formulary exception take?', "Marketplace plans must decide within 72 hours, or 24 hours for urgent requests. Medicare drug plans decide within 72 hours, or 24 hours if expedited, counted from when they receive your prescriber's supporting statement."), ('Can I get an exception to step therapy?', "Yes. In Medicare drug plans, a formulary exception can waive step therapy, prior authorization or a quantity limit. Your prescriber's statement should explain why the drugs you're asked to try first wouldn't work as well for you or would cause side effects."), ('What if my exception request is denied?', 'Appeal. In Marketplace plans you can ask for an independent review, decided within 72 hours, or 24 for urgent requests. In Medicare drug plans, ask for a redetermination within 65 days of the notice.')],
 "related": ['prior-authorization-denial', 'urgent-expedited-appeal', 'medicare-advantage-appeal'],
 "sources": ['cfr_156122', 'cms_partd_exceptions', 'cms_partd_flow', 'erisa_lii'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'mental-health-parity-denial',
+"tags": ['reason:mental_health'],
+"reviewed": ('2026-10-26', 'October 26, 2026'),
+"title": 'Mental Health or Addiction Treatment Denied? Using Parity Rules',
+"h1": 'Mental health or substance use treatment denied: how to use parity rules',
+"desc": "Federal parity law says most plans can't limit mental health and addiction care more strictly than medical care. How to spot a parity problem and appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> Most job-based and individual health plans that cover mental health or substance use care can't make that care <strong>harder to get</strong> than comparable medical and surgical care. That covers copays and deductibles, visit and day limits, and rules like prior authorization and medical necessity criteria. Appeal the denial, and ask the plan in writing for the <strong>medical necessity criteria</strong> it used and its <strong>comparison</strong> of how those rules apply to medical care. Denials based on medical judgment can go to an independent external review.</p>",
+"body": """
+<p class="answer"><strong>In crisis right now?</strong> Call or text 988, the Suicide &amp; Crisis Lifeline, or call 911. Sort out the insurance afterward.</p>
+
+<h2>What “parity” means</h2>
+<p>The federal Mental Health Parity and Addiction Equity Act (MHPAEA) doesn't require a plan to cover mental health or substance use disorder care. But if a plan does cover it, the limits it puts on that care can't be more restrictive than the predominant limits it puts on medical and surgical care in the same category, such as inpatient, outpatient, emergency care or prescription drugs. Marketplace plans have to cover mental health and substance use services as essential health benefits.</p>
+<p>Parity applies to three kinds of limits:</p>
+<ul>
+<li><strong>Money limits (financial requirements):</strong> deductibles, copayments, coinsurance and out-of-pocket maximums.</li>
+<li><strong>Number limits (quantitative treatment limitations):</strong> caps on the number of visits or days covered.</li>
+<li><strong>Rule-based limits (nonquantitative treatment limitations):</strong> things like prior authorization, medical necessity criteria, “fail first” rules and network standards. The plan's processes, evidence and standards for these have to be comparable to, and applied no more strictly than, those it uses for medical and surgical care.</li>
+</ul>
+<p>That third group is where most real-world disputes happen. A plan can require prior authorization for therapy. What it can't do is use a stricter process for mental health care than it uses for comparable medical care.</p>
+
+<h2>Which plans have to follow parity</h2>
+<ul>
+<li><strong>Most job-based plans,</strong> including self-funded plans of larger employers. Self-insured employer plans covering 50 or fewer employees are exempt.</li>
+<li><strong>Individual and small-group insurance,</strong> including Marketplace plans.</li>
+<li><strong>Medicaid managed care, CHIP, and Medicaid Alternative Benefit Plans.</strong> If you have Medicaid, use your state's process: <a href="/guides/medicaid-appeal/">how to appeal a Medicaid denial</a>. These parity rules generally don't reach other Medicaid behavioral health services paid fee-for-service.</li>
+<li><strong>State and local government employer plans.</strong> Self-funded plans used to be able to opt out of parity, but new opt-outs ended in December 2022 and existing ones could not be renewed after June 2023 (some plans under union contracts can keep one until the last contract ends). CMS, not the Department of Labor, handles parity for these plans.</li>
+</ul>
+<p>Other exceptions include retiree-only plans. <strong>Medicare is not covered by the parity law</strong>, either Original Medicare or Medicare Advantage. Medicare denials still have their own appeal rights: <a href="/guides/medicare-advantage-appeal/">Medicare Advantage</a> or <a href="/guides/original-medicare-appeal/">Original Medicare</a>.</p>
+
+<h2>Signs a denial might be a parity problem</h2>
+<p>Federal regulators publish a list of “warning signs”: plan rules that call for a closer look to see whether they meet parity. These are not automatic violations. They are signals that the plan should be able to show it treats medical care the same way. Examples from that list:</p>
+<ul>
+<li>Requiring preauthorization for <strong>all</strong> mental health or substance use care.</li>
+<li>Requiring that you first fail to make progress in less-intensive outpatient care before intensive outpatient treatment is covered.</li>
+<li>Requiring a likelihood of improvement before covering residential treatment.</li>
+<li>Requiring individual treatment plans to be submitted on a regular basis.</li>
+<li>Excluding residential treatment for substance use disorders.</li>
+<li>Geographic limits on mental health or substance use treatment that don't apply to medical care.</li>
+<li>Requiring mental health or substance use facilities to be state-licensed when the plan doesn't require the same of medical facilities.</li>
+</ul>
+<p>Ask yourself: would the plan apply the same rule to a comparable medical service, like a stay in a skilled nursing or rehab facility after surgery? If you can't tell, that's exactly what to ask the plan.</p>
+
+<h2>Your right to see the plan's rules</h2>
+<p>You don't have to guess. You have the right to ask for:</p>
+<ul>
+<li><strong>The medical necessity criteria</strong> for mental health and substance use benefits. The plan has to make them available on request to current or potential members and to contracting providers.</li>
+<li><strong>The reason for the denial</strong>, in writing.</li>
+<li><strong>Your claim documents</strong>, free of charge: all documents, records and other information relevant to your claim.</li>
+<li><strong>The plan's comparative analysis</strong> for job-based plans covered by ERISA: the plan's written comparison of how it designs and applies a rule like prior authorization to mental health care versus medical care. Members, and their authorized representatives, are entitled to it on request.</li>
+</ul>
+<p>Put the request in writing, keep a copy, and note the date you sent it. You can use plain wording like this:</p>
+<p class="answer">“I am requesting, free of charge: (1) the medical necessity criteria used to deny my claim for [service] on [date]; (2) all documents, records and other information relevant to this claim; and (3) the comparative analysis of the nonquantitative treatment limitations applied to this benefit, including how the plan applies the same type of limit to comparable medical/surgical benefits.”</p>
+
+<h2>How to appeal, step by step</h2>
+<ol>
+<li><strong>Find your deadline.</strong> For job-based and Marketplace plans you generally have at least 180 days from receiving the denial to file an internal appeal. Don't wait for the documents you requested to arrive before filing. <a href="/deadline/">Check your deadline</a>.</li>
+<li><strong>Decide if it's urgent.</strong> If you're in residential or inpatient treatment, or waiting could seriously harm your health, ask for an <a href="/guides/urgent-expedited-appeal/">expedited appeal</a>. Urgent appeals are generally decided within 72 hours.</li>
+<li><strong>Answer the stated reason.</strong> Most mental health denials say the care is “not medically necessary” or isn't the right level of care. Ask your clinician for a letter that answers the plan's criteria point by point. <a href="/guides/not-medically-necessary-denial/">What a strong medical necessity appeal includes</a>.</li>
+<li><strong>Raise parity in plain words.</strong> In your appeal letter, say you believe the denial may violate the Mental Health Parity and Addiction Equity Act, name the rule you're challenging (for example, a progress requirement for intensive outpatient care), and ask the plan to show that it applies the same rule to comparable medical care.</li>
+<li><strong>Keep records.</strong> Write down every call: date, name, and reference number.</li>
+<li><strong>If the plan says no again, ask for external review.</strong> Denials that involve medical judgment, including medical necessity and level of care, can go to an <a href="/guides/external-review/">independent external reviewer</a>. You generally have 4 months after the final internal denial. <a href="/states/">Find your state's program</a>.</li>
+</ol>
+
+<h2>Where to get help or complain</h2>
+<ul>
+<li><strong>Job-based plans:</strong> the Department of Labor's Employee Benefits Security Administration (EBSA) has benefits advisors at 1-866-444-3272 or askebsa.dol.gov.</li>
+<li><strong>Insurance bought on your own, or a fully insured employer plan:</strong> your state insurance department generally has authority over the insurer. <a href="/states/">Find your state</a>.</li>
+<li><strong>State and local government employer plans:</strong> CMS handles parity questions and complaints.</li>
+</ul>
+
+<h2>A note on the federal rules in 2026</h2>
+<p>New federal parity rules were issued in September 2024. On May 15, 2025, the Departments of Labor, Health and Human Services, and the Treasury said they would not enforce the parts of that rule that were new while a lawsuit over it is pending, plus 18 months. The Departments have also said they are reconsidering the 2024 rule, so its future is uncertain. The parity law itself, including the 2021 requirement that plans do comparative analyses, and the earlier 2013 rules are still in effect. Your rights described above come from the law and those earlier rules.</p>
+""",
+"faq": [
+("Does parity mean my plan has to cover mental health care?",
+ "The federal parity law itself doesn't require a plan to cover mental health or substance use care. But if it does, the limits can't be stricter than those on comparable medical care. Marketplace plans must cover mental health and substance use services as essential health benefits."),
+("Does the parity law apply to Medicare?",
+ "No. The federal parity law doesn't apply to Original Medicare or Medicare Advantage. You can still appeal a Medicare denial through Medicare's own appeal process."),
+("How do I get the criteria my plan used to deny mental health treatment?",
+ "Ask in writing. Plans must make their medical necessity criteria for mental health and substance use benefits available on request, and must give you free copies of the documents relevant to your claim."),
+],
+"related": ['not-medically-necessary-denial', 'employer-plan-appeal', 'external-review'],
+"sources": ['dol_mh', 'cfr_2590712', 'usc_1185a', 'hcgov_mh', 'kff_parity', 'medicaid_parity', 'cms_nonfed', 'dol_warning', 'dol_parity_kyr', 'dol_faq45', 'erisa_ecfr', 'ebsa_filing', 'hcgov_internal', 'cfr_147136', 'hcgov_external', 'ebsa_pao', 'cms_optout', 'dol_parity_2024', 'dol_parity_enf', 'samhsa_988'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'glp1-drug-denial',
+"tags": ['reason:drug'],
+"reviewed": ('2026-10-26', 'October 26, 2026'),
+"title": 'GLP-1 Denied (Ozempic, Wegovy, Mounjaro, Zepbound)? How to Appeal',
+"h1": 'GLP-1 drug denied: Ozempic, Wegovy, Mounjaro or Zepbound',
+"desc": "Why plans deny GLP-1 drugs, what each one is FDA-approved for, how Medicare's 2026 GLP-1 Bridge works, and how to appeal or ask for an exception.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> First find out <strong>which kind of no</strong> you got. If your plan covers the drug but says you didn't meet its criteria (prior authorization, step therapy, BMI or diagnosis), ask for the written criteria and have your prescriber send the records that meet them. If your plan <strong>excludes</strong> weight-loss drugs, an appeal usually has to show a different covered use, such as diabetes, heart disease risk or sleep apnea. On Medicare, Part D can't cover drugs used for weight loss, but a CMS program called the <strong>Medicare GLP-1 Bridge</strong> covers some of them for $50 a month from July 1, 2026 through December 31, 2027.</p>",
+"body": """
+<h2>Step 1: Find out which kind of “no” it is</h2>
+<p>GLP-1 denials fall into three groups, and each needs a different response:</p>
+<ul>
+<li><strong>Criteria not met.</strong> The plan covers the drug but wants proof first: prior authorization, trying another drug first (step therapy), a certain diagnosis, or weight and BMI records. This is usually fixable with documentation.</li>
+<li><strong>Not on the formulary.</strong> The drug isn't on the plan's list. You can ask for an exception. <a href="/guides/prescription-drug-denial/">How drug exceptions work</a>.</li>
+<li><strong>Excluded benefit.</strong> The plan doesn't cover drugs for weight loss at all. An appeal arguing you need to lose weight usually won't change that. What can work is showing the drug is prescribed for a different, covered condition.</li>
+</ul>
+<p>Read the denial for the exact wording, or call and ask: “Is this drug excluded, or did I not meet the criteria? Please send me the criteria you used.” Job-based plans have to tell you the specific reason, the plan provision they relied on, and what information would complete the claim. They also have to give you, free on request, any internal rule or guideline they used and the documents relevant to your claim.</p>
+
+<h2>Step 2: Match the drug to its FDA-approved use</h2>
+<p>Plans often cover these drugs for some uses and not others, so the diagnosis on the prescription matters. Here's what the FDA has approved each one for:</p>
+<ul>
+<li><strong>Ozempic (semaglutide):</strong> blood sugar control in adults with type 2 diabetes; lowering the risk of major heart events in adults with type 2 diabetes and heart disease; and lowering the risk of kidney decline, kidney failure and cardiovascular death in adults with type 2 diabetes and chronic kidney disease. It is not approved for weight loss.</li>
+<li><strong>Wegovy (semaglutide):</strong> long-term weight management in adults and children 12 and older with obesity, and adults with overweight plus at least one weight-related condition; lowering the risk of heart attack, stroke and cardiovascular death in adults with heart disease and obesity or overweight; and, in adults, a serious liver disease called MASH (without cirrhosis) with moderate to advanced scarring.</li>
+<li><strong>Mounjaro (tirzepatide):</strong> blood sugar control in adults and children 10 and older with type 2 diabetes.</li>
+<li><strong>Zepbound (tirzepatide):</strong> long-term weight management in adults with obesity, or overweight plus at least one weight-related condition; and moderate to severe obstructive sleep apnea in adults with obesity.</li>
+</ul>
+<p>If you have one of these other conditions, make sure your prescriber's request and records say so. A request for Zepbound for sleep apnea, or Wegovy for heart disease risk, can be treated differently from a request for weight loss.</p>
+
+<h2>Job-based and Marketplace plans</h2>
+<p>Coverage for weight loss is far from universal. In KFF's 2026 survey of employers, 18% of firms with 200 or more workers that offer health benefits covered GLP-1s for weight loss. Among those that did, 40% required people to meet with a dietitian, case manager or therapist, or join a lifestyle program. In KFF's look at 2024 HealthCare.gov plans, Wegovy was covered by just 1% of plans' drug lists, and all of the plans that covered GLP-1s approved for obesity required prior authorization.</p>
+<p>What to do:</p>
+<ol>
+<li><strong>Get the criteria.</strong> Ask for the written prior authorization or coverage policy for the drug, then go through it line by line with your prescriber.</li>
+<li><strong>Send the missing pieces.</strong> Common ones: your diagnosis, height, weight and BMI history, related conditions, other drugs you've tried and what happened, and proof of any required lifestyle program.</li>
+<li><strong>If the drug isn't on the list,</strong> plans that must cover essential health benefits (most individual and small-group plans, including Marketplace plans) have to offer an exception process. A standard request is decided within 72 hours, or 24 hours when your health is seriously at risk, and if it's denied you can ask for an independent review.</li>
+<li><strong>Appeal in writing</strong> if the answer is still no. For job-based and Marketplace plans you generally have at least 180 days. <a href="/deadline/">Check your deadline</a>. Denials based on medical judgment can then go to <a href="/guides/external-review/">external review</a>.</li>
+</ol>
+
+<h2>Medicare: what Part D can and can't cover</h2>
+<p>By law, Medicare drug plans (Part D) can't cover drugs when they're used for weight loss, even for obesity. That rule is about the <strong>use</strong>, not the drug. Part D plans must keep covering GLP-1 drugs for uses Medicare can cover, such as type 2 diabetes, Zepbound for moderate to severe sleep apnea in adults with obesity, and Wegovy to lower heart attack and stroke risk in adults with heart disease and obesity or overweight. For those uses, plans follow their normal rules, including prior authorization, and their normal formulary exception process. If your plan denies one of these, ask for a coverage determination and appeal: <a href="/guides/prescription-drug-denial/">how Medicare drug exceptions and appeals work</a>.</p>
+
+<h2>The Medicare GLP-1 Bridge (July 2026 to December 2027)</h2>
+<p>The Medicare GLP-1 Bridge is a short-term CMS program that runs from July 1, 2026 through December 31, 2027. It runs outside the regular Part D benefit. According to Medicare.gov:</p>
+<ul>
+<li><strong>Drugs:</strong> Foundayo tablets, Wegovy injections or tablets, and Zepbound KwikPen. Single-dose Zepbound vials or pens aren't covered.</li>
+<li><strong>Cost:</strong> a $50 copayment for a one-month supply. It doesn't count toward your Part D deductible or out-of-pocket limit.</li>
+<li><strong>Who qualifies:</strong> adults 18 and older with a BMI of 35 or higher; or a BMI of 30 or higher with diastolic heart failure, uncontrolled high blood pressure, or chronic kidney disease stage 3a or higher; or a BMI of 27 or higher with prediabetes, a prior heart attack or stroke, or symptomatic peripheral artery disease.</li>
+<li><strong>Who doesn't:</strong> people already getting a GLP-1 through Part D, and people with type 2 diabetes, moderate to severe sleep apnea, or fatty liver disease. For those conditions, Medicare says your Part D plan might cover your GLP-1.</li>
+<li><strong>Paperwork:</strong> your provider must certify that you're using the drug as part of a lifestyle program. An approval lasts through December 31, 2027, including refills and dose changes, unless you switch to a different GLP-1 drug.</li>
+</ul>
+<p>CMS says the Bridge doesn't change your Part D appeal rights. Medicare.gov doesn't describe a separate appeal process for the Bridge, so if a Bridge request is turned down, call 1-800-MEDICARE and ask what to do next. What happens after 2027 hasn't been announced; CMS has delayed a planned longer-term program called BALANCE, which had been set to start in Part D in January 2027. Free one-on-one help is available from your <a href="https://www.shiphelp.org/" rel="noopener">State Health Insurance Assistance Program (SHIP)</a>.</p>
+
+<h2>Medicaid</h2>
+<p>State Medicaid programs choose whether to cover drugs for weight loss, but they must cover drugs approved for diabetes. KFF counted 13 state Medicaid programs covering GLP-1s for obesity under fee-for-service as of January 2026, and coverage usually comes with prior authorization. Check your state's preferred drug list, and if you're denied, <a href="/guides/medicaid-appeal/">appeal through Medicaid</a>.</p>
+
+<h2>What your prescriber's request should include</h2>
+<ul>
+<li>The diagnosis the drug is being prescribed for, matching an FDA-approved use.</li>
+<li>Your weight, height and BMI history, with dates.</li>
+<li>Related conditions, such as heart disease, sleep apnea, prediabetes or kidney disease, with the records that show them.</li>
+<li>Drugs you've already tried, the dates, and why they didn't work or weren't safe for you.</li>
+<li>Any lifestyle, nutrition or exercise program you're part of.</li>
+<li>Whether stopping or delaying the drug could seriously harm your health. If so, ask for an <a href="/guides/urgent-expedited-appeal/">expedited decision</a>.</li>
+</ul>
+
+<h2>Compounded and cash-price options</h2>
+<p>The FDA declared the shortages of tirzepatide injection (first on October 2, 2024, confirmed December 19, 2024) and semaglutide injection (February 21, 2025) resolved. The FDA notes that compounded drugs are not FDA-approved. If you pay cash through a discount program such as TrumpRx, KFF notes those payments don't count toward your insurance deductible or out-of-pocket maximum.</p>
+""",
+"faq": [
+("Why was Ozempic approved for my friend but denied for me?",
+ "Ozempic is FDA-approved for type 2 diabetes and related heart and kidney risk, not for weight loss. Plans often cover it only with a type 2 diabetes diagnosis. Wegovy and Zepbound are the versions approved for weight management, and many plans exclude or restrict them."),
+("Does Medicare cover Wegovy or Zepbound?",
+ "Part D can't cover drugs used for weight loss, but it can cover Wegovy to lower heart attack and stroke risk in adults with heart disease and obesity or overweight, and Zepbound for moderate to severe sleep apnea. From July 1, 2026 through December 31, 2027, the Medicare GLP-1 Bridge covers Wegovy, Zepbound KwikPen and Foundayo for eligible people for a $50 monthly copay."),
+("Can I appeal if my plan excludes weight-loss drugs?",
+ "You can always appeal, but an exclusion is hard to overturn by arguing you need to lose weight. Ask whether the drug could be covered for another FDA-approved use you have, such as diabetes, heart disease risk or sleep apnea, and have your prescriber document it."),
+],
+"related": ['prescription-drug-denial', 'prior-authorization-denial', 'medicare-advantage-appeal'],
+"sources": ['fda_ozempic', 'fda_wegovy', 'fda_mounjaro', 'fda_zepbound', 'erisa_ecfr', 'cfr_156122', 'hcgov_internal', 'kff_ehbs2026', 'kff_mkt_glp1', 'cms_partd_ch6', 'cms_bridge_faq', 'cms_bridge', 'medicare_wl', 'kff_bridge', 'kff_medicaid_glp1', 'fda_glp1_compound', 'kff_trumprx', 'ship'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'experimental-investigational-denial',
+"tags": ['reason:experimental'],
+"reviewed": ('2026-10-26', 'October 26, 2026'),
+"title": 'Denied as Experimental or Investigational? How to Appeal',
+"h1": 'Denied as “experimental” or “investigational”',
+"desc": "An 'experimental' denial is a medical judgment, and you can challenge it with evidence and an independent review. Plus your clinical trial coverage rights.",
+"minutes": 7,
+"short": "<p><strong>Short answer:</strong> An “experimental or investigational” denial is a <strong>medical judgment</strong>, so you can fight it with evidence. Ask the plan for the clinical reasoning and the policy it used, have your doctor answer it with FDA status, medical guidelines and studies, and appeal. If the plan says no again, most plans' denials of this kind can go to an <strong>independent external review</strong>. If you're in a clinical trial, most plans still have to cover your <strong>routine care</strong>.</p>",
+"body": """
+<h2>What the denial means</h2>
+<p>The plan is saying the treatment, drug or device hasn't been proven enough for it to pay. On a claim, you may see reason code <strong>55</strong>: “Procedure/treatment/drug is deemed experimental/investigational by the payer.” Notice the last words: <em>by the payer</em>. It's the plan's judgment under its own policy, not a final ruling on your treatment.</p>
+<p>Common situations:</p>
+<ul>
+<li><strong>An off-label drug.</strong> The drug is FDA-approved, but for a different condition. Doctors generally may prescribe a drug for an unapproved use when they judge it medically appropriate; the FDA just hasn't reviewed that use.</li>
+<li><strong>A newer test, procedure or device</strong> the plan's policy hasn't caught up with.</li>
+<li><strong>Care connected to a clinical trial.</strong> See the clinical trials section below. You may have more rights than you think.</li>
+</ul>
+
+<h2>What the plan has to tell you</h2>
+<p>For job-based plans, when a denial is based on an experimental-treatment exclusion or medical necessity, the denial notice must either explain the scientific or clinical judgment behind it, applying the plan's terms to your medical situation, or tell you that explanation is available free on request. Ask for it. You can also ask for free copies of all documents, records and other information relevant to your claim, including the medical policy the plan used.</p>
+<p>On appeal, a plan deciding whether something is experimental or investigational must consult a health care professional with appropriate training and experience in that field of medicine. Ask that your appeal be reviewed by a specialist in your condition.</p>
+
+<h2>How to build the appeal</h2>
+<ol>
+<li><strong>Get the plan's policy.</strong> Find the exact language it relied on and the evidence standard it uses.</li>
+<li><strong>Ask your doctor for a detailed letter.</strong> The strongest letters address the plan's reasoning directly and include:
+<ul>
+<li>The treatment's FDA status, and for a drug, whether your use is on the label.</li>
+<li>Medical society guidelines or standard-of-care references that support it for your condition.</li>
+<li>Published studies, with copies or citations.</li>
+<li>Why standard treatments have failed, aren't appropriate, or carry more risk for you.</li>
+</ul></li>
+<li><strong>For an off-label drug, check the compendia.</strong> Medicare contractors decide many off-label drug claims by looking at major drug compendia and medical literature. For example, one Medicare contractor's policy accepts uses rated Category 1 or 2A in the NCCN Drugs and Biologics Compendium. Your doctor can cite these listings for private plans too.</li>
+<li><strong>File on time.</strong> Job-based and Marketplace plans generally give you at least 180 days to appeal. <a href="/deadline/">Check your deadline</a>. If treatment can't wait, ask for an <a href="/guides/urgent-expedited-appeal/">expedited appeal</a>.</li>
+</ol>
+
+<h2>What to say in your appeal letter</h2>
+<p>Keep it short and specific. A simple structure:</p>
+<ol>
+<li><strong>Identify the claim:</strong> your name, member ID, claim or reference number, the service, and the date of the denial.</li>
+<li><strong>Quote the reason:</strong> copy the plan's exact words, including any policy name or number it cited.</li>
+<li><strong>Answer it:</strong> for example, “This drug is FDA-approved and is listed in [compendium] for my condition,” or “National guidelines from [medical society] recommend this treatment for patients like me, as my doctor's letter explains.”</li>
+<li><strong>Ask for the right reviewer:</strong> request that a physician in the same specialty, who wasn't involved in the first decision, review the appeal.</li>
+<li><strong>Ask for the reasoning:</strong> if the denial didn't explain the scientific or clinical judgment, ask for it in writing.</li>
+<li><strong>List your enclosures</strong> and ask the plan to reverse the denial.</li>
+</ol>
+<p>Send it to the appeals address on the denial, and keep a copy and proof of the date you sent it.</p>
+
+<h2>If the plan says no again: external review</h2>
+<p>Under federal rules, external review covers denials that involve medical judgment, and the rule specifically lists a plan's decision that a treatment is experimental or investigational. That means an independent reviewer, not your insurer, can make the final call. You generally have 4 months after the final internal denial to ask. If the reviewer overturns the denial, the insurer has to accept the decision. <a href="/guides/external-review/">How external review works</a>.</p>
+<p>State external review programs must have procedures for experimental and investigational denials. Some states have their own extra steps. For example:</p>
+<ul>
+<li><strong>New York</strong> allows external appeals of experimental or investigational denials, and asks for a form from your physician. The attestation includes a statement that standard health services or procedures have been ineffective or would be medically inappropriate.</li>
+<li><strong>California's</strong> Independent Medical Review program reviews denials of treatment as medically unnecessary or experimental/investigational.</li>
+</ul>
+<p><a href="/states/">Find your state's external review program</a>.</p>
+
+<h2>Clinical trials: what most plans must cover</h2>
+<p>Under the Affordable Care Act, non-grandfathered job-based and individual plans can't deny you the chance to take part in an approved clinical trial for cancer or another life-threatening disease or condition, can't deny or limit coverage of your <strong>routine patient costs</strong> in the trial, and can't discriminate against you for taking part.</p>
+<ul>
+<li><strong>Routine costs</strong> are items and services the plan would normally cover.</li>
+<li><strong>Not included:</strong> the investigational item, device or service itself; items and services provided only for the trial's data collection and analysis; and services clearly inconsistent with widely accepted standards of care.</li>
+<li>You qualify if you're eligible for the trial under its protocol and either an in-network provider has concluded the trial is appropriate for you, or you provide medical and scientific information showing it is. A plan can require you to use an in-network trial provider if one will accept you.</li>
+</ul>
+<p>So if the plan denied a routine scan, doctor visit or hospital stay just because you're in a trial, that denial may conflict with federal law. Say so in your appeal.</p>
+<p><strong>Medicare</strong> covers the routine costs of qualifying clinical trials, such as care you'd get even without the trial. It doesn't cover the investigational item itself unless Medicare otherwise covers it, items used only for data collection, or items the research sponsor usually provides free. You may pay 20% of the Medicare-approved amount, depending on the treatment.</p>
+
+<h2>A note on Medicare and experimental denials</h2>
+<p>Original Medicare covers services that meet accepted standards of medical practice to diagnose or treat your condition. If Medicare or a Medicare Advantage plan denies something as unproven, use Medicare's appeal process: <a href="/guides/original-medicare-appeal/">Original Medicare</a> or <a href="/guides/medicare-advantage-appeal/">Medicare Advantage</a>.</p>
+""",
+"faq": [
+("What does denial code 55 mean?",
+ "Claim adjustment reason code 55 means the procedure, treatment or drug is deemed experimental or investigational by the payer. It's the plan's judgment under its own policy, and you can appeal it."),
+("Can an experimental denial go to external review?",
+ "Yes for most job-based and individual plans. Federal rules list a plan's determination that a treatment is experimental or investigational as a medical-judgment denial eligible for independent external review."),
+("Will my insurance pay for care during a clinical trial?",
+ "Most non-grandfathered plans must cover routine patient costs for people in approved clinical trials for cancer or another life-threatening condition. They don't have to pay for the investigational item itself or for data-collection services."),
+],
+"related": ['not-covered-denial', 'not-medically-necessary-denial', 'external-review'],
+"sources": ['x12', 'fda_offlabel', 'erisa_ecfr', 'lcd_33394', 'cfr_147136_ecfr', 'hcgov_external', 'ny_dfs_ext', 'ca_cdi_imr', 'usc_300gg8', 'dol_faq15', 'ncd_3101', 'medicare_trials', 'medicare_partb'],
 },
 ]
