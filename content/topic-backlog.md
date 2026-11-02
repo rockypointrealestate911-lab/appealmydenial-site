@@ -22,15 +22,18 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] mental-health-parity-denial (2026-10-26)
 - [x] glp1-drug-denial (2026-10-26)
 - [x] experimental-investigational-denial (2026-10-26)
+- [x] billing-coding-error-denial (2026-11-02)
+- [x] timely-filing-denial (2026-11-02)
+- [x] letter-of-medical-necessity (2026-11-02)
 
 ## Priority 1 — high search intent, clear pain point
 - [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act — SKIPPED 2026-10-26: overlaps prior-authorization-denial (no PA for emergencies, prudent layperson) and out-of-network-denial (No Surprises Act); extend those instead (changes to existing guides need Joe's review)
 - [ ] Step therapy ("fail first") denials: exceptions and state protections — SKIPPED 2026-10-26: mostly overlaps prescription-drug-denial; only the state-law part is new
 - [ ] Medicare Part D drug denial: coverage determination, redetermination and the IRE — SKIPPED 2026-10-26: overlaps prescription-drug-denial
-- [ ] Denied because of a coding or billing error: how to get the provider to fix and resubmit
-- [ ] Timely filing denials: what you can and cannot do
+- [x] Denied because of a coding or billing error: how to get the provider to fix and resubmit — billing-coding-error-denial (2026-11-02)
+- [x] Timely filing denials: what you can and cannot do — timely-filing-denial (2026-11-02)
 - [ ] Peer-to-peer review: what it is and how to ask your doctor to request one
-- [ ] Letter of medical necessity: what your doctor should include (with a checklist)
+- [x] Letter of medical necessity: what your doctor should include (with a checklist) — letter-of-medical-necessity (2026-11-02)
 
 ## Priority 2 — specific services people search for
 - [ ] MRI or CT scan denied

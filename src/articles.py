@@ -135,6 +135,65 @@ SRC = {
                    'https://www.dfs.ny.gov/complaints/file_external_appeal'),
     "ca_cdi_imr": ('California Department of Insurance: Independent Medical Review Program',
                    'https://www.insurance.ca.gov/01-consumers/101-help/Independent-Medical-Review-Program.cfm'),
+    # added 2026-11-02
+    "x12_rarc": ('X12: Remittance Advice Remark Codes',
+                 'https://x12.org/codes/remittance-advice-remark-codes'),
+    "cms_bill_errors": ('CMS: Medical bill rights — How to check your bill for errors',
+                        'https://www.cms.gov/medical-bill-rights/help/guides/bill-errors'),
+    "cms_bill_innet": ('CMS: Action plan — a bill from an in-network provider',
+                       'https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/find-action-plan/bill-network-provider'),
+    "cfr_405980": ('42 CFR 405.980 (reopening of initial determinations and redeterminations)',
+                   'https://www.law.cornell.edu/cfr/text/42/405.980'),
+    "cfr_405927": ('42 CFR 405.927 (minor errors and omissions corrected through reopening)',
+                   'https://www.law.cornell.edu/cfr/text/42/405.927'),
+    "cfr_405926": ('42 CFR 405.926 (actions that are not initial determinations and are not appealable)',
+                   'https://www.law.cornell.edu/cfr/text/42/405.926'),
+    "cms_ch34": ('CMS: Medicare Claims Processing Manual, Chapter 34 — Reopening and Revision of Claim Determinations',
+                 'https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/Downloads/clm104c34.pdf'),
+    "usc_1395b7": ('42 U.S.C. 1395b-7 (Medicare explanation of benefits and itemized statements)',
+                   'https://www.law.cornell.edu/uscode/text/42/1395b-7'),
+    "medicare_msn": ('Medicare.gov: Your Medicare Summary Notice, Part B (explainer)',
+                     'https://www.medicare.gov/publications/summarynoticeb.pdf'),
+    "cfr_42444": ('42 CFR 424.44 (time limits for filing Medicare claims)',
+                  'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-424/subpart-C/section-424.44'),
+    "cms_r2140": ('CMS: Transmittal 2140 — Medicare Claims Processing Manual, Chapter 1, Section 70 (time limitations for filing claims), Jan. 2011',
+                  'https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/r2140cp.pdf'),
+    "medicare_claims": ('Medicare.gov: How do I file a claim?',
+                        'https://www.medicare.gov/providers-services/claims-appeals-complaints/claims'),
+    "cfr_44745": ('42 CFR 447.45 (timely claims payment in Medicaid)',
+                  'https://www.law.cornell.edu/cfr/text/42/447.45'),
+    "cfr_44715": ('42 CFR 447.15 (Medicaid payment accepted as payment in full)',
+                  'https://www.law.cornell.edu/cfr/text/42/447.15'),
+    "cfr_422504": ('42 CFR 422.504 (Medicare Advantage contract provisions, including enrollee hold-harmless)',
+                   'https://www.law.cornell.edu/cfr/text/42/422.504'),
+    "dol_claims_faq": ('DOL/EBSA: FAQs About the Benefit Claims Procedure Regulation',
+                       'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/benefit-claims-procedure-regulation'),
+    "ny_dfs_rights": ('New York Department of Financial Services: Health insurance rights and responsibilities',
+                      'https://www.dfs.ny.gov/consumers/health_insurance/rights_responsibilities'),
+    "tdi_claims": ('Texas Department of Insurance: Prompt pay FAQ (claim filing deadlines)',
+                   'https://www.tdi.texas.gov/hprovider/ppsb418faq.html'),
+    "usc_1395y": ('42 U.S.C. 1395y (Medicare exclusions, including "reasonable and necessary")',
+                  'https://www.law.cornell.edu/uscode/text/42/1395y'),
+    "hcgov_medneed": ('HealthCare.gov glossary: Medically necessary',
+                      'https://www.healthcare.gov/glossary/medically-necessary/'),
+    "cms_pim3": ('CMS: Medicare Program Integrity Manual, Chapter 3 — Verifying Potential Errors and Taking Corrective Actions',
+                 'https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/pim83c03.pdf'),
+    "cfr_423578": ('42 CFR 423.578 (Medicare Part D exceptions and the prescriber supporting statement)',
+                   'https://www.law.cornell.edu/cfr/text/42/423.578'),
+    "cfr_423568": ('42 CFR 423.568 (standard Part D coverage determination timeframes)',
+                   'https://www.law.cornell.edu/cfr/text/42/423.568'),
+    "cfr_423572": ('42 CFR 423.572 (expedited Part D coverage determination timeframes)',
+                   'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-423/subpart-M/section-423.572'),
+    "cfr_422566": ('42 CFR 422.566 (Medicare Advantage organization determinations)',
+                   'https://www.law.cornell.edu/cfr/text/42/422.566'),
+    "cfr_422590": ('42 CFR 422.590 (Medicare Advantage reconsiderations)',
+                   'https://www.law.cornell.edu/cfr/text/42/422.590'),
+    "cfr_422101": ('42 CFR 422.101 (Medicare Advantage coverage criteria and medical necessity determinations)',
+                   'https://www.law.cornell.edu/cfr/text/42/422.101'),
+    "cms_ma_criteria": ('CMS: FAQs on coverage criteria and utilization management requirements in CMS-4201-F (Feb. 6, 2024)',
+                        'https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-020604pdf.pdf'),
+    "cms_cmn_end": ('CMS: Discontinuing use of Certificates of Medical Necessity and DME Information Forms',
+                    'https://www.cms.gov/newsroom/news-alert/cms-discontinuing-use-certificates-medical-necessity-durable-medical-equipment-information-forms'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -171,7 +230,7 @@ ARTICLES = [
 <li><a href="/guides/prior-authorization-denial/">No prior authorization</a></li>
 <li><a href="/guides/not-covered-denial/">Not a covered benefit</a></li>
 <li><a href="/guides/out-of-network-denial/">Out of network</a></li>
-<li>Missing or wrong information, which the provider's billing office can often fix with a corrected claim</li>
+<li>Missing or wrong information, which the provider's billing office can often fix with a corrected claim. <a href="/guides/billing-coding-error-denial/">What to do</a></li>
 </ul>
 <p>Not sure what your letter says? Read <a href="/guides/how-to-read-a-denial-letter/">how to read a denial letter</a>.</p>
 
@@ -182,7 +241,7 @@ ARTICLES = [
 <h2>Step 4: Gather what answers the reason</h2>
 <ul>
 <li>A copy of the denial letter.</li>
-<li>For medical necessity denials: a <strong>letter of medical necessity</strong> from your doctor that answers the plan's reason point by point, plus office notes and test results.</li>
+<li>For medical necessity denials: a <strong><a href="/guides/letter-of-medical-necessity/">letter of medical necessity</a></strong> from your doctor that answers the plan's reason point by point, plus office notes and test results.</li>
 <li>For coverage denials: the page of your plan documents that covers the service.</li>
 <li>You can ask the plan for free copies of the documents and the clinical criteria it used to deny you.</li>
 </ul>
@@ -226,8 +285,8 @@ ARTICLES = [
 <li><strong>197:</strong> prior authorization was missing. <a href="/guides/prior-authorization-denial/">What to do</a></li>
 <li><strong>50:</strong> the plan says the service wasn't medically necessary. <a href="/guides/not-medically-necessary-denial/">What to do</a></li>
 <li><strong>96:</strong> non-covered charge. <a href="/guides/not-covered-denial/">What to do</a></li>
-<li><strong>16:</strong> the claim is missing information or has a billing error, which the provider's billing office can often fix.</li>
-<li><strong>29:</strong> the claim was filed after the plan's time limit. That's usually the provider's problem to fix, not yours.</li>
+<li><strong>16:</strong> the claim is missing information or has a billing error, which the provider's billing office can often fix. <a href="/guides/billing-coding-error-denial/">What to do</a></li>
+<li><strong>29:</strong> the claim was filed after the plan's time limit. That's usually the provider's problem to fix, not yours. <a href="/guides/timely-filing-denial/">What to do</a></li>
 </ul>
 
 <h2>4. The deadline</h2>
@@ -532,7 +591,7 @@ ARTICLES = [
 
 <h2>The four things that win these</h2>
 <ol>
-<li><strong>A letter of medical necessity</strong> from the doctor who ordered the service. It should quote the plan's reason and answer it directly: what you've already tried, for how long, what happened, and why this service is needed now.</li>
+<li><strong>A <a href="/guides/letter-of-medical-necessity/">letter of medical necessity</a></strong> from the doctor who ordered the service. It should quote the plan's reason and answer it directly: what you've already tried, for how long, what happened, and why this service is needed now.</li>
 <li><strong>The records that prove it:</strong> office notes, test results, and a list of earlier treatments with dates.</li>
 <li><strong>The plan's own criteria.</strong> Ask for a free copy of the clinical policy used to deny you, then show how you meet it.</li>
 <li><strong>The right reviewer.</strong> Ask that the appeal be decided by a physician in the same or a similar specialty who wasn't part of the first decision, and ask your doctor to request a peer-to-peer review.</li>
@@ -1068,5 +1127,255 @@ ARTICLES = [
 ],
 "related": ['not-covered-denial', 'not-medically-necessary-denial', 'external-review'],
 "sources": ['x12', 'fda_offlabel', 'erisa_ecfr', 'lcd_33394', 'cfr_147136_ecfr', 'hcgov_external', 'ny_dfs_ext', 'ca_cdi_imr', 'usc_300gg8', 'dol_faq15', 'ncd_3101', 'medicare_trials', 'medicare_partb'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'billing-coding-error-denial',
+"tags": ['reason:billing'],
+"reviewed": ('2026-11-02', 'November 2, 2026'),
+"title": 'Denied for a Billing or Coding Error (CO-16)? How to Get It Fixed',
+"h1": 'Denied because of a coding or billing error',
+"desc": "A claim denied for a billing or coding mistake usually needs a corrected claim from the provider, not a long appeal. How to spot it, who fixes it, and the Medicare rules.",
+"minutes": 7,
+"short": "<p><strong>Short answer:</strong> If the denial points to a <strong>billing or coding mistake</strong> (codes like 16, 4, 11 or 181), the fix usually belongs to the <strong>provider's billing office</strong>: they correct the claim and send it again. Get an itemized bill, compare it to your Explanation of Benefits, and call the billing office with the exact code and what looks wrong. In Original Medicare, small clerical mistakes are fixed through a <strong>reopening</strong>, not an appeal. Keep your appeal deadline in view in case the mistake turns out to be something else.</p>",
+"body": """
+<h2>How to tell it's a billing problem</h2>
+<p>Your Explanation of Benefits (EOB) or the provider's statement may show a two-letter group code and a number, such as <strong>CO-16</strong>. The number is a standard Claim Adjustment Reason Code. These point to a mistake on the claim rather than a judgment about your care:</p>
+<ul>
+<li><strong>16:</strong> “Claim/service lacks information or has submission/billing error(s).”</li>
+<li><strong>4:</strong> “The procedure code is inconsistent with the modifier used.”</li>
+<li><strong>11:</strong> “The diagnosis is inconsistent with the procedure.”</li>
+<li><strong>146:</strong> “Diagnosis was invalid for the date(s) of service reported.”</li>
+<li><strong>181:</strong> “Procedure code was invalid on the date of service.”</li>
+<li><strong>182:</strong> “Procedure modifier was invalid on the date of service.”</li>
+<li><strong>18:</strong> an exact duplicate claim or service. If you got the service once and it was billed twice, the duplicate denial is correct, but make sure the original was paid.</li>
+<li><strong>109:</strong> the claim went to the wrong payer or contractor and has to be sent to the right one.</li>
+</ul>
+<p>Some statements also show a <strong>remark code</strong> that adds detail. For example, <strong>M51</strong> means a missing, incomplete or invalid procedure code, <strong>M76</strong> a missing, incomplete or invalid diagnosis, and <strong>N56</strong> a procedure code that isn't correct or valid for the services or date billed. Not sure what your letter says? Start with <a href="/guides/how-to-read-a-denial-letter/">how to read a denial letter</a>.</p>
+<p>If instead the denial says the care wasn't needed, wasn't covered, or needed approval first, that's a different problem with a different fix: see <a href="/guides/not-medically-necessary-denial/">not medically necessary</a>, <a href="/guides/not-covered-denial/">not covered</a> or <a href="/guides/prior-authorization-denial/">prior authorization</a>.</p>
+
+<h2>Step 1: Get the itemized bill and line it up with your EOB</h2>
+<p>CMS suggests these checks when you think a medical bill is wrong:</p>
+<ul>
+<li>Ask for a list of the costs for each item or service you're being billed for.</li>
+<li>Make sure the “your share” amount on the EOB matches what's on your bill.</li>
+<li>Make sure you weren't billed twice for the same service.</li>
+<li>Check whether the billing codes match the care you got. If they don't, contact the provider's billing department.</li>
+</ul>
+<p>Look for the simple things too: your name, date of birth and member ID, the date of service, the right insurance company, and the provider's name. A wrong digit in an ID or a date can be enough to stop a claim.</p>
+
+<h2>Step 2: Call the provider's billing office</h2>
+<p>The provider submitted the claim, so the provider is usually the one who can correct and resubmit it. When you call:</p>
+<ol>
+<li>Give the date of service, the claim number from your EOB, and the exact reason code and wording.</li>
+<li>Say what looks wrong, for example: “The EOB says the diagnosis doesn't match the procedure. Can you check the codes and send a corrected claim?”</li>
+<li>Ask them to hold the account while the claim is corrected, so it isn't sent to you as unpaid.</li>
+<li>Write down the date, the person's name, and what they promised. Call back in two to three weeks and check your next EOB.</li>
+</ol>
+
+<h2>Step 3: Ask your plan to help</h2>
+<p>CMS notes that your insurance company may be able to fix billing errors with your provider. Call the member services number on your card, explain what you found, and ask whether the plan can reprocess the claim once it has the corrected information. If the EOB doesn't match the provider's bill, CMS's advice is to contact the provider. If the EOB and the bill match but you still think the plan got it wrong, you can ask your insurance company to reconsider its decision (an internal appeal).</p>
+
+<h2>Original Medicare: reopenings, not appeals, for clerical errors</h2>
+<p>Medicare has its own process for small mistakes. Under federal rules, Medicare contractors must treat <strong>clerical errors</strong>, including minor errors and omissions, as <strong>reopenings</strong> rather than appeals. A clerical error includes human or mechanical errors by the person who filed or by the contractor. CMS's examples include transposed procedure or diagnosis codes, and incorrect data such as a provider number, modifier or date of service.</p>
+<ul>
+<li><strong>Time limit:</strong> a reopening can be requested within 1 year of the initial determination for any reason, or within 4 years for good cause.</li>
+<li><strong>How:</strong> CMS's manual says minor errors can be handled by phone or in writing. When a lot of documentation is needed, a written request or an appeal is the better route.</li>
+<li><strong>If Medicare won't reopen:</strong> a contractor's choice not to reopen can't be appealed, but you can still appeal the original decision through a redetermination. That deadline is 120 days from when you receive the notice. <a href="/guides/original-medicare-appeal/">How Original Medicare appeals work</a>.</li>
+</ul>
+<p><strong>“Unprocessable” claims are different.</strong> If a Medicare claim came back with remark code <strong>MA130</strong>, it was returned because it had incomplete or invalid information. No appeal rights apply. The remark code itself tells the provider to “submit a new claim with the complete/correct information.” Medicare's normal 12-month claim filing limit still applies, so ask the provider not to wait. See <a href="/guides/timely-filing-denial/">timely filing denials</a>.</p>
+
+<h2>Your right to an itemized statement in Medicare</h2>
+<p>Federal law gives people with Medicare the right to ask, in writing, any doctor, provider or supplier for an itemized statement of items and services Medicare paid for. They must send it within 30 days, and a provider who knowingly fails to can face a civil penalty of up to $100 for each failure. Within 90 days of getting the statement, you can ask Medicare to review it for items that weren't provided or other billing irregularities, such as duplicate charges.</p>
+<p>Medicare's guide to the Medicare Summary Notice (MSN) suggests checking each listed service against your receipts and bills. If something doesn't match, ask the provider to contact Medicare's claims office to correct it. If a claim was denied, you can call or write the provider for an itemized statement, and call 1-800-MEDICARE (1-800-633-4227) with questions about a decision on the notice. Free one-on-one help is also available from your <a href="https://www.shiphelp.org/" rel="noopener">State Health Insurance Assistance Program (SHIP)</a>.</p>
+
+<h2>Job-based plans: they must say what's missing</h2>
+<p>For job-based plans, the denial notice must describe any additional material or information needed to complete the claim, and explain why it's needed. Use that sentence as the to-do list for the billing office. If the plan instead extends its decision time because information is missing, the notice must describe the information it needs, and for most claims (not urgent care) you get at least 45 days to provide it.</p>
+
+<h2>When a “billing error” is really something else</h2>
+<p>Sometimes a corrected claim is denied again for a different reason, or the billing office says the claim was right. Then you're looking at a regular denial. Read the new reason, and if you disagree, file a written appeal before your deadline. Correcting a claim doesn't always stop the appeal clock, so note the date on the original denial. <a href="/deadline/">Check your appeal deadline</a>. Then follow <a href="/guides/how-to-appeal-a-health-insurance-denial/">the six steps to appeal</a>.</p>
+
+<h2>Where to get help</h2>
+<ul>
+<li><strong>Medicare:</strong> 1-800-MEDICARE (1-800-633-4227) or your local SHIP.</li>
+<li><strong>Bills you think are wrong:</strong> CMS's No Surprises Help Desk at 1-800-985-3059.</li>
+<li><strong>Job-based and individual plans:</strong> your state's insurance department. <a href="/states/">Find your state</a>.</li>
+</ul>
+""",
+"faq": [
+("What does denial code CO-16 mean?",
+ "CO-16 means the claim or service lacks information or has a submission or billing error. CO stands for “Contractual Obligation.” Usually the provider's billing office has to correct the claim and resubmit it."),
+("Can I appeal a Medicare claim that was denied for a coding mistake?",
+ "In Original Medicare, clerical errors such as transposed codes or a wrong date of service are fixed through a reopening, not an appeal. A reopening can be requested within 1 year for any reason. If the claim was returned as unprocessable (remark code MA130), there are no appeal rights; the provider must submit a new, corrected claim."),
+("How do I get an itemized bill?",
+ "Ask the provider's billing office. If you have Medicare, federal law lets you request, in writing, an itemized statement of items and services Medicare paid for, and the provider must send it within 30 days. For a denied claim, Medicare's notice suggests calling or writing the provider for an itemized statement."),
+],
+"related": ['how-to-read-a-denial-letter', 'timely-filing-denial', 'original-medicare-appeal'],
+"sources": ['x12', 'x12_rarc', 'cms_bill_errors', 'cms_bill_innet', 'cfr_405980', 'cfr_405927', 'cms_ch34', 'cms_redet', 'cfr_405926', 'cfr_42444', 'usc_1395b7', 'medicare_msn', 'erisa_ecfr', 'ship'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'timely-filing-denial',
+"tags": ['reason:timely_filing'],
+"reviewed": ('2026-11-02', 'November 2, 2026'),
+"title": "Claim Denied for Timely Filing (CO-29)? What You Can and Can't Do",
+"h1": 'Denied because the claim was filed too late',
+"desc": "A timely filing denial (code 29) means the claim missed a filing deadline. Usually that's the provider's deadline, not yours. Medicare, Medicaid and private plan rules.",
+"minutes": 7,
+"short": "<p><strong>Short answer:</strong> Reason code <strong>29</strong> means the claim was sent after the filing deadline. In most cases the <strong>provider</strong> files the claim, so the missed deadline is the provider's problem to sort out with the plan. Before paying anything, ask the provider why it was late and whether it can bill you. In Original Medicare the limit is <strong>12 months</strong> from the date of service, there are a few exceptions, and the late-filing denial itself generally can't be appealed. If the provider never filed at all, you can file the claim yourself.</p>",
+"body": """
+<h2>What the denial means</h2>
+<p>Claim Adjustment Reason Code <strong>29</strong> reads: “The time limit for filing has expired.” The plan isn't saying your care was unnecessary or uncovered. It's saying the claim arrived after the plan's deadline for submitting claims.</p>
+<p>Look at the group code in front of it. The standard labels are <strong>CO</strong>, “Contractual Obligation,” and <strong>PR</strong>, “Patient Responsibility.” If you see CO-29, ask the provider's billing office directly why the amount is showing up on your bill.</p>
+<p>Two different deadlines get mixed up, so keep them apart:</p>
+<ul>
+<li>The <strong>filing deadline</strong> is for sending the claim in the first place. That's what code 29 is about.</li>
+<li>The <strong>appeal deadline</strong> is for challenging a decision on a claim. <a href="/deadline/">Check that one here</a>.</li>
+</ul>
+
+<h2>Original Medicare: the 12-month rule</h2>
+<p>For Medicare Part A and Part B, a claim must be filed no later than 1 calendar year after the date of service. If the last day falls on a federal non-workday, the deadline moves to the next workday. The rules allow more time in a few situations:</p>
+<ul>
+<li><strong>Medicare's own error.</strong> If the claim was late because of an error or misrepresentation by Medicare or an HHS employee or contractor, the deadline is extended through the last day of the 6th calendar month after the month you're told the error was corrected. This extension isn't available more than 4 years after the date of service.</li>
+<li><strong>Retroactive Medicare.</strong> If your Medicare coverage was approved retroactively to a date on or before the service, the deadline is extended through the 6th calendar month after the month you were notified.</li>
+<li><strong>Medicaid or a Medicare Advantage plan took its payment back.</strong> If, after retroactive Medicare entitlement or retroactive disenrollment from a Medicare Advantage or PACE plan, Medicaid or the plan recovered its payment from the provider 6 months or more after the service, the deadline is extended through the 6th calendar month after that recovery.</li>
+</ul>
+
+<h2>Can a Medicare provider bill you for a late claim?</h2>
+<p>CMS's claims manual (in a 2011 revision) says that when you asked for payment in time but the provider is responsible for not filing a timely claim, the provider may not charge you for the services, except for the deductible and coinsurance you would have owed if Medicare had paid.</p>
+<p>The late-filing denial itself is not appealable: federal rules list a determination that a provider or supplier failed to submit a claim on time as an action that isn't an initial determination and can't be appealed. The same CMS manual adds that if you disagree that the claim was late, or with a finding that <em>you</em> are responsible for the late filing, the usual appeal rights are available to you. If you're being told you owe money because a claim was filed late, call 1-800-MEDICARE (1-800-633-4227) or your <a href="https://www.shiphelp.org/" rel="noopener">State Health Insurance Assistance Program (SHIP)</a> and ask what applies to your claim.</p>
+
+<h2>If the provider never filed: file it yourself</h2>
+<p>Most Medicare providers file claims for you. If you paid and a provider refuses to file, Medicare.gov says you'll have to submit your own claim, and it must be filed no later than 12 months after the date of service. You'll need:</p>
+<ul>
+<li>The Patient Request for Medical Payment form (<strong>CMS-1490S</strong>).</li>
+<li>The itemized bill from the provider.</li>
+<li>A letter explaining why you're filing yourself, for example that the provider refuses to file the claim.</li>
+<li>Any supporting documents.</li>
+</ul>
+<p>Mail it to the address for your state listed with the form. Don't wait: the 12-month clock still applies.</p>
+
+<h2>Medicaid</h2>
+<p>Federal rules require state Medicaid agencies to have providers submit all claims no later than 12 months from the date of service. Medicaid also limits participation to providers who accept, as payment in full, the amount Medicaid pays plus any deductible, coinsurance or copayment the program requires you to pay. If a Medicaid provider sends you a bill for a covered service, call your state Medicaid agency or your plan and ask whether you can be charged. <a href="/guides/medicaid-appeal/">How Medicaid appeals work</a>.</p>
+
+<h2>Medicare Advantage</h2>
+<p>Medicare Advantage plans set filing and payment terms with their network providers in their contracts. Federal rules do require every Medicare Advantage plan to protect its members from being held liable for fees that are the plan's legal obligation to pay, and to make sure its provider contracts bar providers from holding members liable for those fees. If a network provider bills you after a late-filing denial, call the plan, explain what happened, and ask whether you can be billed. If the plan denies payment and you disagree, you can ask for a reconsideration. <a href="/guides/medicare-advantage-appeal/">How Medicare Advantage appeals work</a>.</p>
+
+<h2>Job-based and individual plans</h2>
+<p>Federal rules for job-based plans don't set a specific filing deadline, but the Department of Labor says a plan's claim procedures must be reasonable and can't unduly inhibit or hamper people from filing claims. Check your Summary Plan Description for the plan's filing limit, especially if you filed the claim yourself.</p>
+<p>For provider-filed claims, many states set filing deadlines in law. Two examples:</p>
+<ul>
+<li><strong>New York</strong> requires providers to submit claims within 120 days after the date of service, unless the contract gives the provider more time. A participating (in-network) provider can ask the insurer to reconsider a claim denied only for being late if it shows the delay came from an unusual event and that it normally files on time; if the insurer pays, it can reduce the payment by up to 25%.</li>
+<li><strong>Texas</strong> applies a 95-day claim filing deadline to Texas-licensed physicians and providers, whether or not they're in network, though a provider and insurer can agree by contract to a longer period.</li>
+</ul>
+<p>For a job-based plan, a denial of payment counts as an adverse benefit determination under the federal claims rules, so if you filed the claim yourself and think the plan applied the wrong deadline, you can appeal in writing. Your state insurance department can tell you what applies in your state. <a href="/states/">Find your state</a>.</p>
+
+<h2>What to do, step by step</h2>
+<ol>
+<li><strong>Don't pay yet.</strong> Get the EOB and the provider's bill and check the group code (CO or PR) and the dates.</li>
+<li><strong>Call the billing office.</strong> Ask: “When did you first submit this claim? Do you have proof it was sent on time? Under your contract with my plan, can you bill me for a late-filed claim?” If you gave them the right insurance information on time, say so.</li>
+<li><strong>Look for a reason it was late.</strong> Wrong insurance on file, a coordination-of-benefits mix-up, or retroactive coverage can matter, especially for Medicare's exceptions above. Bring proof, such as the insurance card you gave at check-in.</li>
+<li><strong>Call your plan.</strong> Ask what date the plan received the claim, what deadline it applied, and whether you can be billed for the amount.</li>
+<li><strong>If the claim was never filed,</strong> ask the provider to file it now, or file it yourself if the plan allows it.</li>
+<li><strong>Get help if you're stuck:</strong> 1-800-MEDICARE and SHIP for Medicare, your state Medicaid agency for Medicaid, and your state insurance department for private plans.</li>
+</ol>
+<p>Related: <a href="/guides/billing-coding-error-denial/">claims denied for billing or coding errors</a>, which can turn into timely filing denials if the corrected claim is sent too late.</p>
+""",
+"faq": [
+("What does denial code CO-29 mean?",
+ "CO-29 means the time limit for filing the claim has expired. CO stands for “Contractual Obligation,” so ask the provider's billing office why the amount appears on your bill before paying."),
+("What is Medicare's timely filing limit?",
+ "Original Medicare claims must be filed no later than 1 calendar year (12 months) after the date of service. There are limited extensions, for example when Medicare's own error caused the delay or your Medicare coverage was approved retroactively."),
+("Can I appeal a timely filing denial?",
+ "In Original Medicare, the late-filing denial itself isn't appealable, but CMS's manual says you can use the usual appeal rights if you disagree that the claim was late or that you're responsible for the late filing. For job-based plans, a denial of payment counts as an adverse benefit determination you can appeal in writing."),
+],
+"related": ['billing-coding-error-denial', 'original-medicare-appeal', 'how-to-read-a-denial-letter'],
+"sources": ['x12', 'cfr_42444', 'cms_r2140', 'cfr_405926', 'medicare_claims', 'cfr_44745', 'cfr_44715', 'cfr_422504', 'dol_claims_faq', 'erisa_ecfr', 'ny_dfs_rights', 'tdi_claims', 'ship'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'letter-of-medical-necessity',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-02', 'November 2, 2026'),
+"title": 'Letter of Medical Necessity: What Your Doctor Should Include (Checklist)',
+"h1": 'Letter of medical necessity: what your doctor should include',
+"desc": "A strong letter of medical necessity answers the plan's exact reason, points to your records, and meets the plan's criteria. A checklist for you and your doctor.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> A letter of medical necessity is your doctor's written explanation of why you need a service, drug or device. The strongest letters <strong>quote the plan's reason for denial and answer it point by point</strong>, show how you meet the plan's <strong>written criteria</strong>, and point to <strong>records made at the time of your care</strong>. A letter on its own isn't always enough: send the office notes, test results and treatment history that back it up.</p>",
+"body": """
+<h2>When you need one</h2>
+<p>You'll usually need a letter of medical necessity when a plan:</p>
+<ul>
+<li>Denies a service as <a href="/guides/not-medically-necessary-denial/">not medically necessary</a>.</li>
+<li>Requires <a href="/guides/prior-authorization-denial/">prior authorization</a> and wants proof first.</li>
+<li>Won't cover a drug that's off its formulary, or wants you to try other drugs first. See <a href="/guides/prescription-drug-denial/">prescription drug denials</a>.</li>
+<li>Says a treatment is <a href="/guides/experimental-investigational-denial/">experimental or investigational</a>.</li>
+</ul>
+
+<h2>What “medically necessary” means</h2>
+<p>The letter has to speak the plan's language. A few official definitions:</p>
+<ul>
+<li><strong>HealthCare.gov:</strong> “Health care services or supplies needed to diagnose or treat an illness, injury, condition, disease or its symptoms and that meet accepted standards of medicine.”</li>
+<li><strong>Medicare.gov:</strong> “Services or supplies that meet accepted standards of medical practice to diagnose or treat your medical condition.”</li>
+<li><strong>Medicare law</strong> bars payment for items and services that are not “reasonable and necessary for the diagnosis or treatment of illness or injury or to improve the functioning of a malformed body member.”</li>
+</ul>
+<p>Your plan's own definition is in your plan documents, and its detailed rules for a specific service are in its clinical or medical policy. Ask for both. Job-based plans must give you, free on request, the documents and other information relevant to your claim.</p>
+
+<h2>Why the records matter as much as the letter</h2>
+<p>Medicare's rules for its own claim reviewers show why a letter needs backup. CMS's Program Integrity Manual says physician attestations and supplier-prepared statements “by themselves do NOT provide sufficient documentation of medical necessity,” and that what's submitted must match what's in the patient's medical record. Services are expected to be documented in the medical record at the time they're provided, and any later amendment or late entry must show its date and author. CMS also notes that check-box templates often fail to capture enough clinical detail.</p>
+<p>Those are Medicare fee-for-service rules, and private plans set their own. But the lesson carries over: a letter is strongest when it summarizes and points to records that already exist, not when it stands alone.</p>
+
+<h2>The checklist: what the letter should include</h2>
+<p>Give this list to your doctor's office:</p>
+<ol>
+<li><strong>Who and what.</strong> Your name, date of birth, member ID, claim or reference number, and the exact service, drug (with dose) or device, with its code if known.</li>
+<li><strong>The denial, quoted.</strong> The plan's exact reason, and the name or number of any policy it cited.</li>
+<li><strong>Your diagnosis</strong> and how it affects your daily life and function.</li>
+<li><strong>Your history:</strong> treatments already tried, with dates, how long, and what happened (didn't work, side effects, or not safe for you).</li>
+<li><strong>How you meet the plan's criteria</strong>, item by item, with the record that shows each one.</li>
+<li><strong>Why this, and why now:</strong> what's expected to improve, and what's likely to happen if treatment is delayed or denied.</li>
+<li><strong>Why the alternatives won't do</strong>, if the plan suggested a cheaper or different option.</li>
+<li><strong>Evidence:</strong> medical guidelines or published studies that support the treatment for your condition.</li>
+<li><strong>Urgency:</strong> if waiting could seriously harm your health, say so plainly and ask for an <a href="/guides/urgent-expedited-appeal/">expedited decision</a>.</li>
+<li><strong>Signature and credentials</strong>, dated, on letterhead, with a phone number for questions.</li>
+<li><strong>Enclosures:</strong> a list of the records attached, such as office notes, test and imaging results, and medication history.</li>
+</ol>
+
+<h2>Prescription drugs: what the prescriber has to say</h2>
+<p>For Medicare drug plans (Part D), an exception request needs a supporting statement from the prescriber, by phone or in writing. For a drug that's not on the formulary, the statement must say the drug is medically necessary and explain, for example, that the formulary alternatives would not be as effective for you, would have adverse effects for you, or both; or that other drugs required first have been or are likely to be ineffective or harmful. For a lower copay tier, the statement must say the preferred drugs would not be as effective for you or would have adverse effects, or both. A plan may ask for a written follow-up and more medical documentation if the statement was given by phone.</p>
+<p>The clock matters: a Part D plan generally has to decide a standard exception request no later than 72 hours after it gets the prescriber's supporting statement, or 24 hours for an expedited request. If the statement hasn't arrived within 14 days of the request, the clock starts anyway, but the plan may be deciding without your prescriber's input, so get the statement in quickly.</p>
+<p>For Marketplace and other plans that must cover essential health benefits, you, someone you designate, or your prescribing doctor can ask for an exception for a drug that's not on the list. The plan must decide within 72 hours, or within 24 hours in exigent circumstances, such as when your health, life or ability to regain maximum function may be seriously at risk, or when you're already being treated with a drug that's not on the list. A denial can go to an independent reviewer.</p>
+
+<h2>Who reads it</h2>
+<ul>
+<li><strong>Job-based plans:</strong> on appeal, the plan must consider everything you submit, whether or not it was part of the first decision. For denials based on medical judgment, it must consult a health care professional with appropriate training and experience in that field.</li>
+<li><strong>Medicare Advantage:</strong> a denial based on medical necessity must be reviewed by a physician or other appropriate health care professional with expertise suited to the service, and the appeal (reconsideration) must be decided by someone who wasn't involved in the first decision. Plans must make medical necessity decisions based on factors including your medical history and your doctor's recommendations, and they must follow Original Medicare's national and local coverage rules. A plan can use its own internal criteria only when Medicare's criteria aren't fully established, and those criteria must be publicly accessible and based on current evidence. Ask which criteria were used, and have your doctor answer them.</li>
+<li><strong>External review:</strong> in the federal process, the independent reviewer looks at the claim fresh and isn't bound by the plan's decision. It considers your medical records, the attending health care professional's recommendation, practice guidelines that include evidence-based standards, and the plan's clinical review criteria, among other things. Your doctor's recommendation is one of the things the reviewer must consider, so a clear letter matters. <a href="/guides/external-review/">How external review works</a>.</li>
+</ul>
+
+<h2>How to ask your doctor's office</h2>
+<p>Offices write many of these, so make it easy:</p>
+<ul>
+<li>Send a copy of the denial, with the reason highlighted.</li>
+<li>Send the plan's clinical policy or criteria, if you have it.</li>
+<li>Give your deadline and the date you need the letter, about two weeks earlier. <a href="/deadline/">Work out your deadline</a>.</li>
+<li>Ask whether the doctor can also request a peer-to-peer conversation with the plan's reviewer, if the plan offers one.</li>
+<li>Ask for a copy of the letter and the records sent, for your file.</li>
+</ul>
+<p>If your doctor's office sends the letter directly to the plan, confirm it was received and attached to your appeal.</p>
+
+<h2>A note on medical equipment in Medicare</h2>
+<p>Medicare stopped using Certificates of Medical Necessity and DME Information Forms for medical equipment claims with dates of service on or after January 1, 2023, after stakeholders said the forms were burdensome and duplicative of information already on the claim or in the medical record. If a supplier asks you for one of these older forms, the medical record is what counts now.</p>
+""",
+"faq": [
+("What is a letter of medical necessity?",
+ "A letter from your doctor explaining why a service, drug or device is needed for your condition. The best ones quote the plan's reason for denial, answer it point by point, and point to your medical records."),
+("Is a doctor's letter enough to win an appeal?",
+ "Not always. CMS tells Medicare reviewers that physician attestations by themselves don't provide sufficient documentation of medical necessity; the medical record has to support them. Send office notes, test results and treatment history with the letter."),
+("What does a prescriber need to say for a Medicare Part D exception?",
+ "For a non-formulary drug, the prescriber's supporting statement must say the drug is medically necessary, for example because formulary alternatives would not be as effective for you, would have adverse effects, or both. The plan generally decides within 72 hours of getting the statement, or 24 hours if expedited."),
+],
+"related": ['not-medically-necessary-denial', 'prescription-drug-denial', 'external-review'],
+"sources": ['hcgov_medneed', 'medicare_partb', 'usc_1395y', 'erisa_ecfr', 'cms_pim3', 'cfr_423578', 'cfr_423568', 'cfr_423572', 'cfr_156122', 'cfr_422566', 'cfr_422590', 'cfr_422101', 'cms_ma_criteria', 'cfr_147136_ecfr', 'cms_cmn_end'],
 },
 ]
