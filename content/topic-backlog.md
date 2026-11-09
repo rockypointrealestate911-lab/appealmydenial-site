@@ -25,6 +25,9 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] billing-coding-error-denial (2026-11-02)
 - [x] timely-filing-denial (2026-11-02)
 - [x] letter-of-medical-necessity (2026-11-02)
+- [x] physical-therapy-denial (2026-11-09)
+- [x] home-health-care-denial (2026-11-09)
+- [x] mri-ct-scan-denial (2026-11-09)
 
 ## Priority 1 — high search intent, clear pain point
 - [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act — SKIPPED 2026-10-26: overlaps prior-authorization-denial (no PA for emergencies, prudent layperson) and out-of-network-denial (No Surprises Act); extend those instead (changes to existing guides need Joe's review)
@@ -32,13 +35,13 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [ ] Medicare Part D drug denial: coverage determination, redetermination and the IRE — SKIPPED 2026-10-26: overlaps prescription-drug-denial
 - [x] Denied because of a coding or billing error: how to get the provider to fix and resubmit — billing-coding-error-denial (2026-11-02)
 - [x] Timely filing denials: what you can and cannot do — timely-filing-denial (2026-11-02)
-- [ ] Peer-to-peer review: what it is and how to ask your doctor to request one
+- [ ] Peer-to-peer review: what it is and how to ask your doctor to request one — SKIPPED 2026-11-02 and 2026-11-09: thin official sourcing (no federal rule defines it); revisit if a CMS/state source turns up
 - [x] Letter of medical necessity: what your doctor should include (with a checklist) — letter-of-medical-necessity (2026-11-02)
 
 ## Priority 2 — specific services people search for
-- [ ] MRI or CT scan denied
-- [ ] Physical therapy visits denied or capped
-- [ ] Home health care denied
+- [x] MRI or CT scan denied — mri-ct-scan-denial (2026-11-09)
+- [x] Physical therapy visits denied or capped — physical-therapy-denial (2026-11-09)
+- [x] Home health care denied — home-health-care-denial (2026-11-09)
 - [ ] Skilled nursing facility stay cut short (Medicare)
 - [ ] Hospital discharge you disagree with (Medicare QIO appeal)
 - [ ] Durable medical equipment denied (wheelchairs, CPAP, glucose monitors)

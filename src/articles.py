@@ -194,6 +194,57 @@ SRC = {
                         'https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-020604pdf.pdf'),
     "cms_cmn_end": ('CMS: Discontinuing use of Certificates of Medical Necessity and DME Information Forms',
                     'https://www.cms.gov/newsroom/news-alert/cms-discontinuing-use-certificates-medical-necessity-durable-medical-equipment-information-forms'),
+    # added 2026-11-09
+    "medicare_pt": ('Medicare.gov: Physical therapy services',
+                    'https://www.medicare.gov/coverage/physical-therapy-services'),
+    "medicare_therapy_pub": ('Medicare.gov: Medicare Coverage of Therapy Services (Product No. 10988)',
+                             'https://medicare.gov/publications/10988-medicare-coverage-of-therapy-services.pdf'),
+    "cms_therapy": ('CMS: Therapy services (KX modifier thresholds and targeted medical review)',
+                    'https://www.cms.gov/medicare/coding-billing/therapy-services'),
+    "cms_jimmo": ('CMS: Jimmo v. Sebelius settlement agreement',
+                  'https://www.cms.gov/medicare/settlements/jimmo'),
+    "medicare_protections": ('Medicare.gov: Your Medicare protections (Advance Beneficiary Notice)',
+                             'https://www.medicare.gov/basics/your-medicare-rights/your-protections'),
+    "hcgov_coverage": ('HealthCare.gov: What Marketplace health insurance plans cover',
+                       'https://www.healthcare.gov/coverage/'),
+    "cfr_156115": ('45 CFR 156.115 (provision of essential health benefits, including habilitative services)',
+                   'https://www.law.cornell.edu/cfr/text/45/156.115'),
+    "cms_nbpp2016": ('CMS fact sheet: Final HHS Notice of Benefit and Payment Parameters for 2016',
+                     'https://www.cms.gov/newsroom/fact-sheets/final-hhs-notice-benefit-and-payment-parameters-2016'),
+    "medicaid_benefits": ('Medicaid.gov: Mandatory and optional Medicaid benefits',
+                          'https://www.medicaid.gov/medicaid/benefits/mandatory-optional-medicaid-benefits'),
+    "medicaid_epsdt": ('Medicaid.gov: Early and Periodic Screening, Diagnostic, and Treatment (EPSDT)',
+                       'https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment'),
+    "medicare_compare": ('Medicare.gov: Compare Original Medicare and Medicare Advantage',
+                         'https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/your-coverage-options/compare-original-medicare-medicare-advantage'),
+    "medicare_hh": ('Medicare.gov: Home health services',
+                    'https://www.medicare.gov/coverage/home-health-services'),
+    "cms_bp7": ('CMS: Medicare Benefit Policy Manual, Chapter 7 — Home Health Services',
+                'https://www.cms.gov/files/document/bp102c07pdf'),
+    "cfr_40942": ('42 CFR 409.42 (beneficiary qualifications for Medicare home health coverage)',
+                  'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-409/subpart-E/section-409.42'),
+    "usc_1395x": ('42 U.S.C. 1395x(m) (Social Security Act §1861(m): home health services, "part-time or intermittent")',
+                  'https://www.law.cornell.edu/uscode/text/42/1395x'),
+    "cms_hhccn": ('CMS: Home Health Change of Care Notice (HHCCN), Form CMS-10280',
+                  'https://www.cms.gov/medicare/forms-notices/beneficiary-notices-initiative/ffs-hhccn'),
+    "cfr_44070": ('42 CFR 440.70 (Medicaid home health services)',
+                  'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-440/subpart-A/section-440.70'),
+    "cms_rcd": ('CMS: Review Choice Demonstration for Home Health Services',
+                'https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/prior-authorization-and-pre-claim-review-initiatives/review-choice-demonstration-home-health-services'),
+    "cms_4201_fs": ('CMS fact sheet: 2024 Medicare Advantage and Part D Final Rule (CMS-4201-F)',
+                    'https://www.cms.gov/newsroom/fact-sheets/2024-medicare-advantage-and-part-d-final-rule-cms-4201-f'),
+    "cfr_422138": ('42 CFR 422.138 (Medicare Advantage prior authorization)',
+                   'https://www.law.cornell.edu/cfr/text/42/422.138'),
+    "medicare_dxtests": ('Medicare.gov: Diagnostic non-laboratory tests',
+                         'https://www.medicare.gov/coverage/diagnostic-non-laboratory-tests'),
+    "cfr_149110": ('45 CFR 149.110 (emergency services without prior authorization, plan years from 2022)',
+                   'https://www.law.cornell.edu/cfr/text/45/149.110'),
+    "cms_auc": ('CMS: Appropriate Use Criteria Program',
+                'https://www.cms.gov/medicare/quality/appropriate-use-criteria-program'),
+    "cms_0057": ('CMS fact sheet: Interoperability and Prior Authorization Final Rule (CMS-0057-F)',
+                 'https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f'),
+    "hcgov_preauth": ('HealthCare.gov glossary: Preauthorization',
+                      'https://www.healthcare.gov/glossary/preauthorization/'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -560,6 +611,7 @@ ARTICLES = [
 
 <h2>Medicare Advantage</h2>
 <p>In Medicare Advantage, appeals of prior authorization denials succeed often. In 2024, 80.7% of appealed prior authorization denials were fully or partly overturned. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+<p>Denied an MRI or CT scan? See <a href="/guides/mri-ct-scan-denial/">how to appeal an imaging denial</a>.</p>
 """,
 "faq": [
 ("What does denial code CO-197 mean?",
@@ -606,6 +658,7 @@ ARTICLES = [
 <h2>If the plan says no again</h2>
 <p>Medical necessity denials are exactly what <a href="/guides/external-review/">independent external review</a> is for. In Medicare Advantage, the plan sends upheld denials of medical services to an independent reviewer automatically.</p>
 <p>Denied mental health or substance use treatment? See <a href="/guides/mental-health-parity-denial/">how to use parity rules</a>.</p>
+<p>Denied physical therapy or home health care? See <a href="/guides/physical-therapy-denial/">physical therapy denials</a> and <a href="/guides/home-health-care-denial/">home health care denials</a>.</p>
 """,
 "faq": [
 ("What is a letter of medical necessity?",
@@ -790,6 +843,7 @@ ARTICLES = [
 <li><strong>Other care:</strong> ask no later than noon the day before the end date on your notice.</li>
 </ul>
 <p>If you're in a Medicare Advantage plan, different rules apply. Ask your plan for an appeal, and follow the instructions on any notice it gives you.</p>
+<p>Home health care ending or denied? See <a href="/guides/home-health-care-denial/">home health care denied</a>.</p>
 
 <h2>How to ask, step by step</h2>
 <ol>
@@ -1377,5 +1431,239 @@ ARTICLES = [
 ],
 "related": ['not-medically-necessary-denial', 'prescription-drug-denial', 'external-review'],
 "sources": ['hcgov_medneed', 'medicare_partb', 'usc_1395y', 'erisa_ecfr', 'cms_pim3', 'cfr_423578', 'cfr_423568', 'cfr_423572', 'cfr_156122', 'cfr_422566', 'cfr_422590', 'cfr_422101', 'cms_ma_criteria', 'cfr_147136_ecfr', 'cms_cmn_end'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'physical-therapy-denial',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-09', 'November 9, 2026'),
+"title": 'Physical Therapy Denied or Capped? How to Appeal Visit Limits',
+"h1": 'Physical therapy denied or capped',
+"desc": "Medicare has no hard cap on physical therapy, and therapy to maintain function can be covered. How visit limits, the KX threshold and 'no progress' denials work, and how to appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> If you have Medicare, there's <strong>no hard cap</strong> on medically necessary outpatient physical therapy. The old cap is now a dollar <strong>threshold</strong> ($2,480 for physical and speech therapy combined in 2026) above which your therapist must add a code to the claim. Therapy to <strong>maintain</strong> function or slow decline can be covered too, so “you've stopped improving” isn't a reason on its own. With other plans, check whether you hit a written <strong>visit limit</strong> or were denied as not medically necessary. The fix is different for each.</p>",
+"body": """
+<h2>First, find out which kind of denial you have</h2>
+<p>Read the denial letter or Explanation of Benefits closely. Physical therapy denials usually come down to one of these questions:</p>
+<ul>
+<li><strong>Is it medically necessary?</strong> The plan says the therapy isn't needed, or isn't needed at this frequency. See <a href="/guides/not-medically-necessary-denial/">not medically necessary denials</a>.</li>
+<li><strong>Are you still improving?</strong> The plan says you've “plateaued.” In Medicare, that alone isn't a valid reason (see below).</li>
+<li><strong>Did you use up a benefit limit?</strong> Your plan covers a set number of visits a year and says you've reached it. That's a coverage question, not a medical one. See <a href="/guides/not-covered-denial/">“not covered” denials</a>.</li>
+<li><strong>Was approval missing?</strong> The plan required prior authorization for more visits. See <a href="/guides/prior-authorization-denial/">prior authorization denials</a>.</li>
+</ul>
+
+<h2>Original Medicare: no cap, but a threshold</h2>
+<p>Medicare Part B helps pay for medically necessary outpatient physical therapy if you're eligible, and a doctor or other qualified provider must certify that you need it. After the Part B deductible, you pay 20% of the Medicare-approved amount. Medicare.gov says: “There's no limit on how much Medicare pays for your medically necessary outpatient therapy services in one calendar year.”</p>
+<p>Medicare used to cap therapy. The Bipartisan Budget Act of 2018 repealed the caps, but the law kept the old cap amounts as <strong>thresholds</strong>. Above them, claims must include a code called the <strong>KX modifier</strong>, and CMS says claims over the threshold without it are denied. The amounts for 2026 are:</p>
+<ul>
+<li><strong>$2,480</strong> for physical therapy and speech-language pathology combined.</li>
+<li><strong>$2,480</strong> for occupational therapy, counted separately.</li>
+</ul>
+<p>Above <strong>$3,000</strong> in a year (counted separately for occupational therapy), claims can be picked for targeted medical review. Neither number is a limit on your care. If a claim above the threshold was denied, ask your therapist's billing office whether the KX modifier was left off, and whether they can correct the claim. <a href="/guides/billing-coding-error-denial/">How billing errors get fixed</a>.</p>
+
+<h3>“You've stopped improving” isn't enough</h3>
+<p>Under the <strong>Jimmo v. Sebelius</strong> settlement, approved by a court on January 24, 2013, Medicare coverage of skilled care “does not turn on the presence or absence of a beneficiary's potential for improvement, but rather on the beneficiary's need for skilled care.” It applies to skilled nursing facility, home health and outpatient therapy settings. A maintenance program can be covered “so long as the beneficiary requires skilled care for the safe and effective performance of the program.” Medicare.gov says you can get therapy “to help improve or maintain your current function, or slow your rate of decline.”</p>
+<p>If your denial says you've plateaued, your appeal should say why you still need a skilled therapist, not just exercises you could do on your own. For example, the therapy may need a therapist's skill to be done safely, or you'd likely decline without it.</p>
+
+<h3>If your therapist gives you an ABN</h3>
+<p>If your therapist thinks Medicare won't pay, they may give you an <strong>Advance Beneficiary Notice of Noncoverage (ABN)</strong>. Medicare's therapy booklet says your provider must tell you your services aren't medically necessary before giving you one, and they “can't give you an ABN only because your therapy expenses have reached a certain amount.” An ABN isn't an official Medicare denial. If you want the therapy and want to keep your right to appeal, choose the option that has the claim sent to Medicare. If you choose not to have it billed, you can't file an appeal.</p>
+
+<h2>Medicare Advantage</h2>
+<p>Medicare Advantage plans may require prior authorization before they cover certain services. But they must follow Original Medicare's national and local coverage rules, including its general coverage conditions. A plan can use its own coverage criteria only when Medicare's criteria aren't fully established, and those criteria must be publicly accessible and based on current evidence. If your plan cut off therapy, ask which criteria it used and whether they're stricter than Original Medicare's. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>Marketplace and individual plans</h2>
+<p>“Rehabilitative and habilitative services and devices” are one of the essential health benefits that Marketplace plans must cover. HealthCare.gov describes them as services and devices that help people with injuries, disabilities or chronic conditions gain or recover mental and physical skills. Federal rules define habilitative services as care that helps a person keep, learn or improve skills and functioning for daily living, and physical therapy can be one of them.</p>
+<p>Plans can set visit limits, but since the 2017 plan year, CMS has required separate visit limits for habilitative and rehabilitative services. Federal rules also bar plans from putting less favorable limits on habilitative services than on rehabilitative ones. If you were told you hit your limit, check which limit was counted. Habilitative visits shouldn't use up your rehabilitative visits, or the other way around. <a href="/guides/aca-marketplace-appeal/">How to appeal a Marketplace plan</a>.</p>
+
+<h2>Job-based plans</h2>
+<p>Your plan's visit limits and rules are in its plan documents. You have the right to get, free on request, the documents and other information relevant to your claim. If the denial was a medical judgment, such as “not medically necessary,” the plan must consult a health care professional with appropriate training and experience in that field when it decides your appeal. <a href="/guides/employer-plan-appeal/">How to appeal a job-based plan</a>.</p>
+
+<h2>Medicaid</h2>
+<p>For adults, physical therapy is an optional Medicaid benefit, so what's covered depends on your state. For children and young adults under 21, Medicaid's EPSDT benefit covers medically necessary services to “correct and ameliorate health conditions,” even if the state plan doesn't otherwise cover them. If your child's therapy was denied, say in the appeal that EPSDT applies. <a href="/guides/medicaid-appeal/">How to appeal in Medicaid</a>.</p>
+
+<h2>How to build the appeal</h2>
+<ol>
+<li><strong>Check your deadline first.</strong> <a href="/deadline/">Work out your appeal deadline</a>.</li>
+<li><strong>Get the plan's reason and its criteria.</strong> Ask which clinical policy or guideline it applied.</li>
+<li><strong>Get your therapy records:</strong> the evaluation, the plan of care, progress notes, and any test scores or measurements over time.</li>
+<li><strong>Ask your therapist and doctor for a letter</strong> that explains your goals, what skilled care you still need and why, and what's likely to happen without it. <a href="/guides/letter-of-medical-necessity/">What the letter should include</a>.</li>
+<li><strong>Answer the exact reason.</strong> For a plateau denial, cite maintenance coverage. For a visit limit, check how the visits were counted. For a missing code, ask for a corrected claim.</li>
+<li><strong>If the plan says no again,</strong> ask about <a href="/guides/external-review/">independent external review</a>. <a href="/states/">Find your state's rules and contacts</a>.</li>
+</ol>
+<p>Keep going to therapy only if you understand what you might owe. Ask the plan and the clinic before you continue.</p>
+""",
+"faq": [
+("Does Medicare limit how many physical therapy visits I can get?",
+ "No. Medicare.gov says there's no limit on how much Medicare pays for medically necessary outpatient therapy. The old cap amount is now a threshold ($2,480 for physical and speech therapy combined in 2026) above which claims must carry the KX modifier."),
+("Can Medicare stop paying for therapy because I'm not improving?",
+ "Not for that reason alone. Under the Jimmo settlement, coverage depends on whether you need skilled care, not on whether you can improve. Therapy to maintain function or slow decline can be covered."),
+("Can a Marketplace plan limit physical therapy visits?",
+ "Plans can set visit limits, but since 2017 they must keep separate limits for habilitative and rehabilitative services, and habilitative limits can't be less favorable than rehabilitative ones."),
+],
+"related": ['not-medically-necessary-denial', 'letter-of-medical-necessity', 'home-health-care-denial'],
+"sources": ['medicare_pt', 'medicare_therapy_pub', 'cms_therapy', 'cms_jimmo', 'medicare_protections', 'medicare_compare', 'cfr_422101', 'hcgov_coverage', 'cfr_156115', 'cms_nbpp2016', 'erisa_ecfr', 'medicaid_benefits', 'medicaid_epsdt'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'home-health-care-denial',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-09', 'November 9, 2026'),
+"title": 'Home Health Care Denied? Medicare Homebound Rules and How to Appeal',
+"h1": 'Home health care denied',
+"desc": "Denied home health care, or told it's ending? What 'homebound' really means, why 'not improving' isn't a reason, and how to use Medicare's fast appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> Medicare covers home health care at <strong>no cost to you</strong> if you're <strong>homebound</strong>, need part-time or intermittent <strong>skilled care</strong>, are under a doctor's or allowed practitioner's care with a plan of care, and use a Medicare-certified agency. Being homebound doesn't mean you never leave: trips for medical care, religious services and short, infrequent outings are allowed. If your agency says covered care is <strong>ending</strong>, you can ask for a <strong>fast appeal</strong>. Ask no later than noon the day before the end date on your notice.</p>",
+"body": """
+<h2>Who qualifies in Original Medicare</h2>
+<p>To get Medicare home health coverage, you must meet every one of these:</p>
+<ul>
+<li><strong>You're confined to the home</strong> (“homebound”; see below).</li>
+<li><strong>You're under the care of a physician or allowed practitioner</strong>, and you're under a plan of care.</li>
+<li><strong>You need skilled care:</strong> intermittent skilled nursing, physical therapy, speech-language pathology, or continuing occupational therapy.</li>
+<li><strong>A Medicare-certified home health agency</strong> provides the care.</li>
+</ul>
+<p>Medicare.gov adds that a doctor or other health care provider, like a nurse practitioner, must see you in person, and must order your care.</p>
+<p><strong>What you pay:</strong> “You pay nothing for covered home health services.” For Medicare-covered medical equipment, you pay 20% of the Medicare-approved amount after the Part B deductible. Medicare doesn't pay for 24-hour-a-day care at home.</p>
+
+<h2>What “homebound” means</h2>
+<p>Medicare.gov describes it this way: leaving home isn't recommended because of your condition, or you have trouble leaving home without help. And you're normally unable to leave home, and leaving takes a lot of effort.</p>
+<p>You can still leave sometimes. “You may leave home for medical treatment or short, infrequent absences for non-medical reasons, like attending religious services.” Medicare's manual for home health says:</p>
+<ul>
+<li>Trips for health care treatment don't count against you.</li>
+<li>Attending adult day care doesn't disqualify you.</li>
+<li>Any absence to attend a religious service is treated as infrequent or short.</li>
+<li>Examples of other short or infrequent absences include “an occasional trip to the barber, a walk around the block or a drive,” or going to a family reunion, funeral or graduation.</li>
+</ul>
+<p>If your denial says you aren't homebound, your appeal should describe, with your doctor's support, what it takes for you to leave home and how often you do.</p>
+
+<h2>What “part-time or intermittent” means</h2>
+<p>Medicare home health is not round-the-clock care. Under the Medicare law:</p>
+<ul>
+<li><strong>Intermittent</strong> skilled nursing means care that's provided or needed on fewer than 7 days each week, or less than 8 hours each day for periods of 21 days or less (with extensions in exceptional circumstances when the need is finite and predictable).</li>
+<li><strong>Part-time or intermittent</strong> skilled nursing and home health aide services, combined, must be less than 8 hours each day and 28 or fewer hours each week. Up to 35 hours a week may be allowed, reviewed case by case.</li>
+</ul>
+
+<h2>“Not improving” isn't a valid reason</h2>
+<p>Under the <strong>Jimmo v. Sebelius</strong> settlement, Medicare coverage of skilled care “does not turn on the presence or absence of a beneficiary's potential for improvement, but rather on the beneficiary's need for skilled care.” It applies to home health, skilled nursing facility and outpatient therapy settings. Skilled care can be covered when it's “necessary to maintain the patient's current condition or prevent or slow further deterioration.” If you're told care is ending because you've stopped improving, ask what skilled need the agency or plan says you no longer have.</p>
+
+<h2>If your care is being cut or ended</h2>
+<p>Home health agencies give written notices before changing your care. Know which one you have:</p>
+<ul>
+<li><strong>Notice of Medicare Non-Coverage (NOMNC):</strong> all covered care is ending. You should get it at least 2 days before covered services end. You can ask the Beneficiary and Family Centered Care Quality Improvement Organization (BFCC-QIO), an independent reviewer, for a <strong>fast appeal</strong>. Ask no later than noon the day before the end date on the notice. The QIO generally decides by close of business the day after it gets the information it needs. <a href="/guides/urgent-expedited-appeal/">More on fast appeals</a>.</li>
+<li><strong>Home Health Change of Care Notice (HHCCN):</strong> the agency is reducing or stopping some items or services in your plan of care. Agencies must give written notice before reducing or ending an item or service.</li>
+<li><strong>Advance Beneficiary Notice of Noncoverage (ABN):</strong> the agency thinks Medicare won't pay for a service. An ABN isn't an official Medicare denial. If you want the service, choose the option that has the claim sent to Medicare so you can appeal if it's denied.</li>
+</ul>
+<p>For a regular denial of a home health claim in Original Medicare, use the standard appeal process. <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>.</p>
+
+<h3>A note on the Review Choice Demonstration</h3>
+<p>In Illinois, Ohio, Texas, North Carolina, Florida and Oklahoma, CMS runs a Review Choice Demonstration that reviews home health agencies' Medicare claims, either before the claim is paid or afterward. CMS has announced plans to add California for billing periods starting on or after January 18, 2027, pending federal paperwork approval. That's a review of the agency's billing, not an appeal step for you. If your agency says a claim review is holding up your care, ask it to explain what's needed and who must provide it.</p>
+
+<h2>Medicare Advantage</h2>
+<p>Medicare Advantage plans must cover all the services Original Medicare Parts A and B cover, and follow Medicare's national and local coverage rules. They can require prior authorization, but CMS says it may only be used to confirm diagnoses or other medical criteria, or to make sure a service is medically necessary, and an approval must stay valid for as long as medically reasonable and necessary. Once a plan approves a service through prior authorization, it may not deny coverage later on the basis of lack of medical necessity, except for good cause or reliable evidence of fraud or similar fault. If you switch to a new Medicare Advantage plan during an active course of treatment, CMS requires most plans (coordinated care plans) to give at least a 90-day transition period, during which they can't require prior authorization for that treatment. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>Medicaid</h2>
+<p>Home health is a mandatory Medicaid benefit. Federal rules say Medicaid can't limit home health to people who are homebound, and coverage can't depend on needing nursing or therapy services. A practitioner must have a face-to-face encounter with you related to the main reason for home health, within the 90 days before or the 30 days after care starts. <a href="/guides/medicaid-appeal/">How to appeal in Medicaid</a>.</p>
+
+<h2>Job-based and Marketplace plans</h2>
+<p>Coverage rules for home health vary by plan. Check your plan documents for what's covered, any visit limits, and whether prior authorization is needed, then appeal as you would any other denial. <a href="/guides/how-to-appeal-a-health-insurance-denial/">The general appeal steps</a>.</p>
+
+<h2>How to build the appeal</h2>
+<ol>
+<li><strong>Act fast if care is ending.</strong> Call the QIO on your notice by noon the day before the end date. For other denials, <a href="/deadline/">work out your deadline</a>.</li>
+<li><strong>Get the reason in writing</strong>, and the criteria the plan or agency used.</li>
+<li><strong>Get your records:</strong> the plan of care, visit notes, the in-person visit note, and therapy or nursing assessments.</li>
+<li><strong>Ask your doctor for a letter</strong> that explains why you're homebound, what skilled care you need, and what's likely to happen without it. <a href="/guides/letter-of-medical-necessity/">What the letter should include</a>.</li>
+<li><strong>If the plan says no again,</strong> ask about the next level of appeal or <a href="/guides/external-review/">external review</a>. <a href="/states/">Find your state's contacts</a>.</li>
+</ol>
+""",
+"faq": [
+("Can I leave the house and still be homebound for Medicare?",
+ "Yes. You can leave for medical treatment and for short, infrequent non-medical absences, like religious services. Medicare's manual also says adult day care doesn't disqualify you, and gives examples like an occasional trip to the barber or a walk around the block."),
+("How do I appeal when my home health care is ending?",
+ "If you have Original Medicare and got a Notice of Medicare Non-Coverage, ask the BFCC-QIO on the notice for a fast appeal no later than noon the day before the end date."),
+("Does Medicare cover home health if I'm not getting better?",
+ "It can. Under the Jimmo settlement, coverage depends on your need for skilled care, not on whether you can improve. Skilled care to maintain your condition or slow decline can be covered."),
+],
+"related": ['urgent-expedited-appeal', 'original-medicare-appeal', 'physical-therapy-denial'],
+"sources": ['medicare_hh', 'cfr_40942', 'cms_bp7', 'usc_1395x', 'cms_jimmo', 'medicare_fast', 'cms_hhccn', 'medicare_protections', 'cms_rcd', 'cfr_422101', 'cms_4201_fs', 'cfr_422138', 'medicaid_benefits', 'cfr_44070'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'mri-ct-scan-denial',
+"tags": ['reason:prior_auth'],
+"reviewed": ('2026-11-09', 'November 9, 2026'),
+"title": 'MRI or CT Scan Denied? How to Appeal an Imaging Denial',
+"h1": 'MRI or CT scan denied',
+"desc": "Most MRI and CT denials are prior authorization denials. What Medicare covers, the 2026 rules on decision times and denial reasons, and how to appeal.",
+"minutes": 7,
+"short": "<p><strong>Short answer:</strong> Most MRI and CT scan denials come from <strong>prior authorization</strong>: the plan wants proof the scan is needed before it pays. Ask your doctor's office to send the plan your symptoms, exam findings and what's been tried, ask for the <strong>specific reason</strong> and the criteria used, and appeal. Original Medicare usually doesn't require prior approval. In Medicare Advantage, most appealed prior authorization denials in 2024 were overturned.</p>",
+"body": """
+<h2>Why imaging gets denied</h2>
+<p>Prior authorization means approval from a health plan that may be required before you get a service, for it to be covered. HealthCare.gov notes that it “isn't a promise your health insurance or plan will cover the cost.” A scan can be denied before it happens (the request is turned down) or after (the claim is denied because approval was missing or the plan decides the scan wasn't needed). If the scan hasn't happened yet, you have time to fix the request. If it already happened, see <a href="/guides/prior-authorization-denial/">denied for no prior authorization</a>.</p>
+
+<h2>Read the denial closely</h2>
+<p>Before you call anyone, find these on the letter or Explanation of Benefits:</p>
+<ul>
+<li><strong>The exact reason.</strong> Was approval never requested, was the scan judged not medically necessary, or did the plan want a different test first?</li>
+<li><strong>Who decided</strong>, and the phone number or address for questions and appeals.</li>
+<li><strong>Your deadline</strong> to appeal, and whether you can ask for a faster decision.</li>
+<li><strong>The policy or criteria</strong> the plan named, if any.</li>
+</ul>
+<p>Write these down with the date. They shape everything else you do. <a href="/guides/how-to-read-a-denial-letter/">How to read a denial letter</a>.</p>
+
+<h2>Original Medicare</h2>
+<p>Medicare Part B covers diagnostic tests like CT scans and MRIs “when your provider orders them to find or treat a medical problem.” Medicare.gov says that in most cases, you don't need approval (prior authorization) for Original Medicare to cover your services or supplies.</p>
+<p><strong>What you pay:</strong> after the Part B deductible, 20% of the Medicare-approved amount in a doctor's office or independent testing facility. At a hospital outpatient department, you also pay the hospital a copayment that may be more than 20% of the approved amount; in most cases, it can't be more than the Part A hospital stay deductible.</p>
+<p><strong>Accreditation:</strong> Medicare only pays for these scans outside a hospital if the provider is accredited. If Medicare doesn't pay because the provider isn't accredited, the provider can't bill you for the test.</p>
+<p><strong>The imaging “AUC” program is gone.</strong> Medicare had planned to require doctors to consult appropriate use criteria before ordering advanced imaging. CMS paused the program and rescinded its regulations effective January 1, 2024.</p>
+<p>If the imaging center thinks Medicare won't pay, it may give you an <strong>Advance Beneficiary Notice (ABN)</strong>. If you want the scan and want to keep your right to appeal, choose the option that has the claim sent to Medicare. <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>.</p>
+
+<h2>Medicare Advantage</h2>
+<p>Medicare Advantage plans often require prior authorization. In 2024, Medicare Advantage insurers got nearly 53 million prior authorization requests and denied 4.1 million (7.7%) in full or in part. Just 11.5% of denials were appealed, but 80.7% of appeals were partly or fully overturned.</p>
+<p>Your rights:</p>
+<ul>
+<li>The plan must follow Original Medicare's national and local coverage rules. It can use its own criteria only when Medicare's aren't fully established, and they must be publicly accessible.</li>
+<li>Once a plan approves a scan through prior authorization, it may not later deny coverage on the basis of lack of medical necessity, except in limited cases such as fraud.</li>
+</ul>
+<p><a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>New prior authorization rules for 2026</h2>
+<p>A CMS rule (CMS-0057-F) set new requirements, generally beginning January 1, 2026, for Medicare Advantage plans, Medicaid and CHIP (both fee-for-service and managed care), and Qualified Health Plans on the federal Marketplace. Exact compliance dates vary by type of plan.</p>
+<ul>
+<li><strong>A specific reason:</strong> these plans must give a specific reason when they deny a prior authorization request. A vague “not medically necessary” isn't the whole answer. Ask what was missing.</li>
+<li><strong>Faster decisions:</strong> Medicare Advantage, Medicaid and CHIP must decide within <strong>72 hours</strong> for expedited (urgent) requests and <strong>7 calendar days</strong> for standard requests. This time limit doesn't apply to Marketplace plans under this rule.</li>
+</ul>
+<p>These rules don't apply to prescription drugs.</p>
+
+<h2>Job-based plans</h2>
+<p>A request for approval before a scan is a “pre-service claim” under federal claims rules for job-based plans. The plan must decide an urgent pre-service claim as soon as possible given your medical condition, and no later than 72 hours after it gets the claim. For a non-urgent pre-service claim, the deadline is generally 15 days, and an appeal of a denied pre-service claim is generally decided within 30 days. If the denial is based on medical judgment, the plan must consult a health care professional with appropriate training and experience in that field when it decides your appeal. You can also ask, free of charge, for the documents and other information relevant to your claim, including the guideline or criteria the plan relied on. <a href="/guides/employer-plan-appeal/">How to appeal a job-based plan</a>.</p>
+
+<h2>Marketplace plans and Medicaid</h2>
+<p>Marketplace plans must give you an internal appeal and, if they still say no, an independent external review. <a href="/guides/aca-marketplace-appeal/">How to appeal a Marketplace plan</a>. In Medicaid, the 2026 decision times above apply to both fee-for-service and managed care, and if a managed care plan upholds a denial, you can ask for a state fair hearing. <a href="/guides/medicaid-appeal/">How to appeal in Medicaid</a>.</p>
+
+<h2>Emergencies</h2>
+<p>Marketplace and most job-based plans can't require prior authorization for emergency services. If your scan was done in the emergency department and denied for missing approval, say so in your appeal. <a href="/guides/prior-authorization-denial/">More on emergency care and prior authorization</a>.</p>
+
+<h2>How to get the scan approved</h2>
+<ol>
+<li><strong>Ask for the specific reason and the criteria.</strong> Plans often have a written policy for each type of scan. Get a copy.</li>
+<li><strong>Ask your doctor's office to resubmit or appeal</strong> with the details the criteria ask for: your symptoms and how long you've had them, exam findings, treatments already tried (such as physical therapy or medication) and how they went, earlier imaging results, and any warning signs that make the scan urgent. <a href="/guides/letter-of-medical-necessity/">What the doctor's letter should include</a>.</li>
+<li><strong>Ask about a peer-to-peer call.</strong> Your doctor can ask whether the plan offers a conversation with its reviewer.</li>
+<li><strong>Ask for a fast decision if waiting could seriously harm your health.</strong> <a href="/guides/urgent-expedited-appeal/">How expedited appeals work</a>.</li>
+<li><strong>Watch your deadline.</strong> <a href="/deadline/">Work out your appeal deadline</a>.</li>
+<li><strong>If the plan says no again,</strong> ask for <a href="/guides/external-review/">independent external review</a>. <a href="/states/">Find your state's rules</a>.</li>
+</ol>
+<p>Before you schedule a scan the plan hasn't approved, ask the imaging center what you'd owe if the plan doesn't pay.</p>
+""",
+"faq": [
+("Does Original Medicare need prior authorization for an MRI?",
+ "In most cases, no. Medicare.gov says you usually don't need prior authorization for Original Medicare to cover services. Part B covers diagnostic tests like MRIs and CT scans when your provider orders them to find or treat a medical problem."),
+("How long does a plan have to decide on a scan request?",
+ "Under a CMS rule that generally began January 1, 2026, Medicare Advantage, Medicaid and CHIP must decide prior authorization requests within 72 hours for urgent requests and 7 calendar days for standard ones."),
+("Are MRI denials worth appealing?",
+ "Often. In Medicare Advantage in 2024, 80.7% of appealed prior authorization denials were partly or fully overturned, but only 11.5% of denials were appealed."),
+],
+"related": ['prior-authorization-denial', 'medicare-advantage-appeal', 'letter-of-medical-necessity'],
+"sources": ['hcgov_preauth', 'medicare_dxtests', 'medicare_compare', 'cms_auc', 'medicare_protections', 'kff_ma', 'cfr_422101', 'cfr_422138', 'cms_0057', 'erisa_ecfr', 'hcgov_internal', 'cfr_438408_lii', 'cfr_149110'],
 },
 ]
