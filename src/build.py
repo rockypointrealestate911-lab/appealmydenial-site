@@ -16,7 +16,10 @@ REVIEWED_ISO = "2026-10-04"
 REVIEWED = "October 4, 2026"
 APP_STORE_URL = None        # set to the App Store link at launch
 APP_STORE_ID = None         # numeric id, enables the Safari smart banner
-ANALYTICS_HEAD = """<!-- Cloudflare Web Analytics --><script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b8435886b6b7453c97a74d408ab80267"}'></script><!-- End Cloudflare Web Analytics -->"""
+ANALYTICS_HEAD = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MMF5LF2YJ4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MMF5LF2YJ4');</script>
+<!-- Cloudflare Web Analytics --><script defer type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b8435886b6b7453c97a74d408ab80267"}'></script><!-- End Cloudflare Web Analytics -->"""
 OG_IMAGE = f"{BASE}/img/og.png"
 
 esc = html.escape
