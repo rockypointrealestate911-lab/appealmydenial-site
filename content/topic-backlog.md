@@ -28,6 +28,9 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] physical-therapy-denial (2026-11-09)
 - [x] home-health-care-denial (2026-11-09)
 - [x] mri-ct-scan-denial (2026-11-09)
+- [x] skilled-nursing-facility-denial (2026-11-16)
+- [x] hospital-discharge-appeal (2026-11-16)
+- [x] durable-medical-equipment-denial (2026-11-16)
 
 ## Priority 1 — high search intent, clear pain point
 - [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act — SKIPPED 2026-10-26: overlaps prior-authorization-denial (no PA for emergencies, prudent layperson) and out-of-network-denial (No Surprises Act); extend those instead (changes to existing guides need Joe's review)
@@ -42,9 +45,9 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] MRI or CT scan denied — mri-ct-scan-denial (2026-11-09)
 - [x] Physical therapy visits denied or capped — physical-therapy-denial (2026-11-09)
 - [x] Home health care denied — home-health-care-denial (2026-11-09)
-- [ ] Skilled nursing facility stay cut short (Medicare)
-- [ ] Hospital discharge you disagree with (Medicare QIO appeal)
-- [ ] Durable medical equipment denied (wheelchairs, CPAP, glucose monitors)
+- [x] Skilled nursing facility stay cut short (Medicare) — skilled-nursing-facility-denial (2026-11-16)
+- [x] Hospital discharge you disagree with (Medicare QIO appeal) — hospital-discharge-appeal (2026-11-16)
+- [x] Durable medical equipment denied (wheelchairs, CPAP, glucose monitors) — durable-medical-equipment-denial (2026-11-16)
 - [ ] Ambulance claim denied
 - [ ] Genetic testing denied
 - [ ] Fertility treatment denied

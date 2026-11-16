@@ -245,6 +245,27 @@ SRC = {
                  'https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f'),
     "hcgov_preauth": ('HealthCare.gov glossary: Preauthorization',
                       'https://www.healthcare.gov/glossary/preauthorization/'),
+    # added 2026-11-16
+    "medicare_snf": ('Medicare.gov: Skilled nursing facility care',
+                     'https://www.medicare.gov/coverage/skilled-nursing-facility-care'),
+    "medicare_snf_pub": ('Medicare.gov: Medicare Coverage of Skilled Nursing Facility Care (Product No. 10153)',
+                         'https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf'),
+    "cms_2026_costs": ('CMS fact sheet: 2026 Medicare Parts A & B Premiums and Deductibles',
+                       'https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles'),
+    "medicare_status": ('Medicare.gov: Inpatient or outpatient hospital status affects your costs',
+                        'https://www.medicare.gov/coverage/inpatient-hospital-care/inpatient-outpatient-status'),
+    "medicare_status_appeal": ('Medicare.gov: Appealing a change in status during a hospital stay',
+                               'https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals/original-medicare/denial-part-a-hospital-status'),
+    "cms_alexander": ('CMS: Hospital appeals — change of inpatient status (Alexander v. Azar)',
+                      'https://www.cms.gov/medicare/appeals-grievances/original-medicare-appeals/hospital-appeals-change-inpatient-status-alexander-v-azar'),
+    "medicare_dme_pub": ('Medicare.gov: Medicare Coverage of Durable Medical Equipment & Other Devices (Product No. 11045)',
+                         'https://www.medicare.gov/publications/11045-medicare-coverage-of-dme-and-other-devices.pdf'),
+    "medicare_benefits_pub": ('Medicare.gov: Your Medicare Benefits (Product No. 10116)',
+                              'https://www.medicare.gov/publications/10116-your-medicare-benefits.pdf'),
+    "medicare_wheelchairs_pub": ('Medicare.gov: Medicare Coverage of Wheelchairs & Scooters (Product No. 11046)',
+                                 'https://www.medicare.gov/publications/11046-medicare-coverage-of-wheelchairs-scooters.pdf'),
+    "cms_dmepos_pa": ('CMS: Prior Authorization Process for Certain DMEPOS Items',
+                      'https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/prior-authorization-and-pre-claim-review-initiatives/prior-authorization-process-certain-durable-medical-equipment-prosthetics-orthotics-and-supplies'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -446,6 +467,7 @@ ARTICLES = [
 
 <h2>Free help</h2>
 <p>Your State Health Insurance Assistance Program (SHIP) offers free, one-on-one Medicare counseling.</p>
+<p>Being discharged from the hospital or a skilled nursing facility? That uses a different, faster process: see <a href="/guides/hospital-discharge-appeal/">hospital discharge appeals</a> and <a href="/guides/skilled-nursing-facility-denial/">skilled nursing facility stays cut short</a>. Medical equipment denied? See <a href="/guides/durable-medical-equipment-denial/">durable medical equipment denials</a>.</p>
 """,
 "faq": [
 ("How long do I have to appeal an Original Medicare claim?",
@@ -843,7 +865,7 @@ ARTICLES = [
 <li><strong>Other care:</strong> ask no later than noon the day before the end date on your notice.</li>
 </ul>
 <p>If you're in a Medicare Advantage plan, different rules apply. Ask your plan for an appeal, and follow the instructions on any notice it gives you.</p>
-<p>Home health care ending or denied? See <a href="/guides/home-health-care-denial/">home health care denied</a>.</p>
+<p>Home health care ending or denied? See <a href="/guides/home-health-care-denial/">home health care denied</a>. Being discharged from the hospital or a nursing facility? See <a href="/guides/hospital-discharge-appeal/">hospital discharge appeals</a> and <a href="/guides/skilled-nursing-facility-denial/">skilled nursing facility stays cut short</a>.</p>
 
 <h2>How to ask, step by step</h2>
 <ol>
@@ -1420,6 +1442,7 @@ ARTICLES = [
 
 <h2>A note on medical equipment in Medicare</h2>
 <p>Medicare stopped using Certificates of Medical Necessity and DME Information Forms for medical equipment claims with dates of service on or after January 1, 2023, after stakeholders said the forms were burdensome and duplicative of information already on the claim or in the medical record. If a supplier asks you for one of these older forms, the medical record is what counts now.</p>
+<p>Medical equipment denied? See <a href="/guides/durable-medical-equipment-denial/">durable medical equipment denials</a>.</p>
 """,
 "faq": [
 ("What is a letter of medical necessity?",
@@ -1553,6 +1576,7 @@ ARTICLES = [
 <li><strong>Home Health Change of Care Notice (HHCCN):</strong> the agency is reducing or stopping some items or services in your plan of care. Agencies must give written notice before reducing or ending an item or service.</li>
 <li><strong>Advance Beneficiary Notice of Noncoverage (ABN):</strong> the agency thinks Medicare won't pay for a service. An ABN isn't an official Medicare denial. If you want the service, choose the option that has the claim sent to Medicare so you can appeal if it's denied.</li>
 </ul>
+<p>Moving from a hospital or nursing facility to home health? See <a href="/guides/hospital-discharge-appeal/">hospital discharge appeals</a> and <a href="/guides/skilled-nursing-facility-denial/">skilled nursing facility stays cut short</a>.</p>
 <p>For a regular denial of a home health claim in Original Medicare, use the standard appeal process. <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>.</p>
 
 <h3>A note on the Review Choice Demonstration</h3>
@@ -1665,5 +1689,255 @@ ARTICLES = [
 ],
 "related": ['prior-authorization-denial', 'medicare-advantage-appeal', 'letter-of-medical-necessity'],
 "sources": ['hcgov_preauth', 'medicare_dxtests', 'medicare_compare', 'cms_auc', 'medicare_protections', 'kff_ma', 'cfr_422101', 'cfr_422138', 'cms_0057', 'erisa_ecfr', 'hcgov_internal', 'cfr_438408_lii', 'cfr_149110'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'skilled-nursing-facility-denial',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-16', 'November 16, 2026'),
+"title": 'Skilled Nursing Facility Stay Cut Short? How to Appeal in Medicare',
+"h1": 'Skilled nursing facility stay cut short',
+"desc": "Told Medicare will stop paying for your skilled nursing facility stay? The 3-day rule, the 100-day limit, the notices you should get, and how to ask for a fast appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> If the skilled nursing facility (SNF) says your Medicare-covered stay is ending, you should get a <strong>Notice of Medicare Non-Coverage</strong> at least 2 days before covered care ends. Call the <strong>BFCC-QIO</strong> on that notice for a <strong>fast appeal</strong> no later than <strong>noon the day before</strong> the end date. An independent reviewer decides whether your care should continue. Coverage depends on your need for daily skilled care, not on whether you're still improving.</p>",
+"body": """
+<h2>What Medicare covers in a skilled nursing facility</h2>
+<p>Medicare Part A covers a short-term stay in a skilled nursing facility when you need daily skilled care after a hospital stay. It isn't long-term custodial care: Medicare doesn't cover non-medical long-term care if it's the only kind of care you need.</p>
+<p>To qualify in Original Medicare, Medicare.gov lists these conditions:</p>
+<ul>
+<li><strong>You have Part A</strong> and have days left in your benefit period to use.</li>
+<li><strong>You had a qualifying inpatient hospital stay</strong> (see the 3-day rule below).</li>
+<li><strong>You enter the SNF within a short time</strong> (generally 30 days) of leaving the hospital.</li>
+<li><strong>Your doctor or other health care provider has decided you need daily skilled care</strong>, like intravenous fluids or medications, or physical therapy.</li>
+<li><strong>The SNF is Medicare-certified.</strong></li>
+</ul>
+<p>“Daily” has a specific meaning. You need the skilled care every day, and as a practical matter it can only be given when you're an inpatient in a SNF. If you're there for skilled therapy only, Medicare treats it as daily care if the therapy is needed and provided 5 to 7 days a week.</p>
+
+<h2>The 3-day rule and observation status</h2>
+<p>Before Original Medicare covers a SNF stay, you generally need a medically necessary inpatient hospital stay of <strong>at least 3 days in a row</strong>. Count the day you were admitted as an inpatient, but not the day you were discharged.</p>
+<p>Here's where many people get caught: time you spend in the hospital <strong>under observation or in the emergency room</strong> before you're admitted doesn't count toward the 3 days, even if you're there overnight. You can be in a hospital bed and still be an outpatient. If you aren't sure, ask the hospital each day whether you're an inpatient or an outpatient. <a href="/guides/hospital-discharge-appeal/">More on hospital status and discharge appeals</a>.</p>
+<p>There are exceptions. You may not need the 3-day stay if your doctor participates in an Accountable Care Organization (ACO), and Medicare Advantage plans may also waive it.</p>
+
+<h2>The 100-day limit and what you pay</h2>
+<p>Part A covers up to <strong>100 days</strong> of SNF care in each benefit period, as long as you keep meeting the rules. In 2026, in Original Medicare:</p>
+<ul>
+<li><strong>Days 1–20:</strong> $0 each day, after you pay the Part A deductible ($1,736 in 2026).</li>
+<li><strong>Days 21–100:</strong> $217 each day.</li>
+<li><strong>Days 101 and beyond:</strong> you pay all costs.</li>
+</ul>
+<p>Some Medigap policies pay all or part of the coinsurance for days 21–100. If you're in a Medicare Advantage plan, you may be charged copayments during the first 20 days.</p>
+<p>The 100 days are a maximum, not a promise. Coverage can end sooner if the facility or plan decides you no longer need daily skilled care. That's the decision you can appeal.</p>
+<p><strong>Benefit periods:</strong> a benefit period begins the day you're admitted as an inpatient in a hospital or SNF. It ends when you haven't gotten any inpatient hospital care or skilled care in a SNF for 60 days in a row. There's no limit to the number of benefit periods, but you pay the Part A deductible each time a new one starts.</p>
+
+<h2>“You've stopped improving” isn't the test</h2>
+<p>Medicare.gov says you can qualify if you need skilled nursing care or therapy to <strong>improve or maintain</strong> your current condition, or to prevent or delay it from getting worse. Under the <strong>Jimmo v. Sebelius</strong> settlement, Medicare coverage of skilled care “does not turn on the presence or absence of a beneficiary's potential for improvement, but rather on the beneficiary's need for skilled care.” It applies to skilled nursing facility, home health and outpatient therapy settings.</p>
+<p>If you're told coverage is ending because you've “plateaued” or “stopped making progress,” ask what skilled need the facility says you no longer have, and say so in your appeal.</p>
+
+<h2>The notices you should get</h2>
+<ul>
+<li><strong>Notice of Medicare Non-Coverage (NOMNC):</strong> when Medicare coverage of your SNF stay is ending, you'll get this written notice from your provider. Medicare.gov says you should get it at least 2 days before covered services end. It tells you how to ask for a fast appeal (it may call it an “immediate” or “expedited” appeal).</li>
+<li><strong>Detailed Explanation of Non-Coverage:</strong> if you ask for a fast appeal, the provider gives you this notice, which explains why your services are no longer reasonable and necessary or no longer covered.</li>
+<li><strong>Skilled Nursing Facility Advance Beneficiary Notice of Non-coverage (SNF ABN):</strong> in Original Medicare, the SNF must give you this notice, or a SNF denial letter, before it can ask you to pay. It includes the date your Medicare coverage will end and you must start to pay.</li>
+</ul>
+<p>One gap to know about: the SNF isn't required to give you written notice when you've simply used up your benefit days and it's going to start charging you.</p>
+
+<h2>How to ask for a fast appeal</h2>
+<p>With a fast appeal, an independent reviewer called a <strong>Beneficiary and Family Centered Care Quality Improvement Organization (BFCC-QIO)</strong> decides whether your services should continue.</p>
+<ol>
+<li><strong>Find the QIO's phone number on your NOMNC.</strong></li>
+<li><strong>Call no later than noon the day before the end date</strong> on the notice. Follow its instructions.</li>
+<li><strong>Tell the QIO why you think care should continue.</strong> Ask your doctor to support you, and ask the facility for copies of your therapy and nursing notes.</li>
+<li><strong>Expect a quick answer.</strong> The QIO generally decides by close of business the day after it gets the information it needs.</li>
+</ol>
+<p><strong>About costs:</strong> if the QIO agrees coverage should end, you won't be responsible for SNF services provided before the coverage end date. If you keep getting services after that date, you may have to pay for them.</p>
+<p><strong>If you miss the deadline:</strong> you may still have appeal rights. If you have Original Medicare, call your BFCC-QIO anyway. If you're in a Medicare Advantage plan, you can ask your plan for a fast reconsideration, but services are only covered if the decision is in your favor. <a href="/guides/urgent-expedited-appeal/">More on fast appeals</a>.</p>
+
+<h2>If you leave and need to go back</h2>
+<p>If your break in SNF care lasts less than 30 days, you don't need a new 3-day hospital stay to qualify for more SNF care, but your current benefit period continues, so you can only use the SNF days you have left. If the break lasts at least 30 days but fewer than 60, Medicare won't cover more SNF care unless you meet all of the coverage requirements again. After a break of 60 days or more, your benefit period ends, and a new one can start if you qualify.</p>
+
+<h2>Medicare Advantage</h2>
+<p>Medicare Advantage plans must cover all the services Original Medicare covers and follow Medicare's coverage rules, but their costs and procedures differ. Depending on the plan, you may need to tell the plan you need SNF care before you're admitted, and you may have to pay more, or all, of your SNF care if you don't. Ask the plan about its rules before admission when you can. If a plan won't approve a SNF stay, appeal to the plan. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>Other denials of a SNF stay</h2>
+<p>For a denied SNF claim that shows up on your Medicare Summary Notice, use the regular Original Medicare appeal: ask for a redetermination within 120 days of receiving the notice. <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>. <a href="/deadline/">Work out your deadline</a>.</p>
+
+<h2>Checklist</h2>
+<ol>
+<li><strong>Read the notice the day you get it.</strong> Write down the end date and the QIO's number.</li>
+<li><strong>Call the QIO by noon the day before the end date.</strong></li>
+<li><strong>Ask for the Detailed Explanation of Non-Coverage</strong> and your records.</li>
+<li><strong>Ask your doctor</strong> to explain what daily skilled care you still need and why. <a href="/guides/letter-of-medical-necessity/">What the doctor's letter should include</a>.</li>
+<li><strong>Get free help.</strong> Your State Health Insurance Assistance Program (SHIP) offers free Medicare counseling. <a href="/states/">Find your state's contacts</a>.</li>
+</ol>
+""",
+"faq": [
+("How do I appeal when my skilled nursing facility stay is ending?",
+ "Call the BFCC-QIO listed on your Notice of Medicare Non-Coverage no later than noon the day before the end date on the notice. The QIO generally decides by close of business the day after it gets the information it needs."),
+("Does observation time count toward Medicare's 3-day rule?",
+ "No. Time under observation or in the emergency room before you're formally admitted doesn't count toward the 3-day qualifying inpatient stay, even if you stayed overnight."),
+("Can Medicare stop paying for a nursing facility stay because I'm not improving?",
+ "Not for that reason alone. Under the Jimmo settlement, coverage depends on your need for skilled care, not on your potential to improve. Skilled care to maintain your condition or slow decline can be covered."),
+("How much does a skilled nursing facility cost with Medicare in 2026?",
+ "In Original Medicare, $0 a day for days 1–20 after the Part A deductible, $217 a day for days 21–100, and all costs after day 100 in a benefit period."),
+],
+"related": ['hospital-discharge-appeal', 'urgent-expedited-appeal', 'home-health-care-denial'],
+"sources": ['medicare_snf', 'medicare_snf_pub', 'cms_2026_costs', 'medicare_fast', 'cms_jimmo', 'medicare_status', 'cfr_422101', 'cfr_405942', 'ship'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'hospital-discharge-appeal',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-16', 'November 16, 2026'),
+"title": 'Medicare Hospital Discharge Appeal: How to Challenge Being Sent Home Too Soon',
+"h1": 'Being discharged from the hospital too soon',
+"desc": "Think you're being discharged from the hospital too soon? How Medicare's fast appeal to the QIO works, the deadline, what you pay while you wait, and observation status.",
+"minutes": 7,
+"short": "<p><strong>Short answer:</strong> If you have Medicare and think you're being discharged from the hospital too soon, call the <strong>BFCC-QIO</strong> listed on your <strong>Important Message from Medicare</strong> no later than the day you're scheduled to leave. If you ask on time, you can <strong>stay in the hospital</strong> while the QIO reviews your case, and you won't pay for that time except your usual coinsurance or deductibles. The QIO decides within one day of getting the information it needs.</p>",
+"body": """
+<h2>The notice that starts the clock</h2>
+<p>Within 2 days of your admission as an inpatient, the hospital should give you a notice called <strong>“An Important Message from Medicare about Your Rights”</strong> (often called the IM).</p>
+<p>You should also get it before you leave. If the hospital gave you the IM more than 2 days before your discharge day, it must give you a copy of your signed IM, or a new one, before you're discharged.</p>
+<p>The IM explains your right to a fast appeal and lists the phone number of your <strong>Beneficiary and Family Centered Care Quality Improvement Organization (BFCC-QIO)</strong>. The QIO is an independent reviewer, not the hospital and not your plan. Keep the notice somewhere you can find it.</p>
+
+<h2>How to ask for a fast appeal</h2>
+<ol>
+<li><strong>Find the QIO's number on your IM.</strong> If you can't find the notice, ask the nurse, case manager or social worker for another copy.</li>
+<li><strong>Call no later than the day you're scheduled to be discharged.</strong> Follow the directions on the IM. Don't leave the hospital first.</li>
+<li><strong>Explain why you think you're not ready.</strong> For example, your symptoms aren't controlled, you can't safely get around, or the care you'll need after discharge isn't arranged.</li>
+<li><strong>Watch for the detailed notice.</strong> After the QIO tells the hospital (or your plan) about your appeal, the hospital gives you a <strong>Detailed Notice of Discharge</strong> by noon the next day. It explains why the hospital thinks you're ready to leave.</li>
+<li><strong>Talk to your doctor.</strong> Ask whether they agree with the discharge and, if not, to tell the QIO.</li>
+</ol>
+<p>The QIO decides <strong>within one day</strong> of getting the information it needs.</p>
+
+<h2>What you pay while you wait</h2>
+<p>If you ask on time, you can stay in the hospital while you wait for the QIO's decision. You won't have to pay for your stay during that time, except for applicable coinsurance or deductibles.</p>
+<p>If the QIO decides you're ready to go, you still won't be responsible for hospital charges (other than coinsurance or deductibles) through <strong>noon of the day after</strong> the QIO gives you its decision. After that, you may have to pay if you stay.</p>
+<p><strong>If you miss the deadline,</strong> you can still ask, but you might be responsible for the cost of the hospital stay after the original day the hospital planned to discharge you.</p>
+<p>For reference, in 2026 the Part A inpatient hospital deductible is $1,736 per benefit period. It covers your share of costs for the first 60 days of Medicare-covered inpatient hospital care in a benefit period.</p>
+
+<h2>Are you an inpatient or under observation?</h2>
+<p>These rights are for hospital <strong>inpatients</strong>. You're an inpatient starting when you're formally admitted with a doctor's order. Without that order, you're an outpatient, even if you spend the night in the hospital.</p>
+<p><strong>Observation services</strong> are hospital outpatient services you get while your doctor decides whether to admit you or discharge you. If you're getting outpatient observation services for more than 24 hours, the hospital must give you a <strong>Medicare Outpatient Observation Notice (MOON)</strong>. Medicare.gov says an inpatient admission is generally appropriate when you're expected to need 2 or more midnights of medically necessary hospital care.</p>
+<p>Your status matters for two reasons. It changes what you pay, because observation is billed as outpatient services under Part B instead of Part A. And observation time doesn't count toward the 3-day inpatient stay Original Medicare generally requires before it covers skilled nursing facility care. Each day you're in the hospital, you or a caregiver should ask whether you're an inpatient or an outpatient. <a href="/guides/skilled-nursing-facility-denial/">How the 3-day rule affects nursing facility coverage</a>.</p>
+
+<h3>If you were admitted, then switched to observation</h3>
+<p>If you were admitted as an inpatient and the hospital changed your status to outpatient receiving observation services, you can ask for a fast appeal while you're still in the hospital. Medicare.gov has a separate process for people who weren't able to appeal at the time. The window for filing new after-the-fact appeals (for inpatient admissions from January 1, 2009 through February 13, 2025) ended on January 2, 2026; later requests are denied unless you can show good cause for filing late. If this applies to you, start with Medicare.gov's page on appealing a change in status, or call 1-800-MEDICARE.</p>
+
+<h2>Medicare Advantage</h2>
+<p>If you're in a Medicare Advantage plan, you can ask for an appeal, but Medicare.gov says different rules apply. When a Medicare health plan member asks for a fast review, the BFCC-QIO notifies the plan and the hospital. Medicare.gov ties the hospital protections to an inpatient admission your plan authorized; if the plan never authorized the admission, you may need to appeal the plan's denial of coverage for it to pay. Read any notice the hospital or plan gives you and follow its instructions. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>After you leave the hospital</h2>
+<p>If you're going to a skilled nursing facility, or getting home health care, the same kind of fast appeal is available when that care is ending. You should get a <strong>Notice of Medicare Non-Coverage</strong> at least 2 days before covered services end; call the QIO on it no later than noon the day before the end date. <a href="/guides/skilled-nursing-facility-denial/">Skilled nursing facility stay cut short</a> · <a href="/guides/home-health-care-denial/">Home health care denied</a>.</p>
+<p>If a hospital claim is later denied and shows up on your Medicare Summary Notice, use the regular appeal process. In Original Medicare, you ask for a redetermination within 120 days of receiving the notice. <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>. <a href="/deadline/">Work out your deadline</a>.</p>
+
+<h2>Checklist for the day of discharge</h2>
+<ul>
+<li>Do you have your Important Message from Medicare? Where's the QIO's number?</li>
+<li>Have you called the QIO today, before leaving? Write down the date, time and who you spoke to.</li>
+<li>Have you asked whether you're an inpatient or under observation?</li>
+<li>Do you have the Detailed Notice of Discharge, and does its reason make sense to you?</li>
+<li>Is the care you'll need after discharge (a nursing facility, home health, equipment, medications) actually arranged?</li>
+<li>Need help? Your State Health Insurance Assistance Program (SHIP) offers free Medicare counseling. <a href="/states/">Find your state's contacts</a>.</li>
+</ul>
+""",
+"faq": [
+("How do I appeal a hospital discharge with Medicare?",
+ "Call the BFCC-QIO listed on your Important Message from Medicare no later than the day you're scheduled to be discharged. If you ask on time, you can stay in the hospital while the QIO reviews your case."),
+("Do I have to pay to stay in the hospital during a discharge appeal?",
+ "If you ask on time, you won't pay for the stay while you wait, except for applicable coinsurance or deductibles. If the QIO decides you're ready to leave, you aren't responsible for charges (other than coinsurance or deductibles) through noon of the day after its decision."),
+("How fast does the QIO decide a hospital discharge appeal?",
+ "Within one day of getting the information it needs."),
+("Does observation status count as being admitted?",
+ "No. Observation services are outpatient services. You're an inpatient only once you're formally admitted with a doctor's order, even if you spend the night under observation."),
+],
+"related": ['skilled-nursing-facility-denial', 'urgent-expedited-appeal', 'original-medicare-appeal'],
+"sources": ['medicare_fast', 'medicare_status', 'medicare_status_appeal', 'cms_alexander', 'cms_2026_costs', 'medicare_snf', 'cfr_405942', 'ship'],
+},
+# ---------------------------------------------------------------------------
+{
+"slug": 'durable-medical-equipment-denial',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-16', 'November 16, 2026'),
+"title": 'Durable Medical Equipment Denied? Wheelchairs, CPAP and Glucose Monitors',
+"h1": 'Durable medical equipment denied',
+"desc": "Denied a wheelchair, CPAP, glucose monitor or other medical equipment? What Medicare requires, why DME claims get denied, and how to fix or appeal it.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> Medicare Part B covers durable medical equipment (DME) when it's <strong>medically necessary</strong>, your doctor or treating provider <strong>orders</strong> it for use in your home, and you get it from a supplier <strong>enrolled in Medicare</strong>. Most DME denials come down to a missing or incomplete order or records, a supplier that isn't enrolled, or a missing prior authorization. Find out which, ask your doctor and supplier to fix the paperwork, and appeal within <strong>120 days</strong> of your Medicare Summary Notice if needed.</p>",
+"body": """
+<h2>What counts as durable medical equipment</h2>
+<p>Medicare defines DME as equipment that is durable (can withstand repeated use), used for a medical reason (typically only useful if you're sick or injured), used in your home, and expected to last at least 3 years. Examples Medicare lists include:</p>
+<ul>
+<li>Manual wheelchairs and power mobility devices (power wheelchairs or scooters needed for use inside the home)</li>
+<li>Hospital beds and walkers</li>
+<li>Sleep apnea and Continuous Positive Airway Pressure (CPAP) devices and accessories</li>
+<li>Glucose monitors and supplies</li>
+</ul>
+<p>Medicare says its list doesn't include all covered DME, so an item not named above may still be covered.</p>
+
+<h2>What Original Medicare requires</h2>
+<ul>
+<li><strong>Medical need.</strong> Anyone with Part B can get DME as long as the equipment is medically necessary.</li>
+<li><strong>An order.</strong> Your doctor or treating provider must prescribe the type of equipment you need by filling out an order. Medicare may also require your doctor to provide more information documenting your medical need. If your needs or condition change, your doctor must complete a new, updated order.</li>
+<li><strong>An enrolled supplier.</strong> Medicare only covers DME from a supplier enrolled in Medicare. If your supplier doesn't have a Medicare supplier number, Medicare won't pay your claim. You can find enrolled suppliers at Medicare.gov/medical-equipment-suppliers.</li>
+</ul>
+<p><strong>What you pay:</strong> generally 20% of the Medicare-approved amount after the Part B deductible. Ask whether the supplier accepts assignment, meaning it agrees to accept the Medicare-approved amount as full payment, so you'll pay less out of pocket.</p>
+
+<h2>Why DME claims get denied</h2>
+<p>Read your Medicare Summary Notice or denial letter for the reason. Common problems include:</p>
+<ul>
+<li><strong>The order or records don't show medical need.</strong> The fix is usually more documentation from your doctor, not a different diagnosis. Medicare stopped using Certificates of Medical Necessity and DME Information Forms for claims with dates of service on or after January 1, 2023, because the same information is already on the claim or in your medical record. Your records need to show the medical need.</li>
+<li><strong>The supplier isn't enrolled in Medicare.</strong> Check before you order.</li>
+<li><strong>Prior authorization wasn't approved.</strong> Some items need approval first (see below).</li>
+<li><strong>The item doesn't fit Medicare's rules for that type of equipment</strong>, such as a power wheelchair needed only outside the home.</li>
+</ul>
+<p><a href="/guides/how-to-read-a-denial-letter/">How to read a denial letter</a>.</p>
+
+<h2>Power wheelchairs and scooters</h2>
+<p>Medicare has extra rules for power mobility:</p>
+<ul>
+<li>Before you get a power wheelchair or scooter, you must have a <strong>face-to-face exam</strong> with your doctor. The doctor then submits a written order telling Medicare why you need the device and that you're able to operate it.</li>
+<li>Your doctor must state that you need it because of your medical condition. Medicare won't cover a power wheelchair or scooter that you only need and use <strong>outside the home</strong>.</li>
+<li>Certain power wheelchairs require <strong>prior authorization</strong> before Medicare will pay. Medicare may deny the request if it doesn't get all the information it needs, or if it finds you don't medically require a power wheelchair. If Medicare needs more information, your supplier may resubmit the request. If a claim is denied because prior authorization wasn't approved, you can appeal the claim decision.</li>
+</ul>
+<p>CMS keeps a <strong>Required Prior Authorization List</strong> of DME and related items, which includes certain power mobility devices. Your supplier normally submits the request, so ask it whether your item is on the list and where the request stands.</p>
+
+<h2>CPAP and glucose monitors</h2>
+<p><strong>CPAP:</strong> Medicare may cover a 12-week trial of CPAP therapy if you've been diagnosed with obstructive sleep apnea. After the trial, Medicare may continue to cover CPAP therapy if you meet with your doctor or other provider in person and they document in your medical record that you meet certain conditions and the therapy is helping. If continued coverage is denied, ask your supplier and doctor what records are missing.</p>
+<p><strong>Continuous glucose monitors:</strong> if you have diabetes, Medicare may cover a continuous glucose monitor and related supplies if your doctor confirms you take insulin or have a history of problems with low blood sugar, and that you (or a caregiver) have been trained to use the monitor. Ask your doctor to document this.</p>
+
+<h2>Renting, buying and repairs</h2>
+<ul>
+<li>Medicare pays for most DME on a <strong>rental</strong> basis. It buys only inexpensive or routinely bought items, like canes, walkers and blood sugar monitors.</li>
+<li>For items like wheelchairs and hospital beds, Medicare pays rent for <strong>13 months</strong> of continuous use; after the 13th month, the supplier must transfer ownership to you.</li>
+<li>While equipment is rented, repairs and replacement parts are the supplier's responsibility. Once you own it, Medicare may cover repairs (80% of the approved amount, up to the cost of replacing the item), and may replace equipment that's lost, stolen, damaged beyond repair, or has reached its reasonable useful lifetime, generally 5 years from the date you start using it.</li>
+</ul>
+
+<h2>If the supplier says Medicare won't pay</h2>
+<p>A supplier may give you an <strong>Advance Beneficiary Notice of Noncoverage (ABN)</strong> before you get an item it thinks Medicare won't cover. An ABN isn't an official Medicare denial. If you want the item and want to keep your right to appeal, choose the option that has the claim sent to Medicare.</p>
+
+<h2>How to appeal in Original Medicare</h2>
+<ol>
+<li><strong>Find the denied item on your Medicare Summary Notice</strong> and note the reason.</li>
+<li><strong>Call the supplier first.</strong> Ask what was missing. If it's a paperwork problem, the supplier and your doctor may be able to fix it.</li>
+<li><strong>Get your doctor's support.</strong> Ask for an updated order and a letter explaining why you need the item at home, what you've tried, and what happens without it. <a href="/guides/letter-of-medical-necessity/">What the letter should include</a>.</li>
+<li><strong>Ask for a redetermination within 120 days</strong> of receiving the notice. <a href="/deadline/">Work out your deadline</a> · <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>.</li>
+</ol>
+
+<h2>Medicare Advantage and other plans</h2>
+<p>Medicare Advantage plans must cover the same medically necessary categories of DME as Original Medicare, and must follow Medicare's coverage rules.If a plan denies coverage, you can appeal and get an independent review. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+<p>Job-based, Marketplace and Medicaid plans set their own DME rules within federal and state law. Check your plan documents, get the reason in writing, and appeal. If the plan says no again, ask about <a href="/guides/external-review/">independent external review</a>. <a href="/states/">Find your state's contacts</a>.</p>
+""",
+"faq": [
+("Why was my Medicare wheelchair or other equipment denied?",
+ "Common reasons are an order or records that don't show medical need, a supplier that isn't enrolled in Medicare, a missing prior authorization, or an item that doesn't meet Medicare's rules for that equipment, such as a power wheelchair needed only outside the home."),
+("How long do I have to appeal a Medicare DME denial?",
+ "In Original Medicare, ask for a redetermination within 120 days of receiving your Medicare Summary Notice."),
+("Does Medicare rent or buy medical equipment?",
+ "Medicare pays for most DME on a rental basis. For items like wheelchairs and hospital beds, it rents for 13 months of continuous use, after which the supplier must transfer ownership to you."),
+("Do Medicare Advantage plans have to cover DME?",
+ "Yes. They must cover the same medically necessary categories of DME as Original Medicare, and if a plan denies coverage, you can appeal."),
+],
+"related": ['letter-of-medical-necessity', 'original-medicare-appeal', 'prior-authorization-denial'],
+"sources": ['medicare_dme_pub', 'medicare_benefits_pub', 'medicare_wheelchairs_pub', 'cms_dmepos_pa', 'cms_cmn_end', 'medicare_protections', 'cfr_405942', 'medicare_appeals', 'cfr_422101', 'hcgov_internal', 'hcgov_external'],
 },
 ]
