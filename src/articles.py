@@ -266,6 +266,70 @@ SRC = {
                                  'https://www.medicare.gov/publications/11046-medicare-coverage-of-wheelchairs-scooters.pdf'),
     "cms_dmepos_pa": ('CMS: Prior Authorization Process for Certain DMEPOS Items',
                       'https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/prior-authorization-and-pre-claim-review-initiatives/prior-authorization-process-certain-durable-medical-equipment-prosthetics-orthotics-and-supplies'),
+    "medicare_ambulance": ('Medicare.gov: Ambulance services coverage',
+                           'https://www.medicare.gov/coverage/ambulance-services'),
+    "medicare_ambulance_pub": ('Medicare.gov: Medicare Coverage of Ambulance Services (Product No. 11021)',
+                               'https://www.medicare.gov/publications/11021-medicare-coverage-of-ambulance-services.pdf'),
+    "cfr_41040": ('42 CFR 410.40 (Medicare coverage of ambulance services)',
+                  'https://www.law.cornell.edu/cfr/text/42/410.40'),
+    "cms_rsnat": ('CMS: Prior Authorization of Repetitive, Scheduled Non-Emergent Ambulance Transport (RSNAT)',
+                  'https://www.cms.gov/data-research/monitoring-programs/medicare-fee-service-compliance-programs/prior-authorization-and-pre-claim-review-initiatives/prior-authorization-repetitive-scheduled-non-emergent-ambulance-transport-rsnat'),
+    "cms_gapb_report": ('CMS: Report of the Advisory Committee on Ground Ambulance and Patient Billing (March 2024)',
+                        'https://www.cms.gov/files/document/report-advisory-committee-ground-ambulance-and-patient-billing.pdf'),
+    "kff_ground_amb": ('KFF: Ground Ambulance Rides and Potential for Surprise Billing (June 2021)',
+                       'https://www.kff.org/private-insurance/ground-ambulance-rides-and-potential-for-surprise-billing/'),
+    "hcgov_emergency": ('HealthCare.gov: Getting emergency care',
+                        'https://www.healthcare.gov/using-marketplace-coverage/getting-emergency-care/'),
+    "medicaid_transport": ('Medicaid.gov: Assurance of Transportation',
+                           'https://www.medicaid.gov/medicaid/benefits/assurance-of-transportation'),
+    "cms_smd23006": ('CMS: State Medicaid Director Letter #23-006, Medicaid Transportation Coverage Guide (Sept. 2023)',
+                     'https://www.medicaid.gov/federal-policy-guidance/downloads/smd23006.pdf'),
+    "hcgov_prev_women": ('HealthCare.gov: Preventive care benefits for women',
+                         'https://www.healthcare.gov/preventive-care-women/'),
+    "hcgov_preventive": ('HealthCare.gov: Preventive health services',
+                         'https://www.healthcare.gov/coverage/preventive-care-benefits/'),
+    "hcgov_grandfathered": ('HealthCare.gov: Grandfathered health insurance plans',
+                            'https://www.healthcare.gov/health-care-law-protections/grandfathered-plans/'),
+    "uspstf_brca": ('USPSTF: BRCA-Related Cancer: Risk Assessment, Genetic Counseling, and Genetic Testing (2019)',
+                    'https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing'),
+    "kff_braidwood": ('KFF: Kennedy v. Braidwood — The Supreme Court Upheld ACA Preventive Services (June 2025)',
+                      'https://www.kff.org/affordable-care-act/kennedy-v-braidwood-the-supreme-court-upheld-aca-preventive-services-but-thats-not-the-end-of-the-story/'),
+    "kff_brca": ('KFF: Coverage of Breast Cancer Screening and Prevention Services (Apr. 2025)',
+                 'https://www.kff.org/womens-health-policy/coverage-of-breast-cancer-screening-and-prevention-services/'),
+    "medicare_labtests": ('Medicare.gov: Diagnostic laboratory tests',
+                          'https://www.medicare.gov/coverage/diagnostic-laboratory-tests'),
+    "cms_ncd902": ('CMS: National Coverage Determination 90.2, Next Generation Sequencing (NGS)',
+                   'https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=372'),
+    "cfr_41032": ('42 CFR 410.32 (Medicare diagnostic tests must be ordered by the treating physician)',
+                  'https://www.law.cornell.edu/cfr/text/42/410.32'),
+    "cfr_41115": ('42 CFR 411.15 (Medicare exclusions, including screening exams)',
+                  'https://www.law.cornell.edu/cfr/text/42/411.15'),
+    "cms_lcd36499": ('CMS: Local Coverage Determination L36499, BRCA1 and BRCA2 Genetic Testing (First Coast Service Options)',
+                     'https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=36499'),
+    "nhgri_gina": ('NHGRI (genome.gov): Genetic Discrimination',
+                   'https://www.genome.gov/about-genomics/policy-issues/Genetic-Discrimination'),
+    "nhgri_coverage": ('NHGRI (genome.gov): Coverage and Reimbursement of Genetic Tests',
+                       'https://www.genome.gov/about-genomics/policy-issues/Coverage-Reimbursement-of-Genetic-Tests'),
+    "epsdt_guide": ('Medicaid.gov: EPSDT — A Guide for States: Coverage in the Medicaid Benefit for Children',
+                    'https://www.medicaid.gov/medicaid/benefits/downloads/epsdt-coverage-guide.pdf'),
+    "kff_fertility": ("KFF: Women's Access to Fertility Care (Oct. 2026)",
+                      'https://www.kff.org/womens-health-policy/womens-access-to-fertility-care/'),
+    "kff_ivf_2025": ("KFF: Will Trump's Announcement Expand Access to IVF? (Oct. 2025)",
+                     'https://www.kff.org/womens-health-policy/will-trumps-announcement-expand-access-to-ivf/'),
+    "kff_infertility_states": ('KFF State Health Facts: Mandated Coverage of Infertility Treatment',
+                               'https://www.kff.org/state-health-policy-data/state-indicator/infertility-coverage/'),
+    "hcgov_ehb": ('HealthCare.gov: Find out what Marketplace health insurance plans cover',
+                  'https://www.healthcare.gov/coverage/what-marketplace-plans-cover/'),
+    "cms_roundup_20241018": ('CMS Roundup, October 18, 2024 (state EHB benchmark updates)',
+                             'https://www.cms.gov/newsroom/cms-roundup/cms-roundup-october-18-2024'),
+    "dmhc_sb729": ('California DMHC: APL 25-021, Implementation of Senate Bill 729 (revised Oct. 2026)',
+                   'https://www.dmhc.ca.gov/Portals/0/Docs/OPL/APL25-021ImplementationofSenateBill729(2024)-REVISED(10_5_2026).pdf'),
+    "nydfs_infertility": ('New York DFS: FAQ — Health Insurance Coverage for Infertility, Fertility Preservation, and Surrogacy',
+                          'https://www.dfs.ny.gov/consumers/health_insurance/infertility_consumer_faq_052621'),
+    "dol_faq72": ('DOL/HHS/Treasury: FAQs About Affordable Care Act Implementation Part 72 (Oct. 2025)',
+                  'https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/aca-part-72'),
+    "cms_bp15": ('CMS: Medicare Benefit Policy Manual, Chapter 15 (Section 20.1, treatment for infertility)',
+                 'https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/bp102c15.pdf'),
 }
 
 # hub tags: plan:<id> or reason:<id> or start
@@ -633,7 +697,7 @@ ARTICLES = [
 
 <h2>Medicare Advantage</h2>
 <p>In Medicare Advantage, appeals of prior authorization denials succeed often. In 2024, 80.7% of appealed prior authorization denials were fully or partly overturned. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
-<p>Denied an MRI or CT scan? See <a href="/guides/mri-ct-scan-denial/">how to appeal an imaging denial</a>.</p>
+<p>Denied an MRI or CT scan? See <a href="/guides/mri-ct-scan-denial/">how to appeal an imaging denial</a>. Denied a genetic test or fertility treatment? See <a href="/guides/genetic-testing-denied/">genetic testing denied</a> and <a href="/guides/fertility-treatment-denied/">fertility treatment denied</a>.</p>
 """,
 "faq": [
 ("What does denial code CO-197 mean?",
@@ -727,6 +791,7 @@ ARTICLES = [
 
 <h2>Next steps</h2>
 <p>External review generally covers denials based on medical judgment, including "experimental" denials. Pure contract disputes may be handled differently depending on your state. <a href="/states/">Check your state</a>.</p>
+<p>Denied IVF or other fertility care? See <a href="/guides/fertility-treatment-denied/">fertility treatment denied</a>.</p>
 """,
 "faq": [
 ("What does denial code CO-96 mean?",
@@ -772,6 +837,7 @@ ARTICLES = [
 <li><strong>242:</strong> services not provided by network/primary care providers.</li>
 <li><strong>243:</strong> services not authorized by network/primary care providers.</li>
 </ul>
+<p>Got a bill for an ambulance ride? See <a href="/guides/ambulance-claim-denied/">ambulance claim denied</a>.</p>
 """,
 "faq": [
 ("Does the No Surprises Act cover ground ambulances?",
@@ -1192,6 +1258,7 @@ ARTICLES = [
 
 <h2>A note on Medicare and experimental denials</h2>
 <p>Original Medicare covers services that meet accepted standards of medical practice to diagnose or treat your condition. If Medicare or a Medicare Advantage plan denies something as unproven, use Medicare's appeal process: <a href="/guides/original-medicare-appeal/">Original Medicare</a> or <a href="/guides/medicare-advantage-appeal/">Medicare Advantage</a>.</p>
+<p>Denied a genetic test? See <a href="/guides/genetic-testing-denied/">genetic testing denied</a>.</p>
 """,
 "faq": [
 ("What does denial code 55 mean?",
@@ -1939,5 +2006,237 @@ ARTICLES = [
 ],
 "related": ['letter-of-medical-necessity', 'original-medicare-appeal', 'prior-authorization-denial'],
 "sources": ['medicare_dme_pub', 'medicare_benefits_pub', 'medicare_wheelchairs_pub', 'cms_dmepos_pa', 'cms_cmn_end', 'medicare_protections', 'cfr_405942', 'medicare_appeals', 'cfr_422101', 'hcgov_internal', 'hcgov_external'],
+},
+{
+"slug": 'ambulance-claim-denied',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-23', 'November 23, 2026'),
+"title": 'Ambulance Claim Denied? Medicare Rules, Surprise Bills and How to Appeal',
+"h1": 'Ambulance claim denied',
+"desc": "Got a bill or denial for an ambulance ride? What Medicare covers, why ambulance claims get denied, what the No Surprises Act does and doesn't cover, and how to appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> Medicare Part B covers an ambulance when traveling in any other vehicle <strong>could endanger your health</strong>, and only to the <strong>nearest appropriate</strong> facility. Non-emergency rides usually need a <strong>written order</strong> from your doctor. Most denials say the ride wasn't medically necessary or the paperwork was missing, so ask the ambulance company and your doctor to fix the records, and appeal within <strong>120 days</strong> of your Medicare Summary Notice. With private insurance, federal surprise-billing protections cover <strong>air</strong> ambulances but generally <strong>not ground</strong> ambulances, though some states have their own rules.</p>",
+"body": """
+<h2>What Medicare covers</h2>
+<p>Medicare covers and helps pay for ambulance services only when other transportation could endanger your health. Medicare.gov gives examples of emergencies like being in shock, unconscious or bleeding heavily. The main rules:</p>
+<ul>
+<li><strong>Emergency ground ambulance.</strong> Part B covers ground ambulance transportation when traveling in any other vehicle could endanger your health.</li>
+<li><strong>Nearest appropriate facility.</strong> Medicare will only cover ambulance services to the nearest appropriate medical facility. Under the federal rule, that's the nearest facility that can provide the level and type of care you need for your illness or injury. If you choose to go to a facility farther away, Medicare will only pay up to what it would cost to take you to the nearest appropriate facility.</li>
+<li><strong>Air ambulance.</strong> Medicare may pay for emergency transport by airplane or helicopter if you need immediate and rapid transport that ground transportation can't provide.</li>
+<li><strong>Non-emergency ambulance.</strong> In some cases Medicare may cover limited, medically necessary, non-emergency ambulance transportation if your doctor writes an order stating that you need it because of your medical condition.</li>
+</ul>
+<p><strong>What you pay:</strong> after you meet the Part B deductible, 20% of the Medicare-approved amount.</p>
+
+<h2>Why ambulance claims get denied</h2>
+<p>Look at your Medicare Summary Notice or denial letter for the reason. <a href="/guides/how-to-read-a-denial-letter/">How to read a denial letter</a>. Common problems:</p>
+<ul>
+<li><strong>"Not medically necessary."</strong> Medicare's rule covers ambulance transport when your medical condition is such that other means of transportation are contraindicated, meaning they could harm you. The ambulance crew's run report and your medical records need to show why a car, taxi or wheelchair van wasn't safe.</li>
+<li><strong>Missing certification for a non-emergency ride.</strong> For many non-emergency trips, the ambulance company needs a signed statement from your doctor (a physician certification statement). For scheduled, repetitive trips, it must be dated no earlier than 60 days before the ride. If the doctor's statement can't be obtained, another professional who has personal knowledge of your condition and works for your doctor or the hospital or facility, such as a nurse practitioner, nurse, social worker, case manager or discharge planner, can sign instead.</li>
+<li><strong>Not "bed-confined" when that was the reason given.</strong> Medicare defines bed-confined as being unable to get up from bed without help, unable to walk, and unable to sit in a chair or wheelchair. All three must apply. Being bed-confined is one factor Medicare considers, but it isn't the only way to qualify.</li>
+<li><strong>Taken somewhere other than the nearest appropriate facility.</strong></li>
+<li><strong>Missing prior authorization for repeat trips</strong> (see below).</li>
+</ul>
+
+<h2>Scheduled non-emergency rides, like dialysis</h2>
+<p>If you need a scheduled, non-emergency ambulance often, prior authorization may apply. Medicare.gov says this covers trips <strong>3 or more round trips in a 10-day period</strong>, or <strong>at least once a week for 3 weeks or more</strong>, with any ambulance company nationwide. Its example is someone with end-stage renal disease going between home and a dialysis facility.</p>
+<ul>
+<li>Either you or your ambulance company may request prior authorization. CMS says the ambulance company can bill the first three round trips without it.</li>
+<li>If the request is denied and you keep using the service, Medicare will deny the claim and the ambulance company may bill you for all charges.</li>
+<li>If you don't qualify, CMS points to other options: you may be eligible for transportation under Medicaid or PACE (Programs of All-inclusive Care for the Elderly). The Eldercare Locator (1-800-677-1116) and your <a href="https://www.shiphelp.org/">State Health Insurance Assistance Program</a> can help you find local rides.</li>
+</ul>
+
+<h2>If the ambulance company gives you an ABN</h2>
+<p>For a non-emergency ride, if the ambulance company believes Medicare may not pay, it must give you an <strong>Advance Beneficiary Notice of Noncoverage (ABN)</strong> to be able to charge you. An ABN isn't an official Medicare denial. If you want the ride and want to keep your right to appeal, choose the option that has the claim sent to Medicare. If you pick the option where no claim is sent, you can't appeal.</p>
+
+<h2>How to appeal in Original Medicare</h2>
+<p>You must actually get the service, and a claim must be sent to Medicare, before you can appeal. Then:</p>
+<ol>
+<li><strong>Find the ambulance claim on your Medicare Summary Notice</strong> and note the reason it was denied.</li>
+<li><strong>Call the ambulance company.</strong> Ask what was missing. If the claim lacked a certification statement or a clear description of your condition, the company may be able to fix it.</li>
+<li><strong>Get your records.</strong> Ask the ambulance company for the trip (run) report, and ask your doctor or the hospital for records from that day.</li>
+<li><strong>Ask your doctor for a short letter</strong> explaining why other transportation would have endangered your health, and, for a non-emergency ride, why you needed an ambulance. <a href="/guides/letter-of-medical-necessity/">What a letter of medical necessity should include</a>.</li>
+<li><strong>Ask for a redetermination within 120 days</strong> of receiving the notice. <a href="/deadline/">Work out your deadline</a> · <a href="/guides/original-medicare-appeal/">How to appeal in Original Medicare</a>.</li>
+</ol>
+<p>If you have a Medicare Advantage plan and it denies an ambulance claim, you can ask the plan to reconsider. <a href="/guides/medicare-advantage-appeal/">How to appeal in Medicare Advantage</a>.</p>
+
+<h2>Private insurance: surprise ambulance bills</h2>
+<p>The federal No Surprises Act protects you, in most cases, from unexpected out-of-network bills for emergency room care, certain non-emergency care at in-network facilities, and <strong>air ambulance</strong> services.</p>
+<p><strong>Ground ambulances are different.</strong> CMS says ground ambulance services generally aren't covered by the No Surprises Act's billing protections, unless a state law has different rules, and they're still allowed to charge out-of-network rates. A KFF analysis published in 2021 found that half of emergency ground ambulance rides result in an out-of-network charge for people with private insurance.</p>
+<p>A federal advisory committee on ground ambulance billing, created by the No Surprises Act, issued recommendations in 2024. It recommended prohibiting balance billing for out-of-network ground ambulance rides and noted that several states have already acted. Those are recommendations, not federal law. Check with your <a href="/states/">state insurance department</a> to see whether your state limits ground ambulance bills.</p>
+
+<h2>What to do with a private-plan denial or bill</h2>
+<ol>
+<li><strong>Read the explanation of benefits.</strong> Is it a denial (the plan won't pay at all), or a balance bill (the plan paid and the ambulance company is billing you the rest)?</li>
+<li><strong>For emergencies, cite the emergency rules.</strong> For emergency services, plans covered by federal rules can't require prior authorization and can't charge you higher cost sharing (copays or coinsurance) for out-of-network emergency care than for in-network care. If the plan treated your emergency ride as non-emergency, appeal and include records showing it was an emergency.</li>
+<li><strong>Appeal within 180 days.</strong> HealthCare.gov says you must file an internal appeal within 180 days of receiving the denial notice. <a href="/guides/how-to-appeal-a-health-insurance-denial/">How to appeal a health insurance denial</a>.</li>
+<li><strong>Ask for external review</strong> if the plan says no again and the denial involves medical judgment. <a href="/guides/external-review/">How external review works</a>.</li>
+<li><strong>Got a surprise air ambulance bill?</strong> Our <a href="/guides/out-of-network-denial/">out-of-network guide</a> explains the No Surprises Act and how to report a bill.</li>
+</ol>
+
+<h2>Medicaid</h2>
+<p>State Medicaid programs must make sure enrollees have necessary transportation to and from providers. CMS says this covers both emergency transportation and non-emergency medical transportation (NEMT). Each state runs its own program, so call your Medicaid plan or state agency to ask how to schedule rides. If your Medicaid plan denies a ride or claim, you can appeal. <a href="/guides/medicaid-appeal/">How to appeal a Medicaid denial</a>.</p>
+""",
+"faq": [
+("Why did Medicare deny my ambulance ride?",
+ "Common reasons are that the records don't show other transportation would have endangered your health, a non-emergency ride had no doctor's order or certification, you were taken somewhere other than the nearest appropriate facility, or repeat scheduled rides lacked prior authorization."),
+("How long do I have to appeal a Medicare ambulance denial?",
+ "In Original Medicare, ask for a redetermination within 120 days of receiving your Medicare Summary Notice."),
+("Does the No Surprises Act cover ambulance bills?",
+ "It covers air ambulance services. CMS says ground ambulance services generally aren't covered by its billing protections unless a state law has different rules."),
+("Does Medicare cover ambulance rides to dialysis?",
+ "Medicare may cover medically necessary non-emergency ambulance rides with a written order from your doctor. If you need rides often, such as 3 or more round trips in 10 days, prior authorization may apply."),
+],
+"related": ['out-of-network-denial', 'original-medicare-appeal', 'letter-of-medical-necessity'],
+"sources": ['medicare_ambulance', 'medicare_ambulance_pub', 'cfr_41040', 'cms_rsnat', 'medicare_protections', 'cfr_405942', 'cms_redet', 'medicare_appeals', 'cms_partc', 'nsa', 'cms_gapb_report', 'kff_ground_amb', 'cfr_149110', 'hcgov_emergency', 'hcgov_internal', 'hcgov_external', 'medicaid_transport', 'cms_smd23006'],
+},
+{
+"slug": 'genetic-testing-denied',
+"tags": ['reason:medical_necessity'],
+"reviewed": ('2026-11-23', 'November 23, 2026'),
+"title": 'Genetic Testing Denied by Insurance? Coverage Rules and How to Appeal',
+"h1": 'Genetic testing denied',
+"desc": "Insurance denied a genetic test? When ACA plans must cover BRCA counseling and testing, what Medicare covers, what GINA does and doesn't do, and how to appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> Coverage for genetic tests depends on <strong>why</strong> the test is being done. Most private plans must cover BRCA genetic counseling and, if indicated, testing for women at higher risk with <strong>no cost sharing</strong> in network. Medicare generally covers a genetic test only when your <strong>treating doctor</strong> orders it to diagnose or manage a medical problem, not as screening. If you're denied, ask what the plan's policy requires, have your doctor document how the result will change your care, and appeal.</p>",
+"body": """
+<h2>Why genetic tests get denied</h2>
+<p>The National Human Genome Research Institute notes that insurers may find it hard to evaluate what type of genetic test was performed, whether it was appropriate, and whether it is scientifically valid. Denials often come down to one of these:</p>
+<ul>
+<li><strong>Screening vs. diagnosis.</strong> The plan sees the test as screening someone without symptoms or a qualifying risk, not testing to diagnose or treat.</li>
+<li><strong>Criteria not met.</strong> The plan's policy covers the test only for people with a certain personal or family history, and the records sent don't show it.</li>
+<li><strong>No genetic counseling first.</strong> For BRCA testing, the USPSTF recommends testing, if indicated, after genetic counseling, and one Medicare contractor's policy requires independent counseling before multigene panel tests.</li>
+<li><strong>Prior authorization</strong> wasn't requested or was denied. <a href="/guides/prior-authorization-denial/">What to do about a prior authorization denial</a>.</li>
+<li><strong>"Experimental" or "investigational."</strong> The plan says the test isn't proven for your situation. <a href="/guides/experimental-investigational-denial/">How to appeal an experimental denial</a>.</li>
+</ul>
+<p>Your denial letter should say which reason applies. <a href="/guides/how-to-read-a-denial-letter/">How to read a denial letter</a>.</p>
+
+<h2>BRCA counseling and testing under the ACA</h2>
+<p>The U.S. Preventive Services Task Force (USPSTF) recommends that primary care clinicians assess women with a personal or family history of breast, ovarian, tubal or peritoneal cancer, or an ancestry linked to BRCA1/2 gene mutations, with a brief familial risk assessment tool. Women with a positive result <strong>should receive genetic counseling and, if indicated after counseling, genetic testing</strong> (grade B, 2019; the Task Force is updating this recommendation).</p>
+<ul>
+<li>HealthCare.gov lists BRCA genetic test counseling for women at higher risk among the preventive services Marketplace plans and many other plans must cover without a copayment or coinsurance. These services are generally covered at no cost when you use an in-network provider.</li>
+<li>KFF says this BRCA screening is required to be covered by insurance plans without cost sharing.</li>
+<li>In June 2025 the Supreme Court upheld the ACA's preventive services requirement in <em>Kennedy v. Braidwood</em>. KFF says these services continue to be available without cost sharing to most people with private coverage.</li>
+<li><strong>Exceptions:</strong> grandfathered plans (for example, an individual policy bought on or before March 23, 2010) may not include some ACA protections, including free preventive care.</li>
+</ul>
+<p>The USPSTF recommends <strong>against</strong> routine risk assessment, counseling or testing for women whose personal or family history or ancestry isn't linked to harmful BRCA1/2 mutations. So if you were billed or denied, the question is usually whether your records show the risk factors.</p>
+<p><strong>If you were charged a copay or denied:</strong> ask the plan to reprocess the claim as a preventive service, and make sure your doctor's records note the family history or risk assessment result. If it still says no, appeal.</p>
+
+<h2>Medicare and genetic tests</h2>
+<ul>
+<li><strong>Diagnostic tests.</strong> Part B covers medically necessary diagnostic laboratory tests when your provider orders them, and you usually pay nothing for covered lab tests.</li>
+<li><strong>Your treating doctor must order it.</strong> Under the federal rule, a diagnostic test must be ordered by the doctor treating you for a specific medical problem who uses the results to manage that problem. Tests not ordered by your treating doctor are not considered reasonable and necessary.</li>
+<li><strong>Screening is generally excluded.</strong> Medicare excludes exams done for a purpose other than treating or diagnosing a specific illness, symptom, complaint or injury, apart from screenings the law specifically lists. KFF notes BRCA genetic testing isn't required to be covered nationally under Medicare, but may be covered in some regions under local coverage determinations.</li>
+<li><strong>Tumor and inherited cancer testing.</strong> Medicare's national policy on next-generation sequencing (NCD 90.2) covers tumor testing for people with recurrent, relapsed, refractory, metastatic, or advanced stage III or IV cancer when ordered by a treating physician and other requirements are met. It also covers inherited (germline) testing for people with ovarian or breast cancer who have a clinical indication and a risk factor for hereditary breast or ovarian cancer.</li>
+<li><strong>Regional rules.</strong> Medicare contractors issue local policies. For example, one contractor's BRCA policy (L36499) says testing people who don't have the disease, including family members, isn't covered. Ask the lab or your doctor which policy applies to you.</li>
+</ul>
+<p>If a lab thinks Medicare won't pay, it may give you an <strong>Advance Beneficiary Notice (ABN)</strong>. An ABN isn't an official denial. If you want the test and want to keep your right to appeal, choose the option that has the claim sent to Medicare.</p>
+
+<h2>Medicaid</h2>
+<p>KFF says women in Medicaid expansion programs are entitled to the same screening and preventive services, including BRCA counseling and testing, as women with private insurance. In traditional Medicaid, the scope of coverage is set by each state. For children and young people under 21, Medicaid's EPSDT benefit requires states to provide follow-up diagnostic testing and evaluation, including services the state doesn't otherwise cover for adults. <a href="/guides/medicaid-appeal/">How to appeal a Medicaid denial</a>.</p>
+
+<h2>What GINA does and doesn't do</h2>
+<p>The Genetic Information Nondiscrimination Act (GINA) is about discrimination, not coverage of tests. Under GINA, health insurers may not use genetic information to decide whether you're eligible for insurance or to set premiums, and may not request or require you or your family members to have genetic testing. GINA's health insurance protections don't cover long-term care, life or disability insurance.</p>
+
+<h2>How to appeal a genetic testing denial</h2>
+<ol>
+<li><strong>Get the plan's policy.</strong> Ask for the specific medical policy or criteria the plan used, so you can answer each point.</li>
+<li><strong>Have your doctor connect the test to your care.</strong> A letter should explain your symptoms, diagnosis or family history, which test is being ordered, and how the result will change treatment, surgery, monitoring or medication. <a href="/guides/letter-of-medical-necessity/">What the letter should include</a>.</li>
+<li><strong>Include a genetic counseling note</strong> if you had counseling, and the family history it documented.</li>
+<li><strong>Check for coding problems.</strong> If the plan denied it as screening when it was diagnostic, ask the lab and doctor whether the claim was coded correctly. <a href="/guides/billing-coding-error-denial/">Fixing a coding or billing error</a>.</li>
+<li><strong>Appeal on time.</strong> Private plans: file within 180 days of the denial notice. Original Medicare: ask for a redetermination within 120 days of your Medicare Summary Notice. <a href="/deadline/">Find your deadline</a>.</li>
+<li><strong>Ask for external review</strong> if a private plan says no again. Denials involving medical judgment, or a finding that a test is experimental or investigational, can go to an independent reviewer. <a href="/guides/external-review/">How external review works</a> · <a href="/states/">Your state's contacts</a>.</li>
+</ol>
+<p>Before a test, it's worth calling your plan to ask whether it's covered and whether it needs prior approval. If it's for active cancer treatment and waiting could harm you, ask for an <a href="/guides/urgent-expedited-appeal/">expedited decision</a>.</p>
+""",
+"faq": [
+("Does insurance have to cover BRCA genetic testing?",
+ "Most private plans must cover BRCA genetic counseling, and testing if indicated after counseling, for women at higher risk, with no cost sharing in network. Grandfathered plans may be an exception."),
+("Does Medicare cover genetic testing?",
+ "Medicare generally covers a genetic test when your treating doctor orders it to diagnose or manage a medical problem and Medicare's coverage rules are met. Screening people without symptoms is generally excluded."),
+("Does GINA require insurance to pay for genetic tests?",
+ "No. GINA bars health insurers from using genetic information for eligibility or premiums and from requiring genetic testing. It's about discrimination, not coverage."),
+("How long do I have to appeal a genetic testing denial?",
+ "For most private plans, 180 days from the denial notice. In Original Medicare, 120 days from your Medicare Summary Notice."),
+],
+"related": ['not-medically-necessary-denial', 'experimental-investigational-denial', 'letter-of-medical-necessity'],
+"sources": ['nhgri_coverage', 'uspstf_brca', 'hcgov_prev_women', 'hcgov_preventive', 'kff_brca', 'kff_braidwood', 'hcgov_grandfathered', 'medicare_labtests', 'cfr_41032', 'cfr_41115', 'cms_ncd902', 'cms_lcd36499', 'medicare_protections', 'epsdt_guide', 'nhgri_gina', 'hcgov_internal', 'hcgov_external', 'cfr_405942', 'cms_redet'],
+},
+{
+"slug": 'fertility-treatment-denied',
+"tags": ['reason:not_covered'],
+"reviewed": ('2026-11-23', 'November 23, 2026'),
+"title": 'Fertility Treatment or IVF Denied by Insurance? Your Options',
+"h1": 'Fertility treatment denied',
+"desc": "Insurance denied IVF or fertility treatment? Why there's no federal coverage requirement, how state laws and self-funded plans differ, and how to appeal.",
+"minutes": 8,
+"short": "<p><strong>Short answer:</strong> There is <strong>no federal requirement</strong> for insurance to cover fertility treatment, so coverage depends on your plan and your state. Some states require certain plans to cover infertility care or IVF, but those laws <strong>don't apply to self-funded employer plans</strong>. Start by finding out whether the plan says the treatment isn't covered at all or that you didn't meet its criteria. Criteria denials, such as the plan's definition of infertility, a prior authorization or medical necessity, are often the ones you can challenge with your medical records.</p>",
+"body": """
+<h2>Why coverage varies so much</h2>
+<ul>
+<li><strong>No federal mandate.</strong> KFF says there is currently no federal requirement for insurance coverage of fertility services. Congress would need to pass a new law to require or subsidize fertility and IVF coverage.</li>
+<li><strong>Not one of the ten essential health benefit categories.</strong> Marketplace plans must cover ten broad categories of essential health benefits, and infertility treatment isn't one of them. But the specific services within those categories can vary based on your state's requirements. Some states have added infertility care to their benchmark. For example, CMS reported in 2024 that the District of Columbia expanded its benchmark to cover infertility treatment, including IVF and standard fertility preservation.</li>
+<li><strong>State laws.</strong> Some states require certain insurers to cover infertility treatment. KFF tracks these laws and notes they vary considerably: some apply only to certain kinds of policies, some name specific treatments such as IVF that must or must not be covered, and some only require insurers to <em>offer</em> coverage rather than include it.</li>
+<li><strong>Employer choice.</strong> Many employers offer fertility benefits even where no law requires it. KFF reports that about one in four (27%) employers with 200 or more workers offers IVF coverage, and about half (53%) of those with at least 5,000 workers.</li>
+</ul>
+
+<h2>Examples of state rules</h2>
+<ul>
+<li><strong>California:</strong> large group health plans issued, amended or renewed on or after January 1, 2026 must cover the diagnosis and treatment of infertility and fertility services, including IVF. Small group plans must offer this coverage. Religious employers are excluded.</li>
+<li><strong>New York:</strong> large group policies (more than 100 employees) must cover three cycles of IVF. Age restrictions aren't permitted for infertility, IVF and fertility preservation coverage.</li>
+<li><strong>Texas:</strong> KFF lists Texas as a mandate to offer IVF coverage, with required coverage of fertility preservation for cancer-related (iatrogenic) infertility.</li>
+</ul>
+<p>Rules change, and each state's law has its own limits. Check KFF's state table and your <a href="/states/">state insurance department</a>.</p>
+
+<h2>Self-funded employer plans</h2>
+<p>State laws don't apply to self-funded employer plans, and KFF says most people with employer coverage are in self-insured plans. New York's insurance regulator puts it plainly: its protections don't apply if your employer self-funds the coverage. Your Summary Plan Description should say whether the plan is self-funded, or you can ask HR. If it is, the plan's own terms decide what's covered. <a href="/guides/employer-plan-appeal/">How to appeal a job-based plan denial</a>.</p>
+<p>In October 2025, the federal agencies issued guidance explaining how employers can offer fertility benefits as a separate "excepted benefit" alongside their health plan. KFF notes there is no mandate for employers to offer these benefits.</p>
+
+<h2>Medicaid and Medicare</h2>
+<p>KFF says Medicaid rarely covers fertility services, and IVF is typically never covered by Medicaid or Medicare. Some state Medicaid programs cover limited services. For example, KFF lists New York Medicaid as covering infertility office visits, some diagnostic tests and fertility drugs. Medicare's benefit manual says reasonable and necessary services associated with treatment for infertility are covered under Medicare, though KFF notes IVF typically isn't.</p>
+
+<h2>Questions to ask before you start treatment</h2>
+<p>A call before treatment can prevent a denial later. Ask your plan, and write down who you spoke to and when:</p>
+<ul>
+<li>Is my plan fully insured or self-funded, and which state is it issued in?</li>
+<li>Which fertility services are covered: testing, medications, insemination, IVF, fertility preservation?</li>
+<li>How does the plan define infertility, and what records do you need to see?</li>
+<li>Which services need prior authorization, and who submits the request?</li>
+<li>Are there cycle limits, dollar limits or a lifetime maximum, and how much have I used?</li>
+<li>Do I need to use specific clinics or pharmacies?</li>
+</ul>
+
+<h2>Two kinds of denials</h2>
+<p><strong>1. "Not a covered benefit."</strong> The plan excludes the treatment. You can still appeal, but you'll need to show the plan documents or a state law actually require coverage, for example that your plan is fully insured in a state with a mandate, or that the treatment falls under a benefit the plan does cover. <a href="/guides/not-covered-denial/">How to answer a "not covered" denial</a>.</p>
+<p><strong>2. "You don't meet our criteria."</strong> The plan covers fertility care but says you don't qualify yet. Common reasons:</p>
+<ul>
+<li><strong>The definition of infertility.</strong> New York, for example, defines infertility as failing to establish a clinical pregnancy after 12 months of regular, unprotected intercourse, or after 6 months for a woman 35 or older. Your plan's definition may differ, so check it, and make sure your records show the dates.</li>
+<li><strong>Prior authorization.</strong> In New York, for example, insurers may require preauthorization for infertility services, IVF and fertility preservation. <a href="/guides/prior-authorization-denial/">What to do about a prior authorization denial</a>.</li>
+<li><strong>Cycle or dollar limits.</strong> Plans may cap coverage. New York allows insurers to limit IVF coverage to three cycles. Ask how many cycles or how much of a lifetime maximum the plan has counted, and whether it counted correctly.</li>
+<li><strong>Medical necessity</strong> for a specific drug, procedure or number of embryos. <a href="/guides/not-medically-necessary-denial/">How to appeal a medical necessity denial</a>.</li>
+</ul>
+
+<h2>How to appeal</h2>
+<ol>
+<li><strong>Get the reason in writing</strong> and the exact plan language or clinical criteria used. <a href="/guides/how-to-read-a-denial-letter/">How to read a denial letter</a>.</li>
+<li><strong>Find out what kind of plan you have:</strong> fully insured or self-funded, and which state it's issued in. This tells you whether a state mandate applies.</li>
+<li><strong>Ask your fertility doctor for a letter</strong> that matches the plan's criteria point by point: diagnosis, how long you've been trying, tests done, treatments already tried, and why the requested treatment is the next appropriate step. <a href="/guides/letter-of-medical-necessity/">What the letter should include</a>.</li>
+<li><strong>File the internal appeal within 180 days</strong> of the denial notice. For a treatment you haven't had yet, the plan must generally decide within 30 days. <a href="/deadline/">Work out your deadline</a> · <a href="/guides/how-to-appeal-a-health-insurance-denial/">How to appeal step by step</a>.</li>
+<li><strong>Ask for external review</strong> if the plan says no again. Denials that involve medical judgment, or a finding that a treatment is experimental or investigational, can go to an independent reviewer, generally within 4 months of the final denial. The plan is required by law to accept the reviewer's decision. <a href="/guides/external-review/">How external review works</a>.</li>
+<li><strong>Contact your state insurance department</strong> if you think a fully insured plan isn't following your state's law. <a href="/states/">Find your state's contacts</a>.</li>
+</ol>
+<p>If you're facing cancer treatment that could affect fertility, timing matters. Ask whether your plan or state covers fertility preservation, and ask for a fast decision if waiting would close the window. <a href="/guides/urgent-expedited-appeal/">How to ask for an urgent appeal</a>.</p>
+""",
+"faq": [
+("Does insurance have to cover IVF?",
+ "There is no federal requirement. Some states require certain plans to cover infertility treatment or IVF, but those laws don't apply to self-funded employer plans."),
+("Do state fertility mandates apply to my employer plan?",
+ "Only if the plan is fully insured. State laws don't apply to self-funded employer plans, which cover most people with job-based coverage."),
+("Can I appeal a fertility treatment denial?",
+ "Yes. You can file an internal appeal within 180 days of the denial. If the denial involves medical judgment, you can then ask for an independent external review."),
+("Does Medicaid cover IVF?",
+ "KFF says Medicaid rarely covers fertility services and IVF is typically never covered by Medicaid or Medicare. Some states cover limited services such as diagnostic tests."),
+],
+"related": ['not-covered-denial', 'employer-plan-appeal', 'external-review'],
+"sources": ['kff_fertility', 'kff_ivf_2025', 'hcgov_ehb', 'cms_roundup_20241018', 'kff_infertility_states', 'dmhc_sb729', 'nydfs_infertility', 'dol_faq72', 'cms_bp15', 'hcgov_internal', 'hcgov_external'],
 },
 ]
