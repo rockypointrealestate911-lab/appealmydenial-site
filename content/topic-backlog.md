@@ -31,6 +31,9 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] skilled-nursing-facility-denial (2026-11-16)
 - [x] hospital-discharge-appeal (2026-11-16)
 - [x] durable-medical-equipment-denial (2026-11-16)
+- [x] ambulance-claim-denied (2026-11-23)
+- [x] genetic-testing-denied (2026-11-23)
+- [x] fertility-treatment-denied (2026-11-23)
 
 ## Priority 1 — high search intent, clear pain point
 - [ ] Emergency room visit denied: your rights under the ACA and the No Surprises Act — SKIPPED 2026-10-26: overlaps prior-authorization-denial (no PA for emergencies, prudent layperson) and out-of-network-denial (No Surprises Act); extend those instead (changes to existing guides need Joe's review)
@@ -48,9 +51,9 @@ Do not write a topic that overlaps an existing guide; extend that guide instead.
 - [x] Skilled nursing facility stay cut short (Medicare) — skilled-nursing-facility-denial (2026-11-16)
 - [x] Hospital discharge you disagree with (Medicare QIO appeal) — hospital-discharge-appeal (2026-11-16)
 - [x] Durable medical equipment denied (wheelchairs, CPAP, glucose monitors) — durable-medical-equipment-denial (2026-11-16)
-- [ ] Ambulance claim denied
-- [ ] Genetic testing denied
-- [ ] Fertility treatment denied
+- [x] Ambulance claim denied — ambulance-claim-denied (2026-11-23)
+- [x] Genetic testing denied — genetic-testing-denied (2026-11-23)
+- [x] Fertility treatment denied — fertility-treatment-denied (2026-11-23)
 - [ ] Bariatric surgery denied
 - [ ] Autism / ABA therapy denied
 - [ ] Gender-affirming care denied (facts and process only; check state law)
